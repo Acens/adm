@@ -30,13 +30,13 @@
 				<?php if (get_option('deepfocus_blog_style') == 'false') { ?>
 					<?php for ($i=1; $i <= 2; $i++) { ?>
 						<?php query_posts('page_id=' . get_pageId(html_entity_decode(get_option('deepfocus_home_page_'.$i)))); while (have_posts()) : the_post(); ?>
-							<div class="service">
+							<!-- <div class="service">
 								<h3 class="hometitle"><?php the_title(); ?></h3>
 								<?php global $more;
 								$more = 0;	
 								the_content(''); ?>
 								<a href="<?php the_permalink(); ?>" class="readmore"><span><?php esc_html_e('Learn More','DeepFocus'); ?></span></a>
-							</div> <!-- end .service -->
+							</div> end .service -->
 						<?php endwhile; wp_reset_query(); ?>
 					<?php } ?>
 				
@@ -75,8 +75,7 @@
 						
 						<div class="clear"></div>
 						
-						<a href="<?php echo(get_category_link(get_cat_ID(get_option('deepfocus_portfolio_cat')))); ?>" class="readmore entergallery"><span><?php esc_html_e('Enter The Gallery','DeepFocus'); ?></span></a>
-					</div> <!-- end #portfolio-items -->	
+						
 				
 				<?php } else { ?>
 					<div id="content-area" class="clearfix">
