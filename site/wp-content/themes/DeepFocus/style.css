@@ -326,7 +326,7 @@ padding:9px 5px 4px 12px; color:#323232 !important; }
 	#footer-wrapper { background: url(images/footer-top-bg.png) repeat-x; }
 		#footer-center { background: url(images/footer-top-centerbg.png) no-repeat; /*min-height: 147px;*/ padding-top: 35px; color: #b9b9b9; }
 			#footer p#copyright a { color: #ffffff; font: italic 12px Arial, sans-serif;  }
-		#footer .widget { float: left; width: 280px; margin: 0px 60px 0px 80px; }
+		#footer .widget { float: left; width: 500px; margin: 0px 60px 0px 80px; }
 			#footer .widget a { color: #ffffff; }
 			#footer .last { margin-right: 0px; }
 	
