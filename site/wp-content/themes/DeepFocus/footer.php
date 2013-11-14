@@ -9,7 +9,10 @@
 									</div> <!-- end #footer-widgets -->	
 								
 							
-								<p id="copyright"><?php esc_html_e('Designed by ','DeepFocus'); ?> <a href="http://www.elegantthemes.com" title="Elegant Themes">Elegant Themes</a> | <?php esc_html_e('Powered by ','DeepFocus'); ?> <a href="http://www.wordpress.org">Wordpress</a></p>
+								<p id="copyright">
+									<span>Desenvolvido por</span>
+									<a href="http://www.acens.com.br" title="Desenvolvido por Acens">
+									<img src="http://localhost/adm/site/wp-content/uploads/2013/11/acens-logo.png" alt="Acens Empresa Júnior"/></p>
 							</div> <!-- end .container -->
 						</div> <!-- end #footer-center -->
 					</div> <!-- end #footer-wrapper -->

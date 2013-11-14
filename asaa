@@ -1,0 +1,78 @@
+commit 7c3ff980ffe570dad6bce417b9b49f98b0ba75b5
+Author: Acens <projetos@acens.com.br>
+Date:   Thu Nov 14 14:53:20 2013 -0300
+
+    mudamos a cor do footer e logo da acens no rodapé do blog
+
+commit c6bc3994759582b51359def0c7336ef86525302b
+Author: Acens <projetos@acens.com.br>
+Date:   Tue Nov 12 14:31:49 2013 -0300
+
+    mudei as cores
+
+commit 57f5cdef7bccbf03799d1a5923ed47e36c3ccca8
+Author: Acens <projetos@acens.com.br>
+Date:   Fri Nov 8 14:54:08 2013 -0300
+
+    adicionei o plugin da newsletter
+
+commit f9be4c427ed5bb5b12084b84fcb16c283706a1a6
+Author: Acens <projetos@acens.com.br>
+Date:   Fri Nov 8 14:53:09 2013 -0300
+
+    adicionei o plugin de newsletter
+
+commit f773d91a8017a34170a5bd74ae29bd2989f1a7aa
+Author: Acens <projetos@acens.com.br>
+Date:   Thu Nov 7 16:19:19 2013 -0300
+
+    Adicionado e configurado plugin de redes sociais
+
+commit 2c84e2f4ad586be919b532c1a69efb979462cba1
+Merge: 8cd035b 165530f
+Author: Acens <projetos@acens.com.br>
+Date:   Thu Nov 7 13:58:13 2013 -0300
+
+    Merge branch 'master' of https://github.com/Acens/adm
+
+commit 8cd035b796a45894371df88eaea444ccbc5d1cee
+Author: Acens <projetos@acens.com.br>
+Date:   Thu Nov 7 13:41:54 2013 -0300
+
+    Mudança nas cores
+
+commit 165530fceea64d1664e988494fdb2f509ab9938f
+Author: Acens <projetos@acens.com.br>
+Date:   Thu Nov 7 13:16:55 2013 -0300
+
+    adicionei os usuarios
+
+commit 2d993503394d46b4a03793f02363f0b36cdd8545
+Author: Acens <projetos@acens.com.br>
+Date:   Thu Nov 7 13:12:43 2013 -0300
+
+    adicionei os usuarios
+
+commit a597a651b8386e725352195a177434cf72968ede
+Author: Acens <projetos@acens.com.br>
+Date:   Thu Nov 7 12:29:49 2013 -0300
+
+    adicionei paginas
+
+commit fd8a697b01431b8847023279886585459ae3d3fb
+Author: Acens <projetos@acens.com.br>
+Date:   Wed Nov 6 17:28:52 2013 -0300
+
+    adicionei os menus
+
+commit e825b2edb1a6a8b5a571283776ed09f1a41fa26f
+Author: Acens <projetos@acens.com.br>
+Date:   Wed Nov 6 14:53:11 2013 -0300
+
+    repositorio criado
+
+commit 62ce3f7faabe530299e6064bf2a545b82d8b21c3
+Author: Acens <projetos@acens.com.br>
+Date:   Wed Nov 6 09:34:25 2013 -0800
+
+    Initial commit
