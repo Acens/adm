@@ -37,7 +37,7 @@
 	</div> <!-- #footer-area -->
 
 	<div id="footer-bottom-area" class="container">
-		<p id="copyright"><?php printf( __( 'Designed by %1$s | Powered by %2$s', 'Foxy' ), '<a href="http://www.elegantthemes.com" title="Premium WordPress Themes">Elegant Themes</a>', '<a href="http://www.wordpress.org">WordPress</a>' ); ?></p>
+		<p id="copyright"><?php printf( __( 'Desenvolvido por <img src="http://localhost/adm/blog/wp-content/themes/Foxy/images/Logo-Footer-Azul.png" alt="Acens Empresa Júnior"/> ' )  ); ?></p>
 	</div>
 
 	<?php wp_footer(); ?>
