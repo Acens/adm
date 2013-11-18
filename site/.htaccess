@@ -1,0 +1,9 @@
+# BEGIN s2Member GZIP exclusions
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /adm/site/
+	RewriteCond %{QUERY_STRING} (^|\?|&)s2member_file_download\=.+ [OR]
+	RewriteCond %{QUERY_STRING} (^|\?|&)no-gzip\=1
+	RewriteRule .* - [E=no-gzip:1]
+</IfModule>
+# END s2Member GZIP exclusions

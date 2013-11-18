@@ -45,7 +45,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 /*-----------------[BASIC STYLES]-----------------*/
 /*------------------------------------------------*/
 
-body { text-align: center; line-height: 21px; font-family: Arial, Verdana, sans-serif; font-size: 13px; color: #ffffff; min-height: 25px; background: #575757 url(images/bg.jpg); }
+body { text-align: center; line-height: 21px; font-family: berlin sans fb; font-size: 13px; color: #000; min-height: 25px; background: url(images/bg.jpg); }
 
 a { text-decoration: none; color: #00b7f3; }
 a:hover { text-decoration: underline; }
@@ -130,7 +130,7 @@ body#home-featured #hr { min-height: 479px; }
 				#tagline span {background:url(images/quote-right.png) no-repeat right bottom; padding:0 50px 3px 40px; font-size: 24px; color: #485E88; text-shadow: 1px 1px 0px #fff; }
 		div.service {float:left; width:274px; padding: 52px 65px 26px 0px;}		
 		#blog {padding-right: 0px; width:282px; background: url(images/fromblog-bottom.png) no-repeat bottom left; padding-bottom: 16px; position: relative; }
-			h3.hometitle {font-size: 30px; color:#DA2128; text-shadow: 1px 1px 0px #fff; padding-bottom: 8px; }
+			h3.hometitle {font-size: 30px; color:#990000; text-shadow: 1px 1px 0px #fff; padding-bottom: 8px; }
 			a.readmore {float: right; background: url(images/readmore.png) no-repeat bottom right; height: 38px; display: block; font-size: 18px; color: #323232 !important; padding-right: 9px; margin-top: 14px; font-weight: normal;}
 				a.readmore span { display: block; background: url(images/readmore.png) no-repeat; padding:9px 5px 4px 12px; height:38px; }
 			a.readmore:hover { color: #ffffff; }	
@@ -138,7 +138,7 @@ body#home-featured #hr { min-height: 479px; }
 			#blog-top {background: url(images/fromblog-top.png) no-repeat; height: 11px;}
 			#blog-wrapper {background: url(images/fromblog-mainbg.png) repeat-y #eeeeee; padding: 0px 1px 0px 1px; }
 				#blog-content{background: url(images/fromblog-top-gradient.png) repeat-x; padding: 7px 22px 6px 24px; }
-					#blog-content h4.widgettitle {font-size: 24px; color: #DA2128; padding-bottom: 12px; }
+					#blog-content h4.widgettitle {font-size: 24px; color: #990000; padding-bottom: 12px; }
 					
 					#blog-content ul li { background: url(images/fromblog-bullet.png) no-repeat 0px 5px; padding: 0px 0px 15px 17px; }
 						#blog-content ul li a.title  {display: block; color: #7d7d7d; font-size: 14px; text-shadow: 1px 1px 1px #ffffff; margin-bottom:-3px;}
@@ -165,9 +165,9 @@ body#home-featured #hr { min-height: 479px; }
 				.entry-description { float: left; width: 443px; }
 				.full-description { width: 651px; }
 					p.post-meta { border-radius: 20px; -moz-border-radius: 20px; -webkit-border-radius: 20px; background: rgba(0, 0, 0, 0.2); border-bottom:1px solid #909090; border-right:1px solid #909090; padding: 5px 13px 5px 12px; font-style: italic; font-size: 11px; float: left; margin-bottom: 11px; }
-					p.post-meta, p.post-meta a { color: #cccccc; font-weight: normal !important; }
+					p.post-meta, p.post-meta a { color: #fff; font-weight: normal !important; }
 					.post p.post-meta { width: 404px; }
-					p.post-meta a:hover { color: #ffffff; text-decoration: none; }
+					p.post-meta a:hover { color: #990000; text-decoration: none; }
 					
 				
 				.entry h2.title, .entry h1.title { font-size: 36px; padding-bottom: 11px; color: #485E88; }
@@ -200,8 +200,8 @@ body#home-featured #hr { min-height: 479px; }
 
 ul.nav { float: left; padding: 20px 0px 0px 4px; }
 	ul.nav li { margin-left: 17px; }
-		ul.nav a { font-size: 20px; color: #D3D3D3; text-decoration: none; text-shadow: 1px 1px 0px #000; padding-bottom: 13px; }
-		ul.nav a:hover { color: #fff; text-shadow: 1px 1px 0px #8B0000; }
+		ul.nav a { font-size: 21px; color: #dcdcdc; text-decoration: none; text-shadow: 1px 1px 0px #000; padding-bottom: 13px; }
+		ul.nav a:hover { color: #fff; text-shadow: 1px 1px 0px #990000; }
 		
 	ul.nav ul { width: 189px; background: #485E8A  bottom left repeat-x; border: 1px solid #ffffff; border-top: none; top: 34px !important; box-shadow: 3px 6px 7px 1px rgba(0, 0, 0, 0.1); -moz-box-shadow:3px 6px 7px 1px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 3px 6px 7px 1px rgba(0, 0, 0, 0.1); border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-top-left-radius: 0px;-moz-border-radius-topleft: 0px; border-top-right-radius: 0px; -webkit-border-top-left-radius: 0px; -moz-border-radius-topright: 0px; -webkit-border-top-right-radius: 0px; padding: 16px 0px 10px; z-index: 9999px; display: none; }
 		ul.nav ul li { margin: 0px; padding: 0px 4px 20px 18px; }
