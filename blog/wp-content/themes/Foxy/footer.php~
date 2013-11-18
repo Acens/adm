@@ -36,9 +36,10 @@
 		</div> <!-- .container -->
 	</div> <!-- #footer-area -->
 
-	<div <span>Desenvolvido por</span>
-a href="http://www.acens.com.br" title="Desenvolvido por Acens">
-<img src="http://localhost/adm/site/wp-content/uploads/2013/11/acens-logo.png" alt="Acens Empresa Júnior"/></p>
+	<div id="footer-bottom-area" class="container">
+		<p id="copyright"><?php printf( __( 'Desenvolvido por <img src="http://localhost/adm/blog/wp-content/themes/Foxy/images/Logo-Footer-Azul.png" alt="Acens Empresa Júnior"/> ' )  ); ?></p>
+=======
+		
 	</div>
 
 	<?php wp_footer(); ?>
