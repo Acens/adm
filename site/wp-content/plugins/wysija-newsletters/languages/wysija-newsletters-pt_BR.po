@@ -1,0 +1,6054 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wysija Newsletters v2.5.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-11-19 19:21:55+0000\n"
+"Last-Translator: adm <leonardo@acens.com.br>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: classes/WJ_Import.php:57
+#, php-format
+#@ wysija-newsletters
+msgid "Cannot access CSV file. Verify access rights to this directory \"%1$s\""
+msgstr ""
+
+#: classes/WJ_Import.php:183
+#@ wysija-newsletters
+msgid "There seems to be an error with the list you're trying to import."
+msgstr ""
+
+#: classes/WJ_Import.php:372
+#@ wysija-newsletters
+msgid "Error when inserting emails."
+msgstr ""
+
+#: classes/WJ_Import.php:381
+#@ wysija-newsletters
+msgid "Error when inserting list."
+msgstr ""
+
+#: classes/WJ_Import.php:535
+#@ wysija-newsletters
+msgid "The list you've pasted is too big for the browser. <strong>Upload the file</strong> instead."
+msgstr ""
+
+#: classes/WJ_Import.php:593
+#@ wysija-newsletters
+msgid "The data you are trying to import doesn't appear to be in the CSV format (Comma Separated Values). [link]Read more[/link]."
+msgstr ""
+
+#: classes/WJ_Import.php:594
+#@ wysija-newsletters
+msgid "The first line of a CSV file should be the column headers : \"email\",\"lastname\",\"firstname\"."
+msgstr ""
+
+#: classes/WJ_Import.php:595
+#@ wysija-newsletters
+msgid "The second line of a CSV file should be a set of values : \"joeeg@example.com\",\"Average\",\"Joe\"."
+msgstr ""
+
+#: classes/WJ_Import.php:597
+#@ wysija-newsletters
+msgid "The two first lines of the file you've uploaded are as follow:"
+msgstr ""
+
+#: classes/WJ_Import.php:601
+#: classes/WJ_Import.php:605
+#@ wysija-newsletters
+msgid "Line is empty"
+msgstr ""
+
+#: classes/WJ_Import.php:651
+#, php-format
+#@ wysija-newsletters
+msgid "There might be a problem with the list you are trying to import. We have identified %1$s emails out of %2$s rows."
+msgstr ""
+
+#: controllers/ajax/campaigns.php:15
+#@ wysija-newsletters
+msgid "Thanks!"
+msgstr ""
+
+#: controllers/ajax/campaigns.php:47
+#@ wysija-newsletters
+msgid "The theme you selected could not be loaded."
+msgstr ""
+
+#: controllers/ajax/campaigns.php:93
+#@ wysija-newsletters
+msgid "Your email could not be saved"
+msgstr ""
+
+#: controllers/ajax/campaigns.php:96
+#@ wysija-newsletters
+msgid "Your email has been saved"
+msgstr ""
+
+#: controllers/ajax/campaigns.php:137
+#@ wysija-newsletters
+msgid "Styles could not be saved"
+msgstr ""
+
+#: controllers/ajax/campaigns.php:140
+#@ wysija-newsletters
+msgid "Styles have been saved"
+msgstr ""
+
+#: controllers/ajax/campaigns.php:155
+#: controllers/back/campaigns.php:2473
+#@ wysija-newsletters
+msgid "Image has been deleted."
+msgstr ""
+
+#: controllers/ajax/campaigns.php:216
+#@ wysija-newsletters
+msgid "Image selection has not been saved."
+msgstr ""
+
+#: controllers/ajax/campaigns.php:219
+#@ wysija-newsletters
+msgid "Image selection has been saved."
+msgstr ""
+
+#: controllers/ajax/campaigns.php:386
+#@ wysija-newsletters
+msgid "There are no posts corresponding to that search."
+msgstr ""
+
+#: controllers/ajax/campaigns.php:491
+#@ wysija-newsletters
+msgid "There are no articles to be sent in this email."
+msgstr ""
+
+#: controllers/ajax/campaigns.php:500
+#, php-format
+#@ wysija-newsletters
+msgid "Your email preview has been sent to %1$s"
+msgstr ""
+
+#: controllers/ajax/campaigns.php:710
+#: controllers/back/campaigns.php:2253
+#@ wysija-newsletters
+msgid "We were unable to contact the API, the site may be down. Please try again later."
+msgstr ""
+
+#: controllers/ajax/config.php:68
+#: helpers/bounce.php:884
+#, php-format
+#@ wysija-newsletters
+#@ default
+msgid "Successfully connected to %1$s"
+msgstr ""
+
+#: controllers/ajax/config.php:69
+#: helpers/bounce.php:893
+#, php-format
+#@ wysija-newsletters
+#@ default
+msgid "There are %1$s messages in your mailbox"
+msgstr ""
+
+#: controllers/ajax/config.php:72
+#@ wysija-newsletters
+msgid "There are no bounced messages to process right now!"
+msgstr ""
+
+#: controllers/ajax/config.php:83
+#@ wysija-newsletters
+msgid "You may need to turn ON the option <i>Self-signed certificates</i>"
+msgstr ""
+
+#: controllers/ajax/config.php:85
+#@ wysija-newsletters
+msgid "Are you sure you selected the right port? You can leave it empty if you do not know what to specify"
+msgstr ""
+
+#: controllers/ajax/config.php:291
+#@ wysija-newsletters
+msgid "Saved! The changes are already active in your widget."
+msgstr ""
+
+#: controllers/ajax/config.php:300
+#@ wysija-newsletters
+msgid "Saved! Add this form to [link_widget]a widget[/link_widget]"
+msgstr ""
+
+#: controllers/ajax/config.php:315
+#@ wysija-newsletters
+msgid "Your form could not be saved"
+msgstr ""
+
+#: controllers/ajax/config.php:318
+#@ wysija-newsletters
+msgid "Your form has been saved"
+msgstr ""
+
+#: controllers/ajax/subscribers.php:17
+#: controllers/front/subscribers.php:13
+#@ wysija-newsletters
+msgid "User has been inserted."
+msgstr ""
+
+#: controllers/ajax/subscribers.php:20
+#: controllers/front/subscribers.php:16
+#@ wysija-newsletters
+msgid "User has not been inserted."
+msgstr ""
+
+#: controllers/ajax/subscribers.php:21
+#: controllers/front/subscribers.php:17
+#@ wysija-newsletters
+msgid "User has been updated."
+msgstr ""
+
+#: controllers/ajax/subscribers.php:22
+#: controllers/front/subscribers.php:18
+#@ wysija-newsletters
+msgid "User has not been updated."
+msgstr ""
+
+#: controllers/ajax/tmce.php:12
+#@ wysija-newsletters
+msgid "Insert Total of Subscribers"
+msgstr ""
+
+#: controllers/ajax/tmce.php:29
+#: controllers/ajax/tmce.php:36
+#@ wysija-newsletters
+msgid "Insert Subscription Form"
+msgstr ""
+
+#: controllers/ajax/tmce.php:119
+#: controllers/ajax/tmce.php:134
+#: helpers/form_engine.php:138
+#: helpers/form_engine.php:142
+#: helpers/update.php:591
+#: helpers/update.php:611
+#: helpers/update.php:615
+#: models/user_field.php:21
+#: views/back/campaigns.php:939
+#: views/back/subscribers.php:215
+#: views/back/subscribers.php:428
+#: views/back/subscribers.php:851
+#: views/front/confirm.php:36
+#: views/front/widget_nl.php:204
+#: views/front/widget_nl.php:277
+#: widgets/wysija_nl.php:117
+#@ wysija-newsletters
+msgid "Email"
+msgstr ""
+
+#: controllers/back/campaigns.php:24
+#@ wysija-newsletters
+msgid "Welcome Page!"
+msgstr ""
+
+#: controllers/back/campaigns.php:25
+#: controllers/back/campaigns.php:138
+#@ wysija-newsletters
+msgid "Installing Wysija Newsletter Premium plugin"
+msgstr ""
+
+#: controllers/back/campaigns.php:29
+#@ wysija-newsletters
+msgid "A Brand New Wysija. Let the Fun Begin."
+msgstr ""
+
+#: controllers/back/campaigns.php:55
+#@ wysija-newsletters
+msgid "Hey, we're curious! How did you find out about us?"
+msgstr ""
+
+#: controllers/back/campaigns.php:61
+#@ wysija-newsletters
+msgid "WordPress.org plugin repository"
+msgstr ""
+
+#: controllers/back/campaigns.php:65
+#@ wysija-newsletters
+msgid "Google or other search engine"
+msgstr ""
+
+#: controllers/back/campaigns.php:69
+#@ wysija-newsletters
+msgid "Friend recommendation"
+msgstr ""
+
+#: controllers/back/campaigns.php:73
+#@ wysija-newsletters
+msgid "Blog post, online review, forum:"
+msgstr ""
+
+#: controllers/back/campaigns.php:74
+#@ wysija-newsletters
+msgid "Please enter the address where you've found out about us"
+msgstr ""
+
+#: controllers/back/campaigns.php:81
+#@ wysija-newsletters
+msgid "First Time? See it in Action"
+msgstr ""
+
+#: controllers/back/campaigns.php:84
+#@ wysija-newsletters
+msgid "You can start by watching this video by one of our users."
+msgstr ""
+
+#: controllers/back/campaigns.php:90
+#@ wysija-newsletters
+msgid "What You Can Do"
+msgstr ""
+
+#: controllers/back/campaigns.php:93
+#@ wysija-newsletters
+msgid "5 minute newbie guide"
+msgstr ""
+
+#: controllers/back/campaigns.php:94
+#@ wysija-newsletters
+msgid "Your Wysija comes with an example newsletter. You'll see it when you close this welcome page. Edit it to start playing with it."
+msgstr ""
+
+#: controllers/back/campaigns.php:97
+#@ wysija-newsletters
+msgid "Share your data"
+msgstr ""
+
+#: controllers/back/campaigns.php:101
+#@ wysija-newsletters
+msgid "We know too little about our users. We're looking for [link]anonymous data[/link] to build a better plugin. [ajaxlink]Yes, count me in![/ajaxlink]"
+msgstr ""
+
+#: controllers/back/campaigns.php:104
+#@ wysija-newsletters
+msgid "Help yourself. Or let us help you."
+msgstr ""
+
+#: controllers/back/campaigns.php:108
+#@ wysija-newsletters
+msgid "We got documentation and a ticket system on [link]support.mailpoet.com[/link]. We answer within 24h."
+msgstr ""
+
+#: controllers/back/campaigns.php:115
+#@ wysija-newsletters
+msgid "Wysi... what?"
+msgstr ""
+
+#: controllers/back/campaigns.php:121
+#@ wysija-newsletters
+msgid "So who are we? We're 4 guys who decided in 2011 that WordPress needed a better emailing solution. The tag line <em>What You Send Is Just Awesome</em> was born and the acronym Wysija became our name. If you like what we do, make sure [link]you spread the good word[/link]."
+msgstr ""
+
+#: controllers/back/campaigns.php:137
+#@ wysija-newsletters
+msgid "What's new?"
+msgstr ""
+
+#: controllers/back/campaigns.php:142
+#@ wysija-newsletters
+msgid "You updated! It's like having the next gadget, but better."
+msgstr ""
+
+#: controllers/back/campaigns.php:170
+#: views/back/campaigns.php:1863
+#@ wysija-newsletters
+msgid "Added"
+msgstr ""
+
+#: controllers/back/campaigns.php:173
+#@ wysija-newsletters
+msgid "Better subscriber management"
+msgstr ""
+
+#: controllers/back/campaigns.php:174
+#@ wysija-newsletters
+msgid "New batch actions: move, add & remove from lists. Confirm the unconfirmed. Select all subscribers in 1 click. Powerful."
+msgstr ""
+
+#: controllers/back/campaigns.php:177
+#@ wysija-newsletters
+msgid "Undo unsubscribe"
+msgstr ""
+
+#: controllers/back/campaigns.php:178
+#@ wysija-newsletters
+msgid "A subscriber mistakenly hit the unsubscribe link in your newsletter? He can now undo this in 1 click. Hurray."
+msgstr ""
+
+#: controllers/back/campaigns.php:181
+#: helpers/back.php:173
+#: helpers/back.php:407
+#@ wysija-newsletters
+msgid "Switch to beta"
+msgstr ""
+
+#: controllers/back/campaigns.php:185
+#@ wysija-newsletters
+msgid "And make a difference. We're looking for feedback and bug reports on our upcoming features. [link]Activate the beta in your settings.[/link]"
+msgstr ""
+
+#: controllers/back/campaigns.php:193
+#@ wysija-newsletters
+msgid "Improved"
+msgstr ""
+
+#: controllers/back/campaigns.php:196
+#@ wysija-newsletters
+msgid "MS: bounce, only once"
+msgstr ""
+
+#: controllers/back/campaigns.php:197
+#@ wysija-newsletters
+msgid "Premium user on Multisite? Enjoy configuring the automated bounce for all sites, once. Too easy."
+msgstr ""
+
+#: controllers/back/campaigns.php:200
+#@ wysija-newsletters
+msgid "Don't like my style?"
+msgstr ""
+
+#: controllers/back/campaigns.php:201
+#@ wysija-newsletters
+msgid "Well too bad! Remove the Styles and Themes tab in the visual editor for your site's other users. See the Advanced Settings."
+msgstr ""
+
+#: controllers/back/campaigns.php:204
+#@ wysija-newsletters
+msgid "Share your data, help Wysija"
+msgstr ""
+
+#: controllers/back/campaigns.php:208
+#@ wysija-newsletters
+msgid "We're looking for [link]anonymous data[/link] to build a better plugin. [ajaxlink]<strong>Yes, count me in!</strong>[/ajaxlink]"
+msgstr ""
+
+#: controllers/back/campaigns.php:218
+#: views/back/campaigns.php:2811
+#@ wysija-newsletters
+msgid "4 min survey to better understand what you need"
+msgstr ""
+
+#: controllers/back/campaigns.php:224
+#@ wysija-newsletters
+msgid "Where do you send your newsletters?"
+msgstr ""
+
+#: controllers/back/campaigns.php:225
+#@ wysija-newsletters
+msgid "How many users on this site create and send newsletters?"
+msgstr ""
+
+#: controllers/back/campaigns.php:226
+#@ wysija-newsletters
+msgid "You're installing this plugin for..."
+msgstr ""
+
+#: controllers/back/campaigns.php:227
+#@ wysija-newsletters
+msgid "How would you feel if you could no longer use us?"
+msgstr ""
+
+#: controllers/back/campaigns.php:228
+#@ wysija-newsletters
+msgid "Pick one improvement which is an absolute must"
+msgstr ""
+
+#: controllers/back/campaigns.php:229
+#@ wysija-newsletters
+msgid "If our Premium was sold as a monthly payment, instead of a yearly payment, would you consider purchasing it?"
+msgstr ""
+
+#: controllers/back/campaigns.php:230
+#@ wysija-newsletters
+msgid "On how many sites have you installed our plugin in the last year?"
+msgstr ""
+
+#: controllers/back/campaigns.php:231
+#@ wysija-newsletters
+msgid "How many WordPress sites do you create every year?"
+msgstr ""
+
+#: controllers/back/campaigns.php:232
+#@ wysija-newsletters
+msgid "When you installed our plugin, it was to..."
+msgstr ""
+
+#: controllers/back/campaigns.php:233
+#@ wysija-newsletters
+msgid "How did you find out about Wysija?"
+msgstr ""
+
+#: controllers/back/campaigns.php:234
+#@ wysija-newsletters
+msgid "How much money did you spend on Premium themes or plugins in the past year?"
+msgstr ""
+
+#: controllers/back/campaigns.php:235
+#@ wysija-newsletters
+msgid "What other emailing solutions do you use?"
+msgstr ""
+
+#: controllers/back/campaigns.php:236
+#@ wysija-newsletters
+msgid "What's the most annoying thing with our current version?"
+msgstr ""
+
+#: controllers/back/campaigns.php:237
+#@ wysija-newsletters
+msgid "Have you had problems with your newsletters being marked as spam?"
+msgstr ""
+
+#: controllers/back/campaigns.php:274
+#@ wysija-newsletters
+msgid "A new poll to get to know you better"
+msgstr ""
+
+#: controllers/back/campaigns.php:283
+#@ wysija-newsletters
+msgid "Keep this plugin essentially free"
+msgstr ""
+
+#: controllers/back/campaigns.php:285
+#@ wysija-newsletters
+msgid "Love kittens?"
+msgstr ""
+
+#: controllers/back/campaigns.php:285
+#@ wysija-newsletters
+msgid "We love stars..."
+msgstr ""
+
+#: controllers/back/campaigns.php:289
+#@ wysija-newsletters
+msgid "Each time one of our users forgets to write a review, a kitten dies. It's sad and breaks our hearts. [link]Add your own review[/link] and save a kitten today."
+msgstr ""
+
+#: controllers/back/campaigns.php:294
+#@ wysija-newsletters
+msgid "Follow us and don't miss anything!"
+msgstr ""
+
+#: controllers/back/campaigns.php:297
+#: controllers/back.php:662
+#: helpers/back.php:192
+#: helpers/back.php:205
+#@ wysija-newsletters
+msgid "Hide!"
+msgstr ""
+
+#: controllers/back/campaigns.php:309
+#@ wysija-newsletters
+msgid "Change log"
+msgstr ""
+
+#: controllers/back/campaigns.php:330
+#: helpers/licence.php:96
+#@ wysija-newsletters
+msgid "Premium version is valid for your site."
+msgstr ""
+
+#: controllers/back/campaigns.php:338
+#@ wysija-newsletters
+msgid "Premium licence does not exist for your site. Purchase it [link]here[/link]."
+msgstr ""
+
+#: controllers/back/campaigns.php:371
+#@ wysija-newsletters
+msgid "Queue is empty!"
+msgstr ""
+
+#: controllers/back/campaigns.php:405
+#: controllers/back/campaigns.php:598
+#: controllers/back/campaigns.php:641
+#: controllers/back/campaigns.php:846
+#, php-format
+#@ wysija-newsletters
+msgid "Step %1$s"
+msgstr ""
+
+#: controllers/back/campaigns.php:410
+#: views/back/campaigns.php:1508
+#@ wysija-newsletters
+msgid "Insert [newsletter:total] to show number of posts, [newsletter:post_title] to show the latest post's title & [newsletter:number] to display the issue number."
+msgstr ""
+
+#: controllers/back/campaigns.php:411
+#@ wysija-newsletters
+msgid "The first thing your subscribers see. Be creative and increase your open rate!"
+msgstr ""
+
+#: controllers/back/campaigns.php:413
+#@ wysija-newsletters
+msgid "First step: main details"
+msgstr ""
+
+#: controllers/back/campaigns.php:430
+#@ wysija-newsletters
+msgid "once a day at..."
+msgstr ""
+
+#: controllers/back/campaigns.php:431
+#@ wysija-newsletters
+msgid "weekly on..."
+msgstr ""
+
+#: controllers/back/campaigns.php:432
+#@ wysija-newsletters
+msgid "monthly on the..."
+msgstr ""
+
+#: controllers/back/campaigns.php:433
+#@ wysija-newsletters
+msgid "monthly every..."
+msgstr ""
+
+#: controllers/back/campaigns.php:434
+#: controllers/back/campaigns.php:506
+#@ wysija-newsletters
+msgid "immediately."
+msgstr ""
+
+#: controllers/back/campaigns.php:464
+#@ wysija-newsletters
+msgid "in any role,"
+msgstr ""
+
+#: controllers/back/campaigns.php:466
+#@ wysija-newsletters
+msgid "as ,"
+msgstr ""
+
+#: controllers/back/campaigns.php:472
+#@ wysija-newsletters
+msgid "there's new content, send..."
+msgstr ""
+
+#: controllers/back/campaigns.php:473
+#@ wysija-newsletters
+msgid "someone subscribes to the list..."
+msgstr ""
+
+#: controllers/back/campaigns.php:474
+#@ wysija-newsletters
+msgid "a new WordPress user is added to your site..."
+msgstr ""
+
+#: controllers/back/campaigns.php:507
+#@ wysija-newsletters
+msgid "hour(s) after."
+msgstr ""
+
+#: controllers/back/campaigns.php:508
+#@ wysija-newsletters
+msgid "day(s) after."
+msgstr ""
+
+#: controllers/back/campaigns.php:509
+#@ wysija-newsletters
+msgid "week(s) after."
+msgstr ""
+
+#: controllers/back/campaigns.php:512
+#@ wysija-newsletters
+msgid "immediately"
+msgstr ""
+
+#: controllers/back/campaigns.php:513
+#@ wysija-newsletters
+msgid "hour(s)"
+msgstr ""
+
+#: controllers/back/campaigns.php:514
+#@ wysija-newsletters
+msgid "day(s)"
+msgstr ""
+
+#: controllers/back/campaigns.php:515
+#@ wysija-newsletters
+msgid "week(s)"
+msgstr ""
+
+#: controllers/back/campaigns.php:621
+#@ wysija-newsletters
+msgid "Saving newsletter..."
+msgstr ""
+
+#: controllers/back/campaigns.php:622
+#@ wysija-newsletters
+msgid "Error Saving newsletter..."
+msgstr ""
+
+#: controllers/back/campaigns.php:623
+#@ wysija-newsletters
+msgid "Newsletter has been saved."
+msgstr ""
+
+#: controllers/back/campaigns.php:624
+#: controllers/back/campaigns.php:792
+#@ wysija-newsletters
+msgid "Sending preview..."
+msgstr ""
+
+#: controllers/back/campaigns.php:625
+#@ wysija-newsletters
+msgid "Spam test results"
+msgstr ""
+
+#: controllers/back/campaigns.php:640
+#, php-format
+#@ wysija-newsletters
+msgid "Second step :  \"%1$s\""
+msgstr ""
+
+#: controllers/back/campaigns.php:669
+#@ wysija-newsletters
+msgid "Sending is now paused."
+msgstr ""
+
+#: controllers/back/campaigns.php:682
+#@ wysija-newsletters
+msgid "Sending has resumed."
+msgstr ""
+
+#: controllers/back/campaigns.php:694
+#: controllers/back/campaigns.php:700
+#: controllers/back/campaigns.php:736
+#: controllers/back/subscribers.php:408
+#@ wysija-newsletters
+msgid "Copy of "
+msgstr ""
+
+#: controllers/back/campaigns.php:726
+#: controllers/back/campaigns.php:740
+#@ wysija-newsletters
+msgid "The newsletter has been duplicated."
+msgstr ""
+
+#: controllers/back/campaigns.php:765
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s emails every %2$s"
+msgstr ""
+
+#: controllers/back/campaigns.php:766
+#@ wysija-newsletters
+msgid "Your sending settings ([settings]) can't send that quickly to [number] subscribers. Expect delivery delays. [link]Read more[/link]"
+msgstr ""
+
+#: controllers/back/campaigns.php:789
+#@ wysija-newsletters
+msgid "Final step : last details"
+msgstr ""
+
+#: controllers/back/campaigns.php:793
+#@ wysija-newsletters
+msgid "Pick a date"
+msgstr ""
+
+#: controllers/back/campaigns.php:794
+#: views/back/campaigns.php:1594
+#@ wysija-newsletters
+msgid "Save & close"
+msgstr ""
+
+#: controllers/back/campaigns.php:795
+#@ wysija-newsletters
+msgid "Send later"
+msgstr ""
+
+#: controllers/back/campaigns.php:797
+#@ wysija-newsletters
+msgid "Schedule"
+msgstr ""
+
+#: controllers/back/campaigns.php:822
+#: helpers/back.php:78
+#: views/back/campaigns.php:1586
+#: views/back/campaigns.php:1587
+#@ wysija-newsletters
+msgid "Activate now"
+msgstr ""
+
+#: controllers/back/campaigns.php:826
+#: views/back/campaigns.php:1592
+#: views/back/campaigns.php:1593
+#@ wysija-newsletters
+msgid "Send"
+msgstr ""
+
+#: controllers/back/campaigns.php:830
+#@ wysija-newsletters
+msgid "You are about to send this newsletter. Please confirm."
+msgstr ""
+
+#: controllers/back/campaigns.php:840
+#, php-format
+#@ wysija-newsletters
+msgid "Are you sure you want to ignore the %1$s subscribers of the list %2$s?"
+msgstr ""
+
+#: controllers/back/campaigns.php:868
+#: controllers/back/campaigns.php:890
+#@ wysija-newsletters
+msgid "Newsletter deleted."
+msgstr ""
+
+#: controllers/back/campaigns.php:872
+#: controllers/back/campaigns.php:892
+#@ wysija-newsletters
+msgid "Newsletter can't be deleted."
+msgstr ""
+
+#: controllers/back/campaigns.php:972
+#: controllers/back/campaigns.php:985
+#: helpers/articles.php:76
+#@ wysija-newsletters
+msgid "Read online."
+msgstr ""
+
+#: controllers/back/campaigns.php:1011
+#, php-format
+#@ wysija-newsletters
+msgid "The posts below were added with the widget %sAutomatic latest content%s"
+msgstr ""
+
+#: controllers/back/campaigns.php:1027
+#, php-format
+#@ wysija-newsletters
+msgid "%sTo edit%s, mouse over to show edit button below."
+msgstr ""
+
+#: controllers/back/campaigns.php:1101
+#: helpers/install.php:245
+#@ wysija-newsletters
+msgid "Step 1:"
+msgstr ""
+
+#: controllers/back/campaigns.php:1101
+#: helpers/install.php:245
+#@ wysija-newsletters
+msgid "hey, click on this text!"
+msgstr ""
+
+#: controllers/back/campaigns.php:1101
+#: helpers/install.php:245
+#@ wysija-newsletters
+msgid "To edit, simply click on this block of text."
+msgstr ""
+
+#: controllers/back/campaigns.php:1116
+#: helpers/install.php:260
+#@ wysija-newsletters
+msgid "Step 2:"
+msgstr ""
+
+#: controllers/back/campaigns.php:1116
+#: helpers/install.php:260
+#@ wysija-newsletters
+msgid "play with this image"
+msgstr ""
+
+#: controllers/back/campaigns.php:1126
+#: helpers/install.php:270
+#@ wysija-newsletters
+msgid "Position your mouse over the image to the left."
+msgstr ""
+
+#: controllers/back/campaigns.php:1147
+#: helpers/install.php:291
+#@ wysija-newsletters
+msgid "Step 3:"
+msgstr ""
+
+#: controllers/back/campaigns.php:1147
+#: helpers/install.php:291
+#@ wysija-newsletters
+msgid "drop content here"
+msgstr ""
+
+#: controllers/back/campaigns.php:1148
+#: helpers/install.php:292
+#, php-format
+#@ wysija-newsletters
+msgid "Drag and drop %1$stext, posts, dividers.%2$s Look on the right!"
+msgstr ""
+
+#: controllers/back/campaigns.php:1149
+#: helpers/install.php:293
+#, php-format
+#@ wysija-newsletters
+msgid "You can even %1$ssocial bookmarks%2$s like these:"
+msgstr ""
+
+#: controllers/back/campaigns.php:1190
+#: helpers/install.php:334
+#@ wysija-newsletters
+msgid "Step 4:"
+msgstr ""
+
+#: controllers/back/campaigns.php:1190
+#: helpers/install.php:334
+#@ wysija-newsletters
+msgid "and the footer?"
+msgstr ""
+
+#: controllers/back/campaigns.php:1191
+#: helpers/install.php:335
+#, php-format
+#@ wysija-newsletters
+msgid "Change the footer's content in Wysija's %1$sSettings%2$s page."
+msgstr ""
+
+#: controllers/back/campaigns.php:1240
+#@ wysija-newsletters
+msgid "Newsletter successfully created."
+msgstr ""
+
+#: controllers/back/campaigns.php:1277
+#@ wysija-newsletters
+msgid "Information is missing."
+msgstr ""
+
+#: controllers/back/campaigns.php:1286
+#@ wysija-newsletters
+msgid "The Google Campaign name needs to be only letters, number, spaces and hyphens. We'll improve this in the future!"
+msgstr ""
+
+#: controllers/back/campaigns.php:1307
+#: models/email.php:174
+#@ wysija-newsletters
+msgid "Newsletter has been scheduled."
+msgstr ""
+
+#: controllers/back/campaigns.php:1308
+#@ wysija-newsletters
+msgid "Newsletter has been saved as a draft."
+msgstr ""
+
+#: controllers/back/campaigns.php:1408
+#: helpers/back.php:284
+#: helpers/back.php:353
+#@ wysija-newsletters
+msgid "Newsletters"
+msgstr ""
+
+#: controllers/back/campaigns.php:1411
+#@ wysija-newsletters
+msgid "Please select a newsletter."
+msgstr ""
+
+#: controllers/back/campaigns.php:1412
+#@ wysija-newsletters
+msgid "Delete this newsletter for ever?"
+msgstr ""
+
+#: controllers/back/campaigns.php:1413
+#@ wysija-newsletters
+msgid "Sending batch of emails..."
+msgstr ""
+
+#: controllers/back/campaigns.php:1414
+#@ wysija-newsletters
+msgid "View newsletter"
+msgstr ""
+
+#: controllers/back/campaigns.php:1415
+#@ wysija-newsletters
+msgid "The newsletter will be deactivated, you will need to reactivate it once you're over editing it. Do you want to proceed?"
+msgstr ""
+
+#: controllers/back/campaigns.php:1769
+#@ wysija-newsletters
+msgid "The list has been deleted."
+msgstr ""
+
+#: controllers/back/campaigns.php:1770
+#@ wysija-newsletters
+msgid "Sending suspended."
+msgstr ""
+
+#: controllers/back/campaigns.php:1778
+#@ wysija-newsletters
+msgid "There are no newsletters."
+msgstr ""
+
+#: controllers/back/campaigns.php:1841
+#, php-format
+#@ wysija-newsletters
+msgid "Stats : %1$s"
+msgstr ""
+
+#: controllers/back/campaigns.php:2044
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s click"
+msgid_plural "%1$s clicks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: controllers/back/campaigns.php:2053
+#@ wysija-newsletters
+msgid "Your request can't retrieve any subscribers. Change your filters!"
+msgstr ""
+
+#: controllers/back/campaigns.php:2095
+#, php-format
+#@ wysija-newsletters
+msgid "Segment of %1$s"
+msgstr ""
+
+#: controllers/back/campaigns.php:2099
+#@ wysija-newsletters
+msgid "List created based on a newsletter segment."
+msgstr ""
+
+#: controllers/back/campaigns.php:2108
+#, php-format
+#@ wysija-newsletters
+msgid "A new list \"%1$s\" has been created out of this segment."
+msgstr ""
+
+#: controllers/back/campaigns.php:2122
+#@ wysija-newsletters
+msgid "The segment has been unbsubscribed from all the lists."
+msgstr ""
+
+#: controllers/back/campaigns.php:2150
+#@ wysija-newsletters
+msgid "The segment has been removed from the queue of this newsletter."
+msgstr ""
+
+#: controllers/back/campaigns.php:2180
+#, php-format
+#@ wysija-newsletters
+msgid "The segment has been unbsubscribed from the list \"%1$s\""
+msgstr ""
+
+#: controllers/back/campaigns.php:2182
+#@ wysija-newsletters
+msgid "The segment cannot be unbsubscribed from an [IMPORT] list."
+msgstr ""
+
+#: controllers/back/campaigns.php:2191
+#: helpers/wj_engine.php:67
+#@ wysija-newsletters
+msgid "Post Selection"
+msgstr ""
+
+#: controllers/back/campaigns.php:2210
+#: controllers/back/subscribers.php:667
+#, php-format
+#@ wysija-newsletters
+msgid "Upload error, file %1$s is too large! (MAX:%2$s)"
+msgstr ""
+
+#: controllers/back/campaigns.php:2228
+#@ wysija-newsletters
+msgid "Install Themes"
+msgstr ""
+
+#: controllers/back/campaigns.php:2231
+#@ wysija-newsletters
+msgid "Details & PSD"
+msgstr ""
+
+#: controllers/back/campaigns.php:2232
+#: views/back/campaigns.php:1946
+#@ wysija-newsletters
+msgid "<< Back"
+msgstr ""
+
+#: controllers/back/campaigns.php:2233
+#@ wysija-newsletters
+msgid "Download"
+msgstr ""
+
+#: controllers/back/campaigns.php:2234
+#@ wysija-newsletters
+msgid "Reinstall"
+msgstr ""
+
+#: controllers/back/campaigns.php:2235
+#: views/back/campaigns.php:1936
+#@ wysija-newsletters
+msgid "Premium"
+msgstr ""
+
+#: controllers/back/campaigns.php:2242
+#@ wysija-newsletters
+msgid "Photoshop file available as part of [link]Premium features[/link]."
+msgstr ""
+
+#: controllers/back/campaigns.php:2248
+#@ wysija-newsletters
+msgid "Show all themes"
+msgstr ""
+
+#: controllers/back/campaigns.php:2249
+#, php-format
+#@ wysija-newsletters
+msgid "(%1$s votes)"
+msgstr ""
+
+#: controllers/back/campaigns.php:2250
+#@ wysija-newsletters
+msgid "Your vote has been recorded."
+msgstr ""
+
+#: controllers/back/campaigns.php:2251
+#@ wysija-newsletters
+msgid "Your vote could not be recorded."
+msgstr ""
+
+#: controllers/back/campaigns.php:2252
+#, php-format
+#@ wysija-newsletters
+msgid "Watch out! If you reinstall this theme all the files which are in the folder:/wp-content/uploads/wysija/themes/%1$s will be overwritten. Are you sure you want to reinstall?"
+msgstr ""
+
+#: controllers/back/campaigns.php:2255
+#, php-format
+#@ wysija-newsletters
+msgid "View all themes by %1$s"
+msgstr ""
+
+#: controllers/back/campaigns.php:2256
+#@ wysija-newsletters
+msgid "Download original Photoshop file"
+msgstr ""
+
+#: controllers/back/campaigns.php:2257
+#@ wysija-newsletters
+msgid "Download as .zip"
+msgstr ""
+
+#: controllers/back/campaigns.php:2258
+#@ wysija-newsletters
+msgid "View author's website"
+msgstr ""
+
+#: controllers/back/campaigns.php:2259
+#, php-format
+#@ wysija-newsletters
+msgid "Average rating: %1$s"
+msgstr ""
+
+#: controllers/back/campaigns.php:2260
+#, php-format
+#@ wysija-newsletters
+msgid "My rating: %1$s"
+msgstr ""
+
+#: controllers/back/campaigns.php:2261
+#, php-format
+#@ wysija-newsletters
+msgid "Downloads: %1$s"
+msgstr ""
+
+#: controllers/back/campaigns.php:2262
+#, php-format
+#@ wysija-newsletters
+msgid "Tags: %1$s"
+msgstr ""
+
+#: controllers/back/campaigns.php:2263
+#, php-format
+#@ wysija-newsletters
+msgid "Last updated: %1$s"
+msgstr ""
+
+#: controllers/back/campaigns.php:2264
+#, php-format
+#@ wysija-newsletters
+msgid "Includes: %1$s"
+msgstr ""
+
+#: controllers/back/campaigns.php:2281
+#@ wysija-newsletters
+msgid "Bookmarks Selection"
+msgstr ""
+
+#: controllers/back/campaigns.php:2324
+#@ wysija-newsletters
+msgid "Dividers Selection"
+msgstr ""
+
+#: controllers/back/campaigns.php:2371
+#@ wysija-newsletters
+msgid "Add / Edit group of posts"
+msgstr ""
+
+#: controllers/back/campaigns.php:2386
+#@ wysija-newsletters
+msgid "Read more."
+msgstr ""
+
+#: controllers/back/campaigns.php:2390
+#@ wysija-newsletters
+msgid "Latest content already sent."
+msgstr ""
+
+#: controllers/back/campaigns.php:2443
+#@ wysija-newsletters
+msgid "Image Parameters"
+msgstr ""
+
+#: controllers/back/campaigns.php:2454
+#@ wysija-newsletters
+msgid "Delete image for all newsletters?"
+msgstr ""
+
+#: controllers/back/campaigns.php:2460
+#@ wysija-newsletters
+msgid "This image might be in an article. Delete anyway?"
+msgstr ""
+
+#: controllers/back/campaigns.php:2486
+#@ default
+msgid "You have attempted to queue too many files."
+msgstr ""
+
+#: controllers/back/campaigns.php:2487
+#, php-format
+#@ default
+msgid "%s exceeds the maximum upload size for this site."
+msgstr ""
+
+#: controllers/back/campaigns.php:2488
+#@ default
+msgid "This file is empty. Please try another."
+msgstr ""
+
+#: controllers/back/campaigns.php:2489
+#@ default
+msgid "This file type is not allowed. Please try another."
+msgstr ""
+
+#: controllers/back/campaigns.php:2490
+#@ default
+msgid "This file is not an image. Please try another."
+msgstr ""
+
+#: controllers/back/campaigns.php:2491
+#@ default
+msgid "Memory exceeded. Please try another smaller file."
+msgstr ""
+
+#: controllers/back/campaigns.php:2492
+#@ default
+msgid "This is larger than the maximum size. Please try another."
+msgstr ""
+
+#: controllers/back/campaigns.php:2493
+#@ default
+msgid "An error occurred in the upload. Please try again later."
+msgstr ""
+
+#: controllers/back/campaigns.php:2494
+#@ default
+msgid "There was a configuration error. Please contact the server administrator."
+msgstr ""
+
+#: controllers/back/campaigns.php:2495
+#@ default
+msgid "You may only upload 1 file."
+msgstr ""
+
+#: controllers/back/campaigns.php:2496
+#@ default
+msgid "HTTP error."
+msgstr ""
+
+#: controllers/back/campaigns.php:2497
+#@ default
+msgid "Upload failed."
+msgstr ""
+
+#: controllers/back/campaigns.php:2498
+#, php-format
+#@ default
+msgid "Please try uploading this file with the %1$sbrowser uploader%2$s."
+msgstr ""
+
+#: controllers/back/campaigns.php:2499
+#, php-format
+#@ default
+msgid "%s exceeds the maximum upload size for the multi-file uploader when used in your browser."
+msgstr ""
+
+#: controllers/back/campaigns.php:2500
+#@ default
+msgid "IO error."
+msgstr ""
+
+#: controllers/back/campaigns.php:2501
+#@ default
+msgid "Security error."
+msgstr ""
+
+#: controllers/back/campaigns.php:2502
+#@ default
+msgid "File canceled."
+msgstr ""
+
+#: controllers/back/campaigns.php:2503
+#@ default
+msgid "Upload stopped."
+msgstr ""
+
+#: controllers/back/campaigns.php:2504
+#@ default
+msgid "Dismiss"
+msgstr ""
+
+#: controllers/back/campaigns.php:2505
+#@ default
+msgid "Crunching&hellip;"
+msgstr ""
+
+#: controllers/back/campaigns.php:2506
+#@ default
+msgid "moved to the trash."
+msgstr ""
+
+#: controllers/back/campaigns.php:2507
+#, php-format
+#@ default
+msgid "&#8220;%s&#8221; has failed to upload."
+msgstr ""
+
+#: controllers/back/campaigns.php:2571
+#@ wysija-newsletters
+msgid "Saved."
+msgstr ""
+
+#: controllers/back/campaigns.php:2585
+#@ wysija-newsletters
+msgid "The newsletter doesn't exist."
+msgstr ""
+
+#: controllers/back/campaigns.php:2658
+#@ wysija-newsletters
+msgid "Plugin is already installed and activated."
+msgstr ""
+
+#: controllers/back/campaigns.php:2670
+#@ wysija-newsletters
+msgid "Your Premium features are now activated. Happy emailing!"
+msgstr ""
+
+#: controllers/back/config.php:18
+#@ wysija-newsletters
+msgid "Sending a test email"
+msgstr ""
+
+#: controllers/back/config.php:19
+#@ wysija-newsletters
+msgid "Bounce handling connection test"
+msgstr ""
+
+#: controllers/back/config.php:20
+#@ wysija-newsletters
+msgid "Bounce handling processing"
+msgstr ""
+
+#: controllers/back/config.php:21
+#@ wysija-newsletters
+msgid "Subscribers will now need to activate their subscription by email in order to receive your newsletters. This is recommended."
+msgstr ""
+
+#: controllers/back/config.php:22
+#@ wysija-newsletters
+msgid "Unconfirmed subscribers will receive your newslettters from now on without the need to activate their subscriptions."
+msgstr ""
+
+#: controllers/back/config.php:23
+#@ wysija-newsletters
+msgid "Process bounce handling now!"
+msgstr ""
+
+#: controllers/back/config.php:24
+#@ wysija-newsletters
+msgid "When setting up the bounce system, you need to have a different address for the bounce email and the forward to address"
+msgstr ""
+
+#: controllers/back/config.php:26
+#: views/back/config.php:1380
+#@ wysija-newsletters
+msgid "Already paid? Click here to activate"
+msgstr ""
+
+#: controllers/back/config.php:27
+#@ wysija-newsletters
+msgid "Checking license"
+msgstr ""
+
+#: controllers/back/config.php:30
+#@ wysija-newsletters
+msgid "Are you sure you want to delete this form?"
+msgstr ""
+
+#: controllers/back/config.php:77
+#: controllers/back.php:346
+#: controllers/back.php:352
+#: views/back/campaigns.php:833
+#: views/back/subscribers.php:555
+#@ wysija-newsletters
+msgid "Get Premium now"
+msgstr ""
+
+#: controllers/back/config.php:78
+#@ wysija-newsletters
+msgid "You're almost there. Click this [link]link[/link] to activate the licence you have just purchased."
+msgstr ""
+
+#: controllers/back/config.php:113
+#@ wysija-newsletters
+msgid "Reinstall Wysija?"
+msgstr ""
+
+#: controllers/back/config.php:159
+#: helpers/update.php:664
+#@ wysija-newsletters
+msgid "New Form"
+msgstr ""
+
+#: controllers/back/config.php:188
+#@ wysija-newsletters
+msgid "This form does not exist"
+msgstr ""
+
+#: controllers/back/config.php:194
+#@ wysija-newsletters
+msgid "Copy"
+msgstr ""
+
+#: controllers/back/config.php:200
+#, php-format
+#@ wysija-newsletters
+msgid "The form named \"%1$s\" has been created."
+msgstr ""
+
+#: controllers/back/config.php:220
+#@ wysija-newsletters
+msgid "This form has already been deleted."
+msgstr ""
+
+#: controllers/back/config.php:227
+#, php-format
+#@ wysija-newsletters
+msgid "The form named \"%1$s\" has been deleted."
+msgstr ""
+
+#: controllers/back/config.php:247
+#@ wysija-newsletters
+msgid "New form"
+msgstr ""
+
+#: controllers/back/config.php:258
+#@ wysija-newsletters
+msgid "This form does not exist."
+msgstr ""
+
+#: controllers/back/config.php:290
+#: helpers/update.php:634
+#@ wysija-newsletters
+msgid "List selection"
+msgstr ""
+
+#: controllers/back/config.php:294
+#: helpers/update.php:638
+#: widgets/wysija_nl.php:115
+#@ wysija-newsletters
+msgid "Select list(s):"
+msgstr ""
+
+#: controllers/back/config.php:299
+#: controllers/back/config.php:303
+#@ wysija-newsletters
+msgid "Random text or HTML"
+msgstr ""
+
+#: controllers/back/config.php:307
+#: views/back/campaigns.php:1202
+#@ wysija-newsletters
+msgid "Divider"
+msgstr ""
+
+#: controllers/back/config.php:334
+#@ wysija-newsletters
+msgid "Widget Settings"
+msgstr ""
+
+#: controllers/back/subscribers.php:104
+#: controllers/back/subscribers.php:221
+#@ wysija-newsletters
+msgid "Subscriber has been saved."
+msgstr ""
+
+#: controllers/back/subscribers.php:122
+#@ wysija-newsletters
+msgid "Subscribers per page:"
+msgstr ""
+
+#: controllers/back/subscribers.php:124
+#: views/back/campaigns.php:13
+#@ wysija-newsletters
+msgid "Select at least 1 subscriber!"
+msgstr ""
+
+#: controllers/back/subscribers.php:215
+#@ wysija-newsletters
+msgid "Yikes! Couldn't find any subscribers."
+msgstr ""
+
+#: controllers/back/subscribers.php:222
+#: helpers/user.php:254
+#@ wysija-newsletters
+msgid "Subscriber has not been saved."
+msgstr ""
+
+#: controllers/back/subscribers.php:223
+#@ wysija-newsletters
+msgid "Subscriber has been modified. [link]Edit again[/link]."
+msgstr ""
+
+#: controllers/back/subscribers.php:224
+#@ wysija-newsletters
+msgid "Subscriber has not been modified."
+msgstr ""
+
+#: controllers/back/subscribers.php:265
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s subscribers have been added to \"%2$s\"."
+msgstr ""
+
+#: controllers/back/subscribers.php:267
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s subscriber have been added to \"%2$s\"."
+msgstr ""
+
+#: controllers/back/subscribers.php:286
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s subscribers have been moved to \"%2$s\"."
+msgstr ""
+
+#: controllers/back/subscribers.php:288
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s subscriber have been moved to \"%2$s\"."
+msgstr ""
+
+#: controllers/back/subscribers.php:304
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s subscribers have been removed from all exising lists."
+msgstr ""
+
+#: controllers/back/subscribers.php:306
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s subscriber have been removed from all exising lists."
+msgstr ""
+
+#: controllers/back/subscribers.php:324
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s subscribers have been removed from \"%2$s\"."
+msgstr ""
+
+#: controllers/back/subscribers.php:326
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s subscriber have been removed from \"%2$s\"."
+msgstr ""
+
+#: controllers/back/subscribers.php:341
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s subscribers have been confirmed."
+msgstr ""
+
+#: controllers/back/subscribers.php:343
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s subscriber have been confirmed."
+msgstr ""
+
+#: controllers/back/subscribers.php:365
+#@ wysija-newsletters
+msgid "Edit lists"
+msgstr ""
+
+#: controllers/back/subscribers.php:376
+#, php-format
+#@ wysija-newsletters
+msgid "Editing list %1$s"
+msgstr ""
+
+#: controllers/back/subscribers.php:381
+#@ wysija-newsletters
+msgid "How about a new list?"
+msgstr ""
+
+#: controllers/back/subscribers.php:419
+#, php-format
+#@ wysija-newsletters
+msgid "List \"%1$s\" has been duplicated."
+msgstr ""
+
+#: controllers/back/subscribers.php:428
+#: views/back/subscribers.php:28
+#: views/back/subscribers.php:417
+#@ wysija-newsletters
+msgid "Add Subscriber"
+msgstr ""
+
+#: controllers/back/subscribers.php:458
+#@ wysija-newsletters
+msgid "No subscriber found, most probably because he was deleted."
+msgstr ""
+
+#: controllers/back/subscribers.php:479
+#: views/back/campaigns.php:199
+#@ wysija-newsletters
+msgid "Bounced"
+msgstr ""
+
+#: controllers/back/subscribers.php:479
+#: views/back/campaigns.php:193
+#@ wysija-newsletters
+msgid "Unopened"
+msgstr ""
+
+#: controllers/back/subscribers.php:479
+#: views/back/campaigns.php:196
+#@ wysija-newsletters
+msgid "Opened"
+msgstr ""
+
+#: controllers/back/subscribers.php:479
+#: views/back/campaigns.php:202
+#@ wysija-newsletters
+msgid "Clicked"
+msgstr ""
+
+#: controllers/back/subscribers.php:479
+#: views/back/campaigns.php:980
+#: views/back/subscribers.php:64
+#: views/back/subscribers.php:257
+#: views/back/subscribers.php:462
+#: views/back/subscribers.php:465
+#: views/back/subscribers.php:616
+#: views/front/confirm.php:70
+#@ wysija-newsletters
+msgid "Unsubscribed"
+msgstr ""
+
+#: controllers/back/subscribers.php:499
+#: helpers/form_engine.php:36
+#: views/back/campaigns.php:15
+#: views/back/campaigns.php:471
+#: views/back/campaigns.php:495
+#: views/back/campaigns.php:518
+#: views/back/config.php:1851
+#: views/back/config.php:1883
+#: views/back/subscribers.php:14
+#: views/back/subscribers.php:638
+#: views/back.php:18
+#@ wysija-newsletters
+msgid "Edit"
+msgstr ""
+
+#: controllers/back/subscribers.php:531
+#, php-format
+#@ wysija-newsletters
+msgid "List \"%1$s\" has been deleted."
+msgstr ""
+
+#: controllers/back/subscribers.php:533
+#@ wysija-newsletters
+msgid "The list does not exists or cannot be deleted."
+msgstr ""
+
+#: controllers/back/subscribers.php:581
+#@ wysija-newsletters
+msgid "List has been updated."
+msgstr ""
+
+#: controllers/back/subscribers.php:587
+#@ wysija-newsletters
+msgid "Your brand-new list awaits its first subscriber."
+msgstr ""
+
+#: controllers/back/subscribers.php:611
+#, php-format
+#@ wysija-newsletters
+msgid "Import from plugin %1$s has been completed."
+msgstr ""
+
+#: controllers/back/subscribers.php:613
+#, php-format
+#@ wysija-newsletters
+msgid "Import from plugin %1$s has been cancelled."
+msgstr ""
+
+#: controllers/back/subscribers.php:626
+#@ wysija-newsletters
+msgid "Import subscribers from plugins"
+msgstr ""
+
+#: controllers/back/subscribers.php:642
+#@ wysija-newsletters
+msgid "There is no plugin to import from."
+msgstr ""
+
+#: controllers/back/subscribers.php:651
+#: controllers/back/subscribers.php:677
+#@ wysija-newsletters
+msgid "Import Subscribers"
+msgstr ""
+
+#: controllers/back/subscribers.php:664
+#@ wysija-newsletters
+msgid "which you have pasted"
+msgstr ""
+
+#: controllers/back/subscribers.php:752
+#: helpers/user.php:115
+#@ wysija-newsletters
+msgid "You need to select at least one list."
+msgstr ""
+
+#: controllers/back/subscribers.php:771
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s subscribers added to %2$s."
+msgstr ""
+
+#: controllers/back/subscribers.php:785
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s emails appear more than once in your file : %2$s."
+msgstr ""
+
+#: controllers/back/subscribers.php:789
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s emails are not valid : %2$s."
+msgstr ""
+
+#: controllers/back/subscribers.php:799
+#@ wysija-newsletters
+msgid "Export Subscribers"
+msgstr ""
+
+#: controllers/back/subscribers.php:843
+#, php-format
+#@ wysija-newsletters
+msgid "Exporting %1$s subscribers"
+msgstr ""
+
+#: controllers/back/subscribers.php:873
+#, php-format
+#@ wysija-newsletters
+msgid " %1$s subscribers have been deleted."
+msgstr ""
+
+#: controllers/back/subscribers.php:875
+#, php-format
+#@ wysija-newsletters
+msgid " %1$s subscriber have been deleted."
+msgstr ""
+
+#: controllers/back/subscribers.php:898
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s subscribers were exported. Get the exported file [link]here[/link]."
+msgstr ""
+
+#: controllers/back.php:347
+#, php-format
+#@ wysija-newsletters
+msgid "Yikes. You're over the limit of 2000 subscribers for the free version of Wysija (%1$s in total). Sending is disabled now. Please upgrade your version to [link]premium[/link] to send without limits."
+msgstr ""
+
+#: controllers/back.php:353
+#, php-format
+#@ wysija-newsletters
+msgid "Yikes! You're near the limit of %1$s subscribers for Wysija's free version. Upgrade to [link]Premium[/link] to send without limits, and more."
+msgstr ""
+
+#: controllers/back.php:485
+#@ wysija-newsletters
+msgid "Elements deleted"
+msgstr ""
+
+#: controllers/back.php:497
+#@ wysija-newsletters
+msgid "Element has been deleted."
+msgstr ""
+
+#: controllers/back.php:563
+#: controllers/back.php:566
+#: views/back/campaigns.php:1961
+#: views/back/campaigns.php:2534
+#: views/back/campaigns.php:2536
+#: views/back/campaigns.php:2683
+#: views/back/campaigns.php:2684
+#@ wysija-newsletters
+#@ default
+msgid "Upload"
+msgstr ""
+
+#: controllers/back.php:569
+#@ wysija-newsletters
+msgid "Newsletter Images"
+msgstr ""
+
+#: controllers/back.php:570
+#@ wysija-newsletters
+msgid "WordPress Posts' Images"
+msgstr ""
+
+#: controllers/front/confirm.php:20
+#@ wysija-newsletters
+msgid "Page does not exist."
+msgstr ""
+
+#: controllers/front/confirm.php:21
+#@ wysija-newsletters
+msgid "Please verify your link to this page."
+msgstr ""
+
+#: controllers/front/confirm.php:50
+#: models/config.php:145
+#@ wysija-newsletters
+msgid "You've unsubscribed!"
+msgstr ""
+
+#: controllers/front/confirm.php:53
+#: models/config.php:146
+#@ wysija-newsletters
+msgid "Great, you'll never hear from us again!"
+msgstr ""
+
+#: controllers/front/confirm.php:70
+#@ wysija-newsletters
+msgid "You are already unsubscribed."
+msgstr ""
+
+#: controllers/front/confirm.php:81
+#@ wysija-newsletters
+msgid "You made a mistake? [link]Undo unsubscribe[/link]."
+msgstr ""
+
+#: controllers/front/confirm.php:91
+#@ wysija-newsletters
+msgid "You've been subscribed!"
+msgstr ""
+
+#: controllers/front/confirm.php:105
+#: models/config.php:148
+#: models/config.php:457
+#@ wysija-newsletters
+msgid "Edit your subscription"
+msgstr ""
+
+#: controllers/front/confirm.php:123
+#, php-format
+#@ wysija-newsletters
+msgid "Edit your subscriber profile: %1$s"
+msgstr ""
+
+#: controllers/front/confirm.php:183
+#, php-format
+#@ wysija-newsletters
+msgid "Email %1$s already exists."
+msgstr ""
+
+#: controllers/front/confirm.php:264
+#@ wysija-newsletters
+msgid "Newsletter profile has been updated."
+msgstr ""
+
+#: controllers/front/subscribers.php:25
+#@ wysija-newsletters
+msgid "Subscription without JavaScript is disabled."
+msgstr ""
+
+#: controllers/front/subscribers.php:115
+#@ wysija-newsletters
+msgid "It seems your widget has been deleted from the WordPress' [link]widgets area[/link]."
+msgstr ""
+
+#: core/base.php:171
+#@ wysija-newsletters
+msgid "An error occured. [link]Show more details.[/link]"
+msgstr ""
+
+#: core/base.php:175
+#@ wysija-newsletters
+msgid "[link]Show more details.[/link]"
+msgstr ""
+
+#: core/base.php:518
+#@ wysija-newsletters
+msgid "Once every minutes"
+msgstr ""
+
+#: core/base.php:522
+#@ wysija-newsletters
+msgid "Once every two minutes"
+msgstr ""
+
+#: core/base.php:526
+#@ wysija-newsletters
+msgid "Once every five minutes"
+msgstr ""
+
+#: core/base.php:530
+#@ wysija-newsletters
+msgid "Once every ten minutes"
+msgstr ""
+
+#: core/base.php:534
+#@ wysija-newsletters
+msgid "Once every fifteen minutes"
+msgstr ""
+
+#: core/base.php:538
+#@ wysija-newsletters
+msgid "Once every thirty minutes"
+msgstr ""
+
+#: core/base.php:542
+#@ wysija-newsletters
+msgid "Once every two hours"
+msgstr ""
+
+#: core/base.php:546
+#@ wysija-newsletters
+msgid "Once a week"
+msgstr ""
+
+#: core/base.php:550
+#@ wysija-newsletters
+msgid "Once every 28 days"
+msgstr ""
+
+#: core/base.php:694
+#: core/base.php:695
+#@ default
+msgid "Wysija page"
+msgstr ""
+
+#: core/model.php:620
+#@ wysija-newsletters
+msgid "Error Validating the fields"
+msgstr ""
+
+#: core/model.php:720
+#, php-format
+#@ wysija-newsletters
+msgid "Field \"%1$s\" is required in table \"%2$s\"."
+msgstr ""
+
+#: core/model.php:728
+#, php-format
+#@ wysija-newsletters
+msgid "Field \"%1$s\" needs to be a valid Email."
+msgstr ""
+
+#: core/view.php:18
+#@ wysija-newsletters
+msgid "Your server's configuration doesn't allow us to complete Wysija's Installation!"
+msgstr ""
+
+#: helpers/articles.php:275
+#@ wysija-newsletters
+msgid "Click here to view media."
+msgstr ""
+
+#: helpers/back.php:78
+#@ wysija-newsletters
+msgid "You need to activate the Wysija Premium plugin."
+msgstr ""
+
+#: helpers/back.php:81
+#@ wysija-newsletters
+msgid "Congrats, your Premium license is active. One last step..."
+msgstr ""
+
+#: helpers/back.php:81
+#@ wysija-newsletters
+msgid "Install the Premium plugin."
+msgstr ""
+
+#: helpers/back.php:168
+#@ wysija-newsletters
+msgid "It doesn't always work the way we want it to, doesn't it? We have a [link]dedicated support website[/link] with documentation and a ticketing system."
+msgstr ""
+
+#: helpers/back.php:177
+#: helpers/back.php:415
+#@ wysija-newsletters
+msgid "Wysija Version: "
+msgstr ""
+
+#: helpers/back.php:181
+#: helpers/back.php:283
+#@ wysija-newsletters
+msgid "Subscribers"
+msgstr ""
+
+#: helpers/back.php:182
+#@ wysija-newsletters
+msgid "Settings"
+msgstr ""
+
+#: helpers/back.php:191
+#@ wysija-newsletters
+msgid "Tired of waiting more than 48h to send your emails?"
+msgstr ""
+
+#: helpers/back.php:191
+#@ wysija-newsletters
+msgid "[link]Find out[/link] how you can improve this."
+msgstr ""
+
+#: helpers/back.php:201
+#@ wysija-newsletters
+msgid "Oops! Looks like your site's event scheduler (wp-cron) is turned off."
+msgstr ""
+
+#: helpers/back.php:204
+#@ wysija-newsletters
+msgid "[link]Read more.[/link]"
+msgstr ""
+
+#: helpers/back.php:296
+#@ wysija-newsletters
+msgid "Get Help!"
+msgstr ""
+
+#: helpers/back.php:336
+#@ wysija-newsletters
+msgid "Go Premium!"
+msgstr ""
+
+#: helpers/back.php:405
+#@ wysija-newsletters
+msgid "Switch back to stable"
+msgstr ""
+
+#: helpers/back.php:410
+#@ wysija-newsletters
+msgid "Support"
+msgstr ""
+
+#: helpers/back.php:438
+#@ wysija-newsletters
+msgid "Add your [stars] on [link]wordpress.org[/link] and keep this plugin essentially free."
+msgstr ""
+
+#: helpers/backloader.php:29
+#@ wysija-newsletters
+msgid "Please make a selection first!"
+msgstr ""
+
+#: helpers/backloader.php:30
+#@ wysija-newsletters
+msgid "Deleting a list will not delete any subscribers."
+msgstr ""
+
+#: helpers/backloader.php:34
+#@ wysija-newsletters
+msgid "Do you want to install that version?"
+msgstr ""
+
+#: helpers/backloader.php:119
+#: helpers/form_engine.php:519
+#: helpers/wj_engine.php:73
+#: widgets/wysija_nl.php:100
+#@ wysija-newsletters
+msgid "Loading..."
+msgstr ""
+
+#: helpers/backloader.php:172
+#@ default
+msgid "Next &gt;"
+msgstr ""
+
+#: helpers/backloader.php:173
+#@ default
+msgid "&lt; Prev"
+msgstr ""
+
+#: helpers/backloader.php:174
+#: views/back/config.php:717
+#@ default
+#@ wysija-newsletters
+msgid "Image"
+msgstr ""
+
+#: helpers/backloader.php:175
+#@ default
+msgid "of"
+msgstr ""
+
+#: helpers/backloader.php:176
+#@ default
+msgid "Close"
+msgstr ""
+
+#: helpers/backloader.php:177
+#@ default
+msgid "This feature requires inline frames. You have iframes disabled or your browser does not support them."
+msgstr ""
+
+#: helpers/bounce.php:316
+#: helpers/bounce.php:319
+#@ wysija-newsletters
+msgid "Bounce Handling"
+msgstr ""
+
+#: helpers/bounce.php:355
+#@ wysija-newsletters
+msgid "Subject"
+msgstr ""
+
+#: helpers/bounce.php:613
+#, php-format
+#@ wysija-newsletters
+msgid "We received %1$s messages from the user %2$s"
+msgstr ""
+
+#: helpers/bounce.php:613
+#, php-format
+#@ wysija-newsletters
+msgid "Actions will be executed after %1$s messages"
+msgstr ""
+
+#: helpers/bounce.php:889
+#@ default
+msgid "There are no messages"
+msgstr ""
+
+#: helpers/email.php:34
+#@ wysija-newsletters
+msgid "Yup, it works. You can start blasting away emails to the moon."
+msgstr ""
+
+#: helpers/email.php:79
+#@ wysija-newsletters
+msgid "You're all setup! You've successfully sent with Gmail."
+msgstr ""
+
+#: helpers/email.php:83
+#@ wysija-newsletters
+msgid "Looking for a faster method to send? [link]Read more[/link] on sending with a professional SMTP."
+msgstr ""
+
+#: helpers/email.php:94
+#@ wysija-newsletters
+msgid "[send_method] works with Wysija"
+msgstr ""
+
+#: helpers/email.php:97
+#, php-format
+#@ wysija-newsletters
+msgid "Test email successfully sent to %s"
+msgstr ""
+
+#: helpers/email.php:103
+#: helpers/mailer.php:164
+#@ wysija-newsletters
+msgid "The PHP Extension openssl is not enabled on your server. Ask your host to enable it if you want to use an SSL connection."
+msgstr ""
+
+#: helpers/email.php:105
+#, php-format
+#@ wysija-newsletters
+msgid "The bounce email address \"%1$s\" might actually cause the problem. Leave the field empty and try again."
+msgstr ""
+
+#: helpers/email.php:108
+#@ wysija-newsletters
+msgid "You specified an SMTP password but you don't require an authentification, you might want to turn the SMTP authentification ON."
+msgstr ""
+
+#: helpers/email.php:111
+#@ wysija-newsletters
+msgid "Your localhost may not have a mail server. To verify, please log out and click on the \"Lost your password?\" link on the login page. Do you receive the reset password email from your WordPress?"
+msgstr ""
+
+#: helpers/file.php:157
+#: helpers/toolbox.php:58
+#@ wysija-newsletters
+msgid "Yikes! We couldn't export. Make sure that your folder permissions for /wp-content/uploads/wysija/temp is set to 755."
+msgstr ""
+
+#: helpers/form_engine.php:34
+#@ wysija-newsletters
+msgid "Saving form..."
+msgstr ""
+
+#: helpers/form_engine.php:35
+#: views/back/campaigns.php:1884
+#: views/back/campaigns.php:1902
+#: views/back/config.php:1942
+#: views/back/subscribers.php:580
+#: views/back.php:818
+#: views/front/confirm.php:135
+#@ wysija-newsletters
+msgid "Save"
+msgstr ""
+
+#: helpers/form_engine.php:37
+#@ wysija-newsletters
+msgid "You have to select at least 1 list"
+msgstr ""
+
+#: helpers/form_engine.php:132
+#: widgets/wysija_nl.php:105
+#@ wysija-newsletters
+msgid "Check your inbox now to confirm your subscription."
+msgstr ""
+
+#: helpers/form_engine.php:147
+#: helpers/update.php:650
+#@ wysija-newsletters
+msgid "Submit"
+msgstr ""
+
+#: helpers/form_engine.php:151
+#: helpers/update.php:645
+#: widgets/wysija_nl.php:119
+#@ wysija-newsletters
+msgid "Subscribe!"
+msgstr ""
+
+#: helpers/form_engine.php:493
+#@ wysija-newsletters
+msgid "Subscription Wysija"
+msgstr ""
+
+#: helpers/forms.php:8
+#@ wysija-newsletters
+msgid "every minute"
+msgstr ""
+
+#: helpers/forms.php:9
+#@ wysija-newsletters
+msgid "every 2 minutes"
+msgstr ""
+
+#: helpers/forms.php:10
+#@ wysija-newsletters
+msgid "every 5 minutes"
+msgstr ""
+
+#: helpers/forms.php:11
+#@ wysija-newsletters
+msgid "every 10 minutes"
+msgstr ""
+
+#: helpers/forms.php:12
+#@ wysija-newsletters
+msgid "every 15 minutes"
+msgstr ""
+
+#: helpers/forms.php:13
+#@ wysija-newsletters
+msgid "every 30 minutes"
+msgstr ""
+
+#: helpers/forms.php:14
+#@ wysija-newsletters
+msgid "every hour"
+msgstr ""
+
+#: helpers/forms.php:15
+#@ wysija-newsletters
+msgid "every 2 hours"
+msgstr ""
+
+#: helpers/forms.php:141
+#: helpers/forms.php:146
+#@ default
+msgid "HTML"
+msgstr ""
+
+#: helpers/forms.php:142
+#: helpers/forms.php:147
+#@ default
+msgid "Visual"
+msgstr ""
+
+#: helpers/http.php:32
+#: helpers/http.php:78
+#@ wysija-newsletters
+msgid "Your server doesn't support remote exchanges."
+msgstr ""
+
+#: helpers/http.php:33
+#: helpers/http.php:79
+#@ wysija-newsletters
+msgid "Contact your administrator to modify that, it should be configurable."
+msgstr ""
+
+#: helpers/import.php:13
+#@ wysija-newsletters
+msgid "Newsletter Pro (by Satollo)"
+msgstr ""
+
+#: helpers/import.php:104
+#@ default
+msgid "Newsletters (by Tribulant)"
+msgstr ""
+
+#: helpers/import.php:227
+#@ wysija-newsletters
+msgid "WordPress Users"
+msgstr ""
+
+#: helpers/import.php:228
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s's import list"
+msgstr ""
+
+#: helpers/import.php:229
+#, php-format
+#@ wysija-newsletters
+msgid "The list created automatically on import of the plugin's subscribers : \"%1$s"
+msgstr ""
+
+#: helpers/import.php:335
+#, php-format
+#@ wysija-newsletters
+msgid "\"%2$s\" imported from %1$s"
+msgstr ""
+
+#: helpers/import.php:336
+#, php-format
+#@ wysija-newsletters
+msgid "The list existed in \"%1$s\" and has been imported automatically."
+msgstr ""
+
+#: helpers/install.php:22
+#@ wysija-newsletters
+msgid "Your server cannot run Wysija."
+msgstr ""
+
+#: helpers/install.php:25
+#, php-format
+#@ wysija-newsletters
+msgid "Your server is missing one or many important PHP functions to run properly :  %1$s"
+msgstr ""
+
+#: helpers/install.php:25
+#@ wysija-newsletters
+msgid "Please contact your host or server administrator to fix this."
+msgstr ""
+
+#: helpers/install.php:182
+#@ wysija-newsletters
+msgid "My first list"
+msgstr ""
+
+#: helpers/install.php:185
+#@ wysija-newsletters
+msgid "The list created automatically on install of the Wysija."
+msgstr ""
+
+#: helpers/install.php:202
+#: helpers/install.php:212
+#@ wysija-newsletters
+msgid "5 Minute User Guide"
+msgstr ""
+
+#: helpers/install.php:502
+#, php-format
+#@ wysija-newsletters
+msgid "These tables could not be created on installation: %1$s"
+msgstr ""
+
+#: helpers/install.php:589
+#: helpers/update.php:584
+#: models/user_field.php:21
+#: views/back/subscribers.php:437
+#: views/back/subscribers.php:851
+#: views/front/confirm.php:47
+#: views/front/widget_nl.php:205
+#: views/front/widget_nl.php:275
+#@ wysija-newsletters
+msgid "First name"
+msgstr ""
+
+#: helpers/install.php:589
+#@ wysija-newsletters
+msgid "Please enter first name"
+msgstr ""
+
+#: helpers/install.php:590
+#: helpers/update.php:587
+#: models/user_field.php:21
+#: views/back/subscribers.php:446
+#: views/back/subscribers.php:851
+#: views/front/confirm.php:56
+#: views/front/widget_nl.php:206
+#: views/front/widget_nl.php:276
+#@ wysija-newsletters
+msgid "Last name"
+msgstr ""
+
+#: helpers/install.php:590
+#@ wysija-newsletters
+msgid "Please enter last name"
+msgstr ""
+
+#: helpers/install.php:618
+#@ wysija-newsletters
+msgid "Subscription confirmation"
+msgstr ""
+
+#: helpers/install.php:660
+#: widgets/wysija_nl.php:113
+#: widgets/wysija_nl.php:143
+#@ wysija-newsletters
+msgid "Subscribe to our Newsletter"
+msgstr ""
+
+#: helpers/licence.php:107
+#, php-format
+#@ wysija-newsletters
+msgid "'%1$s' does not exist!"
+msgstr ""
+
+#: helpers/licence.php:110
+#, php-format
+#@ wysija-newsletters
+msgid "There's no license for \"%1$s\". If you're Premium, add this domain in your [link]account manager[/link]."
+msgstr ""
+
+#: helpers/licence.php:113
+#@ wysija-newsletters
+msgid "Your Premium licence has expired."
+msgstr ""
+
+#: helpers/licence.php:116
+#@ wysija-newsletters
+msgid "You can add this domain to your [link]account manager[/link]."
+msgstr ""
+
+#: helpers/licence.php:119
+#@ wysija-newsletters
+msgid "Your licence doesn't allow more domains. Upgrade from your [link]account manager[/link]."
+msgstr ""
+
+#: helpers/mailer.php:164
+#@ wysija-newsletters
+msgid "You cannot use the DKIM signature option..."
+msgstr ""
+
+#: helpers/mailer.php:193
+#@ wysija-newsletters
+msgid "There is no subject or body in this email"
+msgstr ""
+
+#: helpers/mailer.php:227
+#, php-format
+#@ wysija-newsletters
+msgid "Error Sending Message <b><i>%s</i></b> to <b><i>%s</i></b>"
+msgstr ""
+
+#: helpers/mailer.php:247
+#, php-format
+#@ wysija-newsletters
+msgid "Successfully sent to <b><i>%s</i></b>"
+msgstr ""
+
+#: helpers/mailer.php:443
+#, php-format
+#@ wysija-newsletters
+msgid "The email ID %s is not published"
+msgstr ""
+
+#: helpers/mailer.php:487
+#, php-format
+#@ wysija-newsletters
+msgid "Subscriber not found : <b><i>%s</i></b>"
+msgstr ""
+
+#: helpers/mailer.php:768
+#: helpers/wj_engine.php:66
+#: models/config.php:147
+#: models/config.php:454
+#: views/back/campaigns.php:205
+#@ wysija-newsletters
+msgid "Unsubscribe"
+msgstr ""
+
+#: helpers/package.php:177
+#@ wysija-newsletters
+msgid "Downloading Wysija"
+msgstr ""
+
+#: helpers/package.php:180
+#: inc/wp-special/wp-upgrader-skin.php:9
+#@ wysija-newsletters
+msgid "Downloading Wysija Premium"
+msgstr ""
+
+#: helpers/queue.php:91
+#, php-format
+#@ wysija-newsletters
+msgid "There are %1$s pending email(s)"
+msgstr ""
+
+#: helpers/queue.php:97
+#, php-format
+#@ wysija-newsletters
+msgid "Email will be sent to %1$s at %2$s"
+msgstr ""
+
+#: helpers/queue.php:114
+#@ wysija-newsletters
+msgid "Send Process"
+msgstr ""
+
+#: helpers/queue.php:118
+#@ wysija-newsletters
+msgid "Total of batch"
+msgstr ""
+
+#: helpers/queue.php:203
+#, php-format
+#@ wysija-newsletters
+msgid "Next try in %s minutes."
+msgstr ""
+
+#: helpers/queue.php:243
+#@ wysija-newsletters
+msgid "Process refreshed to avoid a time limit."
+msgstr ""
+
+#: helpers/queue.php:250
+#@ wysija-newsletters
+msgid "Process refreshed to avoid a possible loss of connection."
+msgstr ""
+
+#: helpers/queue.php:314
+#@ wysija-newsletters
+msgid "Newsletters are already being sent. Your latest newsletter will be sent afterwards."
+msgstr ""
+
+#: helpers/queue.php:377
+#@ wysija-newsletters
+msgid "The Send Process stopped because there are too many errors."
+msgstr ""
+
+#: helpers/queue.php:379
+#@ wysija-newsletters
+msgid "We kept all non delivered emails in the queue, so you will be able to resume the send process later."
+msgstr ""
+
+#: helpers/queue.php:383
+#@ wysija-newsletters
+msgid "Please verify your mail configuration and make sure you can send a test of this email."
+msgstr ""
+
+#: helpers/queue.php:385
+#@ wysija-newsletters
+msgid "If you recently, successfully, sent a lot of emails, those errors may also be due to your server limitations."
+msgstr ""
+
+#: helpers/queue.php:387
+#@ wysija-newsletters
+msgid "Your server apparently refuses to send more emails."
+msgstr ""
+
+#: helpers/rules.php:12
+#@ wysija-newsletters
+msgid "Action Required"
+msgstr ""
+
+#: helpers/rules.php:13
+#@ wysija-newsletters
+msgid "When you need to confirm you're a human being, forward to:"
+msgstr ""
+
+#: helpers/rules.php:50
+#@ wysija-newsletters
+msgid "Mailbox Full"
+msgstr ""
+
+#: helpers/rules.php:51
+#@ wysija-newsletters
+msgid "When mailbox is full"
+msgstr ""
+
+#: helpers/rules.php:64
+#@ wysija-newsletters
+msgid "Blocked IP"
+msgstr ""
+
+#: helpers/rules.php:66
+#@ wysija-newsletters
+msgid "When you are flagged as a spammer forward the bounced message to"
+msgstr ""
+
+#: helpers/rules.php:76
+#@ wysija-newsletters
+msgid "Message delayed"
+msgstr ""
+
+#: helpers/rules.php:77
+#@ wysija-newsletters
+msgid "When message is delayed"
+msgstr ""
+
+#: helpers/rules.php:90
+#@ wysija-newsletters
+msgid "Mailbox not available"
+msgstr ""
+
+#: helpers/rules.php:91
+#@ wysija-newsletters
+msgid "When mailbox is not available"
+msgstr ""
+
+#: helpers/rules.php:105
+#@ wysija-newsletters
+msgid "Failed Permanently"
+msgstr ""
+
+#: helpers/rules.php:106
+#@ wysija-newsletters
+msgid "When failed permanently"
+msgstr ""
+
+#: helpers/rules.php:133
+#@ wysija-newsletters
+msgid "When the bounce is weird and we're not sure what to do, forward to:"
+msgstr ""
+
+#: helpers/server.php:104
+#: helpers/themes.php:256
+#, php-format
+#@ wysija-newsletters
+msgid "The folder \"%1$s\" is not writable, please change the access rights to this folder so that Wysija can setup itself properly."
+msgstr ""
+
+#: helpers/server.php:104
+#: helpers/themes.php:256
+#@ wysija-newsletters
+msgid "Read documentation"
+msgstr ""
+
+#: helpers/server.php:149
+#: helpers/server.php:172
+#, php-format
+#@ wysija-newsletters
+msgid "The MySQL user you have setup on your Wordpress site (wp-config.php) doesn't have enough privileges to CREATE MySQL tables. Please change this user yourself or contact the administrator of your site in order to complete Wysija's installation. mysql errors:(%1$s)"
+msgstr ""
+
+#: helpers/stats.php:23
+#@ wysija-newsletters
+msgid "undelivered"
+msgstr ""
+
+#: helpers/stats.php:26
+#@ wysija-newsletters
+msgid "bounced"
+msgstr ""
+
+#: helpers/stats.php:29
+#@ wysija-newsletters
+msgid "unopened"
+msgstr ""
+
+#: helpers/stats.php:32
+#@ wysija-newsletters
+msgid "opened"
+msgstr ""
+
+#: helpers/stats.php:35
+#@ wysija-newsletters
+msgid "clicked"
+msgstr ""
+
+#: helpers/stats.php:38
+#@ wysija-newsletters
+msgid "unsubscribed"
+msgstr ""
+
+#: helpers/stats.php:46
+#@ wysija-newsletters
+msgid "Today's statistics"
+msgstr ""
+
+#: helpers/stats.php:47
+#, php-format
+#@ wysija-newsletters
+msgid "Today you have sent %1$s emails"
+msgstr ""
+
+#: helpers/stats.php:49
+#, php-format
+#@ wysija-newsletters
+msgid ", %1$s of which were %2$s"
+msgstr ""
+
+#: helpers/stats.php:53
+#@ wysija-newsletters
+msgid "Here is the list of bounced emails."
+msgstr ""
+
+#: helpers/stats.php:59
+#@ wysija-newsletters
+msgid "Cheers, your Wysija Newsletter Plugin"
+msgstr ""
+
+#: helpers/stats.php:71
+#@ wysija-newsletters
+msgid "Your daily newsletter stats"
+msgstr ""
+
+#: helpers/themes.php:125
+#@ wysija-newsletters
+msgid "Header"
+msgstr ""
+
+#: helpers/themes.php:156
+#@ wysija-newsletters
+msgid "Footer"
+msgstr ""
+
+#: helpers/themes.php:293
+#, php-format
+#@ wysija-newsletters
+msgid "A theme called %1$s exists already. To overwrite it, tick the corresponding checkbox before uploading."
+msgstr ""
+
+#: helpers/themes.php:323
+#, php-format
+#@ wysija-newsletters
+msgid "The theme %1$s has been installed on your site."
+msgstr ""
+
+#: helpers/themes.php:325
+#@ wysija-newsletters
+msgid "We could not install your theme. It appears it's not in the valid format."
+msgstr ""
+
+#: helpers/themes.php:342
+#, php-format
+#@ wysija-newsletters
+msgid "Theme %1$s has been deleted."
+msgstr ""
+
+#: helpers/themes.php:345
+#, php-format
+#@ wysija-newsletters
+msgid "Theme %1$s could not be deleted."
+msgstr ""
+
+#: helpers/toolbox.php:181
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s year"
+msgid_plural "%1$s years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: helpers/toolbox.php:182
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s week"
+msgid_plural "%1$s weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: helpers/toolbox.php:183
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s day"
+msgid_plural "%1$s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: helpers/toolbox.php:184
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s hour"
+msgid_plural "%1$s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: helpers/toolbox.php:185
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s minute"
+msgid_plural "%1$s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: helpers/toolbox.php:186
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s second"
+msgid_plural "%1$s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: helpers/toolbox.php:273
+#@ wysija-newsletters
+msgid "Monday"
+msgstr ""
+
+#: helpers/toolbox.php:274
+#@ wysija-newsletters
+msgid "Tuesday"
+msgstr ""
+
+#: helpers/toolbox.php:275
+#@ wysija-newsletters
+msgid "Wednesday"
+msgstr ""
+
+#: helpers/toolbox.php:276
+#@ wysija-newsletters
+msgid "Thursday"
+msgstr ""
+
+#: helpers/toolbox.php:277
+#@ wysija-newsletters
+msgid "Friday"
+msgstr ""
+
+#: helpers/toolbox.php:278
+#@ wysija-newsletters
+msgid "Saturday"
+msgstr ""
+
+#: helpers/toolbox.php:279
+#@ wysija-newsletters
+msgid "Sunday"
+msgstr ""
+
+#: helpers/toolbox.php:291
+#: helpers/toolbox.php:311
+#@ wysija-newsletters
+msgid "1st"
+msgstr ""
+
+#: helpers/toolbox.php:292
+#: helpers/toolbox.php:314
+#@ wysija-newsletters
+msgid "2nd"
+msgstr ""
+
+#: helpers/toolbox.php:293
+#: helpers/toolbox.php:317
+#@ wysija-newsletters
+msgid "3rd"
+msgstr ""
+
+#: helpers/toolbox.php:294
+#@ wysija-newsletters
+msgid "Last"
+msgstr ""
+
+#: helpers/toolbox.php:320
+#, php-format
+#@ wysija-newsletters
+msgid "%1$sth"
+msgstr ""
+
+#: helpers/uninstall.php:12
+#@ wysija-newsletters
+msgid "Wysija has been reinstalled successfully using the same version. Settings and data have been deleted."
+msgstr ""
+
+#: helpers/uninstall.php:14
+#@ wysija-newsletters
+msgid "Wysija cannot be reinstalled because your folder <em>wp-content/uploads/wysija</em> needs to be writable. Change your permissions and reinstall."
+msgstr ""
+
+#: helpers/uninstall.php:22
+#@ wysija-newsletters
+msgid "Wysija has been uninstalled. Your site is now cleared of Wysija."
+msgstr ""
+
+#: helpers/update.php:417
+#, php-format
+#@ wysija-newsletters
+msgid "Hey! %1$s has an update. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">See version %4$s details</a> or simply <a href=\"%5$s\">update automatically</a>."
+msgstr ""
+
+#: helpers/update.php:496
+#, php-format
+#@ wysija-newsletters
+msgid "Update procedure to Wysija version \"%1$s\" failed!"
+msgstr ""
+
+#: helpers/update.php:575
+#@ wysija-newsletters
+msgid "Random text or instructions"
+msgstr ""
+
+#: helpers/user.php:102
+#: helpers/user.php:109
+#@ wysija-newsletters
+msgid "The email is not valid!"
+msgstr ""
+
+#: helpers/user.php:153
+#@ wysija-newsletters
+msgid "Subscriber already exists. [link]Click to edit[/link]."
+msgstr ""
+
+#: helpers/user.php:219
+#@ wysija-newsletters
+msgid "Oops! You're already subscribed."
+msgstr ""
+
+#: helpers/user.php:497
+#, php-format
+#@ wysija-newsletters
+msgid "%1$d emails have been sent to unconfirmed subscribers."
+msgstr ""
+
+#: helpers/user.php:758
+#, php-format
+#@ wysija-newsletters
+msgid "New subscriber to %1$s"
+msgstr ""
+
+#: helpers/user.php:759
+#, php-format
+#@ wysija-newsletters
+msgid ""
+"Howdy,\n"
+"\n"
+"The subscriber %1$s has just subscribed to your list \"%2$s\".\n"
+"\n"
+"Cheers,\n"
+"\n"
+"The Wysija Plugin"
+msgstr ""
+
+#: helpers/user.php:761
+#, php-format
+#@ wysija-newsletters
+msgid "One less subscriber to %1$s"
+msgstr ""
+
+#: helpers/user.php:762
+#, php-format
+#@ wysija-newsletters
+msgid ""
+"Howdy,\n"
+"\n"
+"The subscriber : %1$s has just unsubscribed to your list \"%2$s\".\n"
+"\n"
+"Cheers,\n"
+"\n"
+"The Wysija Plugin"
+msgstr ""
+
+#: helpers/user.php:877
+#, php-format
+#@ wysija-newsletters
+msgid "List \"%1$s\" has been synchronised."
+msgstr ""
+
+#: helpers/user.php:880
+#@ wysija-newsletters
+msgid "The list does not exists or cannot be synched."
+msgstr ""
+
+#: helpers/user.php:994
+#: helpers/user.php:998
+#@ wysija-newsletters
+msgid "Page is not accessible."
+msgstr ""
+
+#: helpers/user.php:1038
+#: models/config.php:143
+#, php-format
+#@ wysija-newsletters
+msgid "You've subscribed to: %1$s"
+msgstr ""
+
+#: helpers/user.php:1043
+#: models/config.php:144
+#@ wysija-newsletters
+msgid "Yup, we've added you to our list. You'll hear from us shortly."
+msgstr ""
+
+#: helpers/user.php:1077
+#, php-format
+#@ wysija-newsletters
+msgid "You are already subscribed to : %1$s"
+msgstr ""
+
+#: helpers/user.php:1080
+#@ wysija-newsletters
+msgid "You are already subscribed."
+msgstr ""
+
+#: helpers/wj_engine.php:36
+#@ wysija-newsletters
+msgid "Drop your logo in this header."
+msgstr ""
+
+#: helpers/wj_engine.php:37
+#@ wysija-newsletters
+msgid "Drop your footer image here."
+msgstr ""
+
+#: helpers/wj_engine.php:38
+#@ wysija-newsletters
+msgid "If you leave this area empty, it will not display once you send your email"
+msgstr ""
+
+#: helpers/wj_engine.php:39
+#@ wysija-newsletters
+msgid "Click here to add a title or text."
+msgstr ""
+
+#: helpers/wj_engine.php:40
+#@ wysija-newsletters
+msgid "Align left"
+msgstr ""
+
+#: helpers/wj_engine.php:41
+#@ wysija-newsletters
+msgid "Align center"
+msgstr ""
+
+#: helpers/wj_engine.php:42
+#@ wysija-newsletters
+msgid "Align right"
+msgstr ""
+
+#: helpers/wj_engine.php:43
+#@ wysija-newsletters
+msgid "Add link / Alternative text"
+msgstr ""
+
+#: helpers/wj_engine.php:44
+#@ wysija-newsletters
+msgid "Remove link"
+msgstr ""
+
+#: helpers/wj_engine.php:45
+#@ wysija-newsletters
+msgid "Remove image"
+msgstr ""
+
+#: helpers/wj_engine.php:46
+#@ wysija-newsletters
+msgid "Remove"
+msgstr ""
+
+#: helpers/wj_engine.php:47
+#@ wysija-newsletters
+msgid "Edit text"
+msgstr ""
+
+#: helpers/wj_engine.php:48
+#@ wysija-newsletters
+msgid "Remove text"
+msgstr ""
+
+#: helpers/wj_engine.php:49
+#: views/back/campaigns.php:1198
+#@ wysija-newsletters
+msgid "Titles & text"
+msgstr ""
+
+#: helpers/wj_engine.php:50
+#: helpers/wj_engine.php:65
+#@ wysija-newsletters
+msgid "Horizontal line"
+msgstr ""
+
+#: helpers/wj_engine.php:51
+#@ wysija-newsletters
+msgid "Custom horizontal line"
+msgstr ""
+
+#: helpers/wj_engine.php:52
+#: views/back/campaigns.php:1199
+#@ wysija-newsletters
+msgid "WordPress post"
+msgstr ""
+
+#: helpers/wj_engine.php:53
+#@ wysija-newsletters
+msgid "Text"
+msgstr ""
+
+#: helpers/wj_engine.php:54
+#@ wysija-newsletters
+msgid "\"View in browser\""
+msgstr ""
+
+#: helpers/wj_engine.php:55
+#: views/back/campaigns.php:2188
+#@ wysija-newsletters
+msgid "Heading 1"
+msgstr ""
+
+#: helpers/wj_engine.php:56
+#: views/back/campaigns.php:2189
+#@ wysija-newsletters
+msgid "Heading 2"
+msgstr ""
+
+#: helpers/wj_engine.php:57
+#: views/back/campaigns.php:2190
+#@ wysija-newsletters
+msgid "Heading 3"
+msgstr ""
+
+#: helpers/wj_engine.php:58
+#: helpers/wj_engine.php:99
+#@ wysija-newsletters
+msgid "Links"
+msgstr ""
+
+#: helpers/wj_engine.php:59
+#@ wysija-newsletters
+msgid "underline"
+msgstr ""
+
+#: helpers/wj_engine.php:60
+#@ wysija-newsletters
+msgid "Footer text"
+msgstr ""
+
+#: helpers/wj_engine.php:61
+#@ wysija-newsletters
+msgid "Footer background"
+msgstr ""
+
+#: helpers/wj_engine.php:62
+#: helpers/wj_engine.php:86
+#@ wysija-newsletters
+msgid "Newsletter"
+msgstr ""
+
+#: helpers/wj_engine.php:63
+#@ wysija-newsletters
+msgid "Background"
+msgstr ""
+
+#: helpers/wj_engine.php:64
+#@ wysija-newsletters
+msgid "Header background"
+msgstr ""
+
+#: helpers/wj_engine.php:68
+#@ wysija-newsletters
+msgid "Social Bookmark Selection"
+msgstr ""
+
+#: helpers/wj_engine.php:69
+#@ wysija-newsletters
+msgid "Divider Selection"
+msgstr ""
+
+#: helpers/wj_engine.php:70
+#, php-format
+#@ wysija-newsletters
+msgid "You are about to delete the theme : %1$s. Do you really want to do that?"
+msgstr ""
+
+#: helpers/wj_engine.php:71
+#@ wysija-newsletters
+msgid "Add Link & Alternative text"
+msgstr ""
+
+#: helpers/wj_engine.php:72
+#@ wysija-newsletters
+msgid "Check this box if you want transparency"
+msgstr ""
+
+#: helpers/wj_engine.php:74
+#@ wysija-newsletters
+msgid "Add first or last name of subscriber"
+msgstr ""
+
+#: helpers/wj_engine.php:75
+#@ wysija-newsletters
+msgid "Selection options"
+msgstr ""
+
+#: helpers/wj_engine.php:76
+#@ wysija-newsletters
+msgid "Edit Automatic latest content"
+msgstr ""
+
+#: helpers/wj_engine.php:77
+#@ wysija-newsletters
+msgid "You can only add one widget when designing a post notification sent immediately after an article is published"
+msgstr ""
+
+#: helpers/wj_engine.php:78
+#@ wysija-newsletters
+msgid "Preview without images"
+msgstr ""
+
+#: helpers/wj_engine.php:80
+#@ wysija-newsletters
+msgid "Subscriber"
+msgstr ""
+
+#: helpers/wj_engine.php:81
+#@ wysija-newsletters
+msgid "First Name"
+msgstr ""
+
+#: helpers/wj_engine.php:82
+#@ wysija-newsletters
+msgid "Last Name"
+msgstr ""
+
+#: helpers/wj_engine.php:83
+#@ wysija-newsletters
+msgid "Email Address"
+msgstr ""
+
+#: helpers/wj_engine.php:84
+#@ wysija-newsletters
+msgid "Wordpress user display name"
+msgstr ""
+
+#: helpers/wj_engine.php:85
+#@ wysija-newsletters
+msgid "Total of subscribers"
+msgstr ""
+
+#: helpers/wj_engine.php:87
+#@ wysija-newsletters
+msgid "Newsletter Subject"
+msgstr ""
+
+#: helpers/wj_engine.php:88
+#@ wysija-newsletters
+msgid "Post Notifications"
+msgstr ""
+
+#: helpers/wj_engine.php:89
+#@ wysija-newsletters
+msgid "Total number of posts or pages"
+msgstr ""
+
+#: helpers/wj_engine.php:90
+#@ wysija-newsletters
+msgid "Latest post title"
+msgstr ""
+
+#: helpers/wj_engine.php:91
+#@ wysija-newsletters
+msgid "Issue number"
+msgstr ""
+
+#: helpers/wj_engine.php:92
+#@ wysija-newsletters
+msgid "Date"
+msgstr ""
+
+#: helpers/wj_engine.php:93
+#@ wysija-newsletters
+msgid "Current day of the month number"
+msgstr ""
+
+#: helpers/wj_engine.php:94
+#@ wysija-newsletters
+msgid "Current day of the month in ordinal, ie. 2nd, 3rd, etc."
+msgstr ""
+
+#: helpers/wj_engine.php:95
+#@ wysija-newsletters
+msgid "Full name of current day"
+msgstr ""
+
+#: helpers/wj_engine.php:96
+#@ wysija-newsletters
+msgid "Current month number"
+msgstr ""
+
+#: helpers/wj_engine.php:97
+#@ wysija-newsletters
+msgid "Full name of current month"
+msgstr ""
+
+#: helpers/wj_engine.php:98
+#@ wysija-newsletters
+msgid "Year"
+msgstr ""
+
+#: helpers/wj_engine.php:100
+#@ wysija-newsletters
+msgid "Unsubscribe link"
+msgstr ""
+
+#: helpers/wj_engine.php:101
+#@ wysija-newsletters
+msgid "Edit subscription page link"
+msgstr ""
+
+#: helpers/wj_engine.php:102
+#@ wysija-newsletters
+msgid "View in browser link"
+msgstr ""
+
+#: helpers/wj_engine.php:104
+#@ wysija-newsletters
+msgid "Saving default style..."
+msgstr ""
+
+#: helpers/wj_engine.php:105
+#@ wysija-newsletters
+msgid "Default style saved."
+msgstr ""
+
+#: helpers/wj_engine.php:106
+#@ wysija-newsletters
+msgid "Set as default style."
+msgstr ""
+
+#: helpers/wp_tools.php:251
+#: views/back/campaigns.php:118
+#: views/back/campaigns.php:420
+#@ wysija-newsletters
+msgid "Scheduled"
+msgstr ""
+
+#: inc/wp-special/wp-upgrader-skin.php:27
+#@ default
+msgid "Activate this plugin"
+msgstr ""
+
+#: inc/wp-special/wp-upgrader-skin.php:27
+#@ default
+msgid "Activate Plugin"
+msgstr ""
+
+#. translators: plugin header field 'Name'
+#: index.php:0
+#: languages/strings.php:15
+#@ wysija-newsletters
+msgid "Wysija Newsletters"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: index.php:0
+#@ wysija-newsletters
+msgid "http://www.mailpoet.com/"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: index.php:0
+#: languages/strings.php:16
+#@ wysija-newsletters
+msgid "Create and send newsletters. Import and manage your lists. Add subscription forms in widgets, articles and pages. Wysija is a freemium plugin updated regularly with new features."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: index.php:0
+#: languages/strings.php:18
+#@ wysija-newsletters
+msgid "Wysija"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: index.php:0
+#@ wysija-newsletters
+msgid "2.5.9"
+msgstr ""
+
+#: languages/strings.php:17
+#@ wysija-newsletters
+msgid "Extended functionalities to the free version"
+msgstr ""
+
+#: models/config.php:141
+#, php-format
+#@ wysija-newsletters
+msgid "Confirm your subscription to %1$s"
+msgstr ""
+
+#: models/config.php:142
+#@ wysija-newsletters
+msgid ""
+"Hello!\n"
+"\n"
+"Hurray! You've subscribed to our site.\n"
+"We need you to activate your subscription to the list(s): [lists_to_confirm] by clicking the link below: \n"
+"\n"
+"[activation_link]Click here to confirm your subscription.[/activation_link]\n"
+"\n"
+"Thank you,\n"
+"\n"
+" The team!\n"
+msgstr ""
+
+#: models/config.php:149
+#: models/config.php:493
+#@ wysija-newsletters
+msgid "Display problems? [link]View this newsletter in your browser.[/link]"
+msgstr ""
+
+#: models/config.php:150
+#@ wysija-newsletters
+msgid "Yes, add me to your mailing list."
+msgstr ""
+
+#: models/config.php:153
+#@ wysija-newsletters
+msgid "Who can create newsletters?"
+msgstr ""
+
+#: models/config.php:155
+#@ wysija-newsletters
+msgid "Who can manage subscribers?"
+msgstr ""
+
+#: models/config.php:157
+#@ wysija-newsletters
+msgid "Who can change Wysija's settings?"
+msgstr ""
+
+#: models/config.php:159
+#@ wysija-newsletters
+msgid "Who can see the themes tab in the visual editor?"
+msgstr ""
+
+#: models/config.php:161
+#@ wysija-newsletters
+msgid "Who can see the styles tab in the visual editor?"
+msgstr ""
+
+#: models/config.php:216
+#: models/config.php:222
+#@ wysija-newsletters
+msgid "empty"
+msgstr ""
+
+#: models/config.php:217
+#, php-format
+#@ wysija-newsletters
+msgid "The <strong>from email</strong> value you have entered (%1$s) is not a valid email address."
+msgstr ""
+
+#: models/config.php:223
+#, php-format
+#@ wysija-newsletters
+msgid "The <strong>reply to</strong> email value you have entered (%1$s) is not a valid email address."
+msgstr ""
+
+#: models/config.php:383
+#@ wysija-newsletters
+msgid "Your settings are saved."
+msgstr ""
+
+#: models/email.php:126
+#: views/back/campaigns.php:38
+#: views/back.php:18
+#@ wysija-newsletters
+msgid "View"
+msgstr ""
+
+#: models/email.php:175
+#@ wysija-newsletters
+msgid "Your latest newsletter is being sent."
+msgstr ""
+
+#: models/email.php:177
+#@ wysija-newsletters
+msgid "Your auto newsletter has been activated."
+msgstr ""
+
+#: models/list.php:25
+#: views/back/campaigns.php:316
+#: views/back/config.php:1789
+#: views/back/subscribers.php:607
+#: views/back/subscribers.php:711
+#@ wysija-newsletters
+msgid "Name"
+msgstr ""
+
+#: models/list.php:26
+#: views/back/subscribers.php:719
+#@ wysija-newsletters
+msgid "Description"
+msgstr ""
+
+#: models/list.php:27
+#@ wysija-newsletters
+msgid "Enabled"
+msgstr ""
+
+#: models/list.php:28
+#@ wysija-newsletters
+msgid "Ordering"
+msgstr ""
+
+#: models/queue.php:84
+#@ wysija-newsletters
+msgid "There are no list to send to."
+msgstr ""
+
+#: models/user.php:21
+#: models/user_field.php:21
+#: views/back/campaigns.php:319
+#: views/back/subscribers.php:220
+#: views/back/subscribers.php:454
+#: views/back/subscribers.php:851
+#: views/front/confirm.php:65
+#@ wysija-newsletters
+msgid "Status"
+msgstr ""
+
+#: models/user.php:22
+#@ wysija-newsletters
+msgid "Created on"
+msgstr ""
+
+#: models/user.php:173
+#@ wysija-newsletters
+msgid "Click here to subscribe"
+msgstr ""
+
+#: models/user.php:214
+#@ wysija-newsletters
+msgid "Edit your subscriptions"
+msgstr ""
+
+#: models/user_field.php:21
+#: views/back/subscribers.php:851
+#@ wysija-newsletters
+msgid "IP address"
+msgstr ""
+
+#: models/user_field.php:21
+#@ wysija-newsletters
+msgid "Subscription date"
+msgstr ""
+
+#: views/back/campaigns.php:11
+#@ default
+msgid "All Newsletters"
+msgstr ""
+
+#: views/back/campaigns.php:14
+#@ wysija-newsletters
+msgid "Search newsletters"
+msgstr ""
+
+#: views/back/campaigns.php:15
+#: views/back/campaigns.php:38
+#: views/back/campaigns.php:485
+#: views/back/campaigns.php:507
+#: views/back/campaigns.php:534
+#: views/back/config.php:1854
+#: views/back/subscribers.php:14
+#: views/back/subscribers.php:641
+#@ wysija-newsletters
+msgid "Duplicate"
+msgstr ""
+
+#: views/back/campaigns.php:15
+#: views/back/campaigns.php:488
+#: views/back/campaigns.php:510
+#: views/back/campaigns.php:537
+#: views/back/config.php:1857
+#: views/back/subscribers.php:14
+#: views/back/subscribers.php:646
+#: views/back.php:18
+#: views/back.php:20
+#@ wysija-newsletters
+msgid "Delete"
+msgstr ""
+
+#: views/back/campaigns.php:38
+#: views/back/subscribers.php:28
+#@ wysija-newsletters
+msgid "Back"
+msgstr ""
+
+#: views/back/campaigns.php:38
+#@ wysija-newsletters
+msgid "Create a new email"
+msgstr ""
+
+#: views/back/campaigns.php:79
+#@ wysija-newsletters
+msgid "... or duplicate one below to copy its design."
+msgstr ""
+
+#: views/back/campaigns.php:103
+#: views/back/campaigns.php:181
+#: views/back/campaigns.php:1986
+#: views/back/campaigns.php:2014
+#: views/back/subscribers.php:58
+#@ wysija-newsletters
+msgid "All"
+msgstr ""
+
+#: views/back/campaigns.php:106
+#@ wysija-newsletters
+msgid "Sent"
+msgstr ""
+
+#: views/back/campaigns.php:109
+#@ wysija-newsletters
+msgid "Sending"
+msgstr ""
+
+#: views/back/campaigns.php:112
+#: views/back/campaigns.php:345
+#: views/back/campaigns.php:422
+#@ wysija-newsletters
+msgid "Draft"
+msgstr ""
+
+#: views/back/campaigns.php:115
+#@ wysija-newsletters
+msgid "Paused"
+msgstr ""
+
+#: views/back/campaigns.php:121
+#@ wysija-newsletters
+msgid "Standard Newsletters"
+msgstr ""
+
+#: views/back/campaigns.php:124
+#@ wysija-newsletters
+msgid "Auto Newsletters"
+msgstr ""
+
+#: views/back/campaigns.php:144
+#@ wysija-newsletters
+msgid "Show all months"
+msgstr ""
+
+#: views/back/campaigns.php:159
+#@ wysija-newsletters
+msgid "View by lists"
+msgstr ""
+
+#: views/back/campaigns.php:169
+#: views/back/subscribers.php:167
+#@ wysija-newsletters
+msgid "Filter"
+msgstr ""
+
+#: views/back/campaigns.php:184
+#@ wysija-newsletters
+msgid "All Sent"
+msgstr ""
+
+#: views/back/campaigns.php:187
+#@ wysija-newsletters
+msgid "In Queue"
+msgstr ""
+
+#: views/back/campaigns.php:190
+#@ wysija-newsletters
+msgid "Failed Send"
+msgstr ""
+
+#: views/back/campaigns.php:243
+#@ wysija-newsletters
+msgid "With this segment"
+msgstr ""
+
+#: views/back/campaigns.php:253
+#@ wysija-newsletters
+msgid "Remove from the queue"
+msgstr ""
+
+#: views/back/campaigns.php:257
+#@ wysija-newsletters
+msgid "Create a new list"
+msgstr ""
+
+#: views/back/campaigns.php:263
+#@ wysija-newsletters
+msgid "Unsubscribe from all lists"
+msgstr ""
+
+#: views/back/campaigns.php:266
+#, php-format
+#@ wysija-newsletters
+msgid "Unsubscribe from list: %1$s"
+msgstr ""
+
+#: views/back/campaigns.php:269
+#@ wysija-newsletters
+msgid "Export to CSV"
+msgstr ""
+
+#: views/back/campaigns.php:272
+#: views/back/subscribers.php:144
+#: views/back.php:210
+#@ wysija-newsletters
+msgid "Apply"
+msgstr ""
+
+#: views/back/campaigns.php:320
+#: views/back/campaigns.php:943
+#: views/back/campaigns.php:1078
+#: views/back/campaigns.php:1517
+#: views/back/config.php:1790
+#: views/back/subscribers.php:219
+#: views/back/subscribers.php:487
+#@ wysija-newsletters
+msgid "Lists"
+msgstr ""
+
+#: views/back/campaigns.php:321
+#@ wysija-newsletters
+msgid "Open, clicks, unsubscribed"
+msgstr ""
+
+#: views/back/campaigns.php:327
+#@ wysija-newsletters
+msgid "Modified On"
+msgstr ""
+
+#: views/back/campaigns.php:328
+#@ wysija-newsletters
+msgid "Sent On"
+msgstr ""
+
+#: views/back/campaigns.php:345
+#, php-format
+#@ wysija-newsletters
+msgid "Sent to %1$s out of %2$s"
+msgstr ""
+
+#: views/back/campaigns.php:345
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s out of %2$s sent."
+msgstr ""
+
+#: views/back/campaigns.php:404
+#, php-format
+#@ default
+msgid "Scheduled to be sent in %1$s"
+msgstr ""
+
+#: views/back/campaigns.php:408
+#, php-format
+#@ default
+msgid "Scheduled to be sent on %1$s"
+msgstr ""
+
+#: views/back/campaigns.php:457
+#@ wysija-newsletters
+msgid "Preview in new tab"
+msgstr ""
+
+#: views/back/campaigns.php:457
+#@ wysija-newsletters
+msgid "Preview"
+msgstr ""
+
+#: views/back/campaigns.php:478
+#: views/back/campaigns.php:501
+#: views/back/campaigns.php:526
+#@ wysija-newsletters
+msgid "Stats"
+msgstr ""
+
+#: views/back/campaigns.php:578
+#, php-format
+#@ wysija-newsletters
+msgid "Next send out in %1$s"
+msgstr ""
+
+#: views/back/campaigns.php:581
+#, php-format
+#@ wysija-newsletters
+msgid "Next send out on %1$s"
+msgstr ""
+
+#: views/back/campaigns.php:593
+#, php-format
+#@ wysija-newsletters
+msgid "Sent daily at %1$s."
+msgstr ""
+
+#: views/back/campaigns.php:596
+#, php-format
+#@ wysija-newsletters
+msgid "Sent weekly on %1$s at %2$s"
+msgstr ""
+
+#: views/back/campaigns.php:599
+#, php-format
+#@ wysija-newsletters
+msgid "Sent monthly on the %1$s at %2$s"
+msgstr ""
+
+#: views/back/campaigns.php:602
+#, php-format
+#@ wysija-newsletters
+msgid "Sent monthly on the %1$s %2$s at %3$s"
+msgstr ""
+
+#: views/back/campaigns.php:608
+#@ wysija-newsletters
+msgid "if there's new content"
+msgstr ""
+
+#: views/back/campaigns.php:633
+#@ wysija-newsletters
+msgid "Pause"
+msgstr ""
+
+#: views/back/campaigns.php:641
+#: views/back/campaigns.php:654
+#@ wysija-newsletters
+msgid "Not active."
+msgstr ""
+
+#: views/back/campaigns.php:641
+#@ wysija-newsletters
+msgid "Activate"
+msgstr ""
+
+#: views/back/campaigns.php:644
+#@ wysija-newsletters
+msgid "Resume"
+msgstr ""
+
+#: views/back/campaigns.php:655
+#@ wysija-newsletters
+msgid "Not sent yet."
+msgstr ""
+
+#: views/back/campaigns.php:709
+#@ wysija-newsletters
+msgid "Send immediately."
+msgstr ""
+
+#: views/back/campaigns.php:715
+#, php-format
+#@ wysija-newsletters
+msgid "Sending immediately after someone subscribes to the mailing list %1$s"
+msgstr ""
+
+#: views/back/campaigns.php:716
+#, php-format
+#@ wysija-newsletters
+msgid "Sent %2$s after someone subscribes to the mailing list %1$s"
+msgstr ""
+
+#: views/back/campaigns.php:723
+#@ wysija-newsletters
+msgid "any role"
+msgstr ""
+
+#: views/back/campaigns.php:727
+#, php-format
+#@ wysija-newsletters
+msgid "Sent immediately after a new user is added to your site as %1$s."
+msgstr ""
+
+#: views/back/campaigns.php:730
+#, php-format
+#@ wysija-newsletters
+msgid "Sent %2$s after a new user is added to your site as %1$s."
+msgstr ""
+
+#: views/back/campaigns.php:737
+#@ wysija-newsletters
+msgid "Sending per event"
+msgstr ""
+
+#: views/back/campaigns.php:759
+#, php-format
+#@ wysija-newsletters
+msgid "Sent to %1$s subscribers."
+msgstr ""
+
+#: views/back/campaigns.php:777
+#, php-format
+#@ wysija-newsletters
+msgid "Time remaining: %1$s"
+msgstr ""
+
+#: views/back/campaigns.php:807
+#, php-format
+#@ wysija-newsletters
+msgid " %1$s email(s) scheduled."
+msgstr ""
+
+#: views/back/campaigns.php:811
+#, php-format
+#@ wysija-newsletters
+msgid "Latest batch started %1$s"
+msgstr ""
+
+#: views/back/campaigns.php:823
+#@ wysija-newsletters
+msgid "Don't wait & send right now."
+msgstr ""
+
+#: views/back/campaigns.php:834
+#@ wysija-newsletters
+msgid "To resume send [link]Go premium now![/link]"
+msgstr ""
+
+#: views/back/campaigns.php:848
+#@ wysija-newsletters
+msgid "see links with a [link]Premium licence[/link]."
+msgstr ""
+
+#: views/back/campaigns.php:867
+#@ wysija-newsletters
+msgid "Search recipients"
+msgstr ""
+
+#: views/back/campaigns.php:876
+#, php-format
+#@ wysija-newsletters
+msgid "%1$s emails sent %2$s ago"
+msgstr ""
+
+#: views/back/campaigns.php:877
+#@ wysija-newsletters
+msgid "No emails have been sent yet."
+msgstr ""
+
+#: views/back/campaigns.php:892
+#@ wysija-newsletters
+msgid "What got clicked?"
+msgstr ""
+
+#: views/back/campaigns.php:900
+#@ wysija-newsletters
+msgid "Nothing yet!"
+msgstr ""
+
+#: views/back/campaigns.php:942
+#@ wysija-newsletters
+msgid "Email Status"
+msgstr ""
+
+#: views/back/campaigns.php:944
+#@ wysija-newsletters
+msgid "Subscriber Status"
+msgstr ""
+
+#: views/back/campaigns.php:951
+#: views/back/campaigns.php:956
+#@ wysija-newsletters
+msgid "Clicked on"
+msgstr ""
+
+#: views/back/campaigns.php:954
+#@ wysija-newsletters
+msgid "Opened date"
+msgstr ""
+
+#: views/back/campaigns.php:961
+#: views/back/subscribers.php:224
+#@ wysija-newsletters
+msgid "Subscribed on"
+msgstr ""
+
+#: views/back/campaigns.php:980
+#: views/back/subscribers.php:61
+#: views/back/subscribers.php:257
+#: views/back/subscribers.php:462
+#: views/back/subscribers.php:612
+#@ wysija-newsletters
+msgid "Unconfirmed"
+msgstr ""
+
+#: views/back/campaigns.php:980
+#: views/back/subscribers.php:67
+#: views/back/subscribers.php:257
+#: views/back/subscribers.php:462
+#: views/back/subscribers.php:465
+#: views/back/subscribers.php:608
+#: views/front/confirm.php:70
+#@ wysija-newsletters
+msgid "Subscribed"
+msgstr ""
+
+#: views/back/campaigns.php:1001
+#: views/back/subscribers.php:282
+#@ wysija-newsletters
+msgid "View stats or edit"
+msgstr ""
+
+#: views/back/campaigns.php:1055
+#: views/back/campaigns.php:1504
+#@ wysija-newsletters
+msgid "What type of newsletter is this?"
+msgstr ""
+
+#: views/back/campaigns.php:1061
+#: views/back/campaigns.php:1495
+#@ wysija-newsletters
+msgid "When..."
+msgstr ""
+
+#: views/back/campaigns.php:1069
+#: views/back/campaigns.php:1488
+#@ wysija-newsletters
+msgid "Subject line"
+msgstr ""
+
+#: views/back/campaigns.php:1071
+#@ wysija-newsletters
+msgid "This is the subject of the email. Be creative since it's the first thing your subscribers will see."
+msgstr ""
+
+#: views/back/campaigns.php:1094
+#@ wysija-newsletters
+msgid "Yikes! Your browser might not be supported. Get the latest [linkchrome]Chrome[/linkchrome], [linkff]Firefox[/linkff], [linkie]Internet Explorer[/linkie] or [linksafari]Safari[/linksafari]. It seems to work?[link_ignore]Dismiss[/link_ignore]."
+msgstr ""
+
+#: views/back/campaigns.php:1114
+#: views/back/campaigns.php:1304
+#@ wysija-newsletters
+msgid "Save and reactivate"
+msgstr ""
+
+#: views/back/campaigns.php:1116
+#: views/back/campaigns.php:1300
+#: views/back/subscribers.php:832
+#@ wysija-newsletters
+msgid "Next step"
+msgstr ""
+
+#: views/back/campaigns.php:1184
+#: views/back/config.php:1967
+#@ wysija-newsletters
+msgid "Content"
+msgstr ""
+
+#: views/back/campaigns.php:1186
+#@ wysija-newsletters
+msgid "Images"
+msgstr ""
+
+#: views/back/campaigns.php:1188
+#@ wysija-newsletters
+msgid "Styles"
+msgstr ""
+
+#: views/back/campaigns.php:1191
+#@ wysija-newsletters
+msgid "Themes"
+msgstr ""
+
+#: views/back/campaigns.php:1197
+#@ wysija-newsletters
+msgid "Drag the widgets below into your newsletter."
+msgstr ""
+
+#: views/back/campaigns.php:1200
+#@ wysija-newsletters
+msgid "Automatic latest content"
+msgstr ""
+
+#: views/back/campaigns.php:1205
+#@ wysija-newsletters
+msgid "Social bookmarks"
+msgstr ""
+
+#: views/back/campaigns.php:1219
+#@ wysija-newsletters
+msgid "Add Images"
+msgstr ""
+
+#: views/back/campaigns.php:1256
+#@ wysija-newsletters
+msgid "Add more themes"
+msgstr ""
+
+#: views/back/campaigns.php:1270
+#@ wysija-newsletters
+msgid "Our toolbar doesn't load?"
+msgstr ""
+
+#: views/back/campaigns.php:1274
+#@ wysija-newsletters
+msgid "Conflict"
+msgstr ""
+
+#: views/back/campaigns.php:1275
+#@ wysija-newsletters
+msgid "There must be an active 3rd party plugin or theme breaking our interface. [link]Read more.[/link]"
+msgstr ""
+
+#: views/back/campaigns.php:1288
+#: views/back/campaigns.php:1576
+#@ wysija-newsletters
+msgid "Send preview"
+msgstr ""
+
+#: views/back/campaigns.php:1308
+#@ wysija-newsletters
+msgid "go back to Step 1"
+msgstr ""
+
+#: views/back/campaigns.php:1339
+#@ wysija-newsletters
+msgid "If you confirm the theme switch, it will override your header, footer, dividers and styles"
+msgstr ""
+
+#: views/back/campaigns.php:1490
+#@ wysija-newsletters
+msgid "Be creative! It's the first thing your subscribers see. Tempt them to open your email."
+msgstr ""
+
+#: views/back/campaigns.php:1520
+#@ wysija-newsletters
+msgid "The subscriber list that will be used for this campaign."
+msgstr ""
+
+#: views/back/campaigns.php:1526
+#@ wysija-newsletters
+msgid "Sender"
+msgstr ""
+
+#: views/back/campaigns.php:1527
+#@ wysija-newsletters
+msgid "Name & email of yourself or your company."
+msgstr ""
+
+#: views/back/campaigns.php:1534
+#: views/back/config.php:1127
+#@ wysija-newsletters
+msgid "Reply-to name & email"
+msgstr ""
+
+#: views/back/campaigns.php:1535
+#@ wysija-newsletters
+msgid "When the subscribers hit \"reply\" this is who will receive their email."
+msgstr ""
+
+#: views/back/campaigns.php:1545
+#@ wysija-newsletters
+msgid "Schedule it"
+msgstr ""
+
+#: views/back/campaigns.php:1553
+#@ wysija-newsletters
+msgid "Ignore current subscribers"
+msgstr ""
+
+#: views/back/campaigns.php:1554
+#@ wysija-newsletters
+msgid "Don't send to existing subscribers, only to future ones."
+msgstr ""
+
+#: views/back/campaigns.php:1588
+#: views/back/campaigns.php:1595
+#@ wysija-newsletters
+msgid "Save as draft and close"
+msgstr ""
+
+#: views/back/campaigns.php:1621
+#@ wysija-newsletters
+msgid "or simply [link]go back to design[/link]."
+msgstr ""
+
+#: views/back/campaigns.php:1740
+#, php-format
+#@ default
+msgid "Local time is <code>%1$s</code>"
+msgstr ""
+
+#: views/back/campaigns.php:1751
+#@ wysija-newsletters
+msgid "Standard newsletter"
+msgstr ""
+
+#: views/back/campaigns.php:1756
+#@ wysija-newsletters
+msgid "Automatically..."
+msgstr ""
+
+#: views/back/campaigns.php:1894
+#@ wysija-newsletters
+msgid "Address:"
+msgstr ""
+
+#: views/back/campaigns.php:1898
+#@ wysija-newsletters
+msgid "Alternative text:"
+msgstr ""
+
+#: views/back/campaigns.php:1901
+#@ wysija-newsletters
+msgid "This text is displayed when email clients block images, which is most of the time."
+msgstr ""
+
+#: views/back/campaigns.php:1930
+#@ wysija-newsletters
+msgid "Upload Theme (.zip)"
+msgstr ""
+
+#: views/back/campaigns.php:1933
+#@ wysija-newsletters
+msgid "[link]Guide[/link] to create your own theme."
+msgstr ""
+
+#: views/back/campaigns.php:1935
+#@ wysija-newsletters
+msgid "Free"
+msgstr ""
+
+#: views/back/campaigns.php:1958
+#: views/back/subscribers.php:812
+#, php-format
+#@ wysija-newsletters
+msgid "total max upload file size : %1$s"
+msgstr ""
+
+#: views/back/campaigns.php:1959
+#@ wysija-newsletters
+msgid "If a theme with the same name exists, overwrite it."
+msgstr ""
+
+#: views/back/campaigns.php:1982
+#@ wysija-newsletters
+msgid "Select post type"
+msgstr ""
+
+#: views/back/campaigns.php:1988
+#@ wysija-newsletters
+msgid "Posts"
+msgstr ""
+
+#: views/back/campaigns.php:1989
+#@ wysija-newsletters
+msgid "Pages"
+msgstr ""
+
+#: views/back/campaigns.php:2010
+#@ wysija-newsletters
+msgid "Select post status"
+msgstr ""
+
+#: views/back/campaigns.php:2035
+#@ wysija-newsletters
+msgid "Search"
+msgstr ""
+
+#: views/back/campaigns.php:2036
+#@ wysija-newsletters
+msgid "Filters and options"
+msgstr ""
+
+#: views/back/campaigns.php:2050
+#@ wysija-newsletters
+msgid "Insert entire post, not just excerpt"
+msgstr ""
+
+#: views/back/campaigns.php:2086
+#: views/back/campaigns.php:2270
+#: views/back/campaigns.php:2309
+#: views/back/campaigns.php:2343
+#: views/back/config.php:2087
+#@ wysija-newsletters
+msgid "Done"
+msgstr ""
+
+#: views/back/campaigns.php:2132
+#@ wysija-newsletters
+msgid "Maximum of posts to show"
+msgstr ""
+
+#: views/back/campaigns.php:2146
+#@ wysija-newsletters
+msgid "Filter by category"
+msgstr ""
+
+#: views/back/campaigns.php:2148
+#@ wysija-newsletters
+msgid "All categories"
+msgstr ""
+
+#: views/back/campaigns.php:2186
+#@ wysija-newsletters
+msgid "Title style"
+msgstr ""
+
+#: views/back/campaigns.php:2194
+#@ wysija-newsletters
+msgid "Left aligned"
+msgstr ""
+
+#: views/back/campaigns.php:2195
+#@ wysija-newsletters
+msgid "Centered"
+msgstr ""
+
+#: views/back/campaigns.php:2196
+#@ wysija-newsletters
+msgid "Right aligned"
+msgstr ""
+
+#: views/back/campaigns.php:2202
+#@ wysija-newsletters
+msgid "Image alignment"
+msgstr ""
+
+#: views/back/campaigns.php:2204
+#@ wysija-newsletters
+msgid "alternate left & right"
+msgstr ""
+
+#: views/back/campaigns.php:2206
+#@ wysija-newsletters
+msgid "left"
+msgstr ""
+
+#: views/back/campaigns.php:2207
+#@ wysija-newsletters
+msgid "center"
+msgstr ""
+
+#: views/back/campaigns.php:2208
+#@ wysija-newsletters
+msgid "right"
+msgstr ""
+
+#: views/back/campaigns.php:2209
+#@ wysija-newsletters
+msgid "no image"
+msgstr ""
+
+#: views/back/campaigns.php:2215
+#@ wysija-newsletters
+msgid "Display..."
+msgstr ""
+
+#: views/back/campaigns.php:2216
+#@ wysija-newsletters
+msgid "Which excerpt does it use? [link]Read more[/link]"
+msgstr ""
+
+#: views/back/campaigns.php:2218
+#@ wysija-newsletters
+msgid "excerpt"
+msgstr ""
+
+#: views/back/campaigns.php:2219
+#@ wysija-newsletters
+msgid "full post"
+msgstr ""
+
+#: views/back/campaigns.php:2224
+#@ wysija-newsletters
+msgid "\"Read more\" text"
+msgstr ""
+
+#: views/back/campaigns.php:2237
+#@ wysija-newsletters
+msgid "Show divider between posts"
+msgstr ""
+
+#: views/back/campaigns.php:2238
+#@ wysija-newsletters
+msgid "yes"
+msgstr ""
+
+#: views/back/campaigns.php:2239
+#@ wysija-newsletters
+msgid "no"
+msgstr ""
+
+#: views/back/campaigns.php:2243
+#@ wysija-newsletters
+msgid "Background color with alternate"
+msgstr ""
+
+#: views/back/campaigns.php:2257
+#@ wysija-newsletters
+msgid "If there is no new content, display:"
+msgstr ""
+
+#: views/back/campaigns.php:2258
+#@ wysija-newsletters
+msgid "You can also leave it empty"
+msgstr ""
+
+#: views/back/campaigns.php:2297
+#@ wysija-newsletters
+msgid "Size:"
+msgstr ""
+
+#: views/back/campaigns.php:2298
+#@ wysija-newsletters
+msgid "small"
+msgstr ""
+
+#: views/back/campaigns.php:2299
+#@ wysija-newsletters
+msgid "medium"
+msgstr ""
+
+#: views/back/campaigns.php:2300
+#@ wysija-newsletters
+msgid "large"
+msgstr ""
+
+#: views/back/campaigns.php:2388
+#@ default
+msgid "&laquo;"
+msgstr ""
+
+#: views/back/campaigns.php:2389
+#@ default
+msgid "&raquo;"
+msgstr ""
+
+#: views/back/campaigns.php:2429
+#@ default
+msgid "The web browser on your device cannot be used to upload files. You may be able to use the <a href=\"http://wordpress.org/extend/mobile/\">native app for your device</a> instead."
+msgstr ""
+
+#: views/back/campaigns.php:2468
+#: views/back/campaigns.php:2612
+#, php-format
+#@ default
+msgid "Sorry, you have filled your storage quota (%s MB)."
+msgstr ""
+
+#: views/back/campaigns.php:2495
+#@ default
+msgid "Allowed Files"
+msgstr ""
+
+#: views/back/campaigns.php:2523
+#@ default
+msgid "Drop files here"
+msgstr ""
+
+#: views/back/campaigns.php:2524
+#@ default
+msgctxt "Uploader: Drop files here - or - Select Files"
+msgid "or"
+msgstr ""
+
+#: views/back/campaigns.php:2525
+#: views/back/campaigns.php:2624
+#@ default
+msgid "Select Files"
+msgstr ""
+
+#: views/back/campaigns.php:2537
+#: views/back/campaigns.php:2684
+#@ default
+#@ wysija-newsletters
+msgid "Cancel"
+msgstr ""
+
+#: views/back/campaigns.php:2542
+#, php-format
+#@ default
+msgid "Maximum upload file size: %d%s."
+msgstr ""
+
+#: views/back/campaigns.php:2545
+#@ default
+msgid "Your browser has some limitations uploading large files with the multi-file uploader. Please use the browser uploader for files over 100MB."
+msgstr ""
+
+#: views/back/campaigns.php:2585
+#@ wysija-newsletters
+msgid "Please update your WordPress to the latest version, in order to get the latest uploading system."
+msgstr ""
+
+#: views/back/campaigns.php:2671
+#@ wysija-newsletters
+msgid "Choose files to upload"
+msgstr ""
+
+#: views/back/campaigns.php:2673
+#@ wysija-newsletters
+msgid "Cancel Upload"
+msgstr ""
+
+#: views/back/campaigns.php:2675
+#: views/back/campaigns.php:2687
+#, php-format
+#@ wysija-newsletters
+msgid "Maximum upload file size: %d%s"
+msgstr ""
+
+#: views/back/campaigns.php:2689
+#@ default
+msgid "If you want to use all capabilities of the uploader, like uploading multiple files at once, please upgrade to lighttpd 1.5."
+msgstr ""
+
+#: views/back/campaigns.php:2761
+#@ wysija-newsletters
+msgid "This tab will be filled with images from your current and previous newsletters."
+msgstr ""
+
+#: views/back/campaigns.php:2781
+#, php-format
+#@ wysija-newsletters
+msgid "Welcome to Wysija %1$s"
+msgstr ""
+
+#: views/back/campaigns.php:2784
+#@ wysija-newsletters
+msgid "Version"
+msgstr ""
+
+#: views/back/campaigns.php:2890
+#@ wysija-newsletters
+msgid "Thanks! Now take me to Wysija."
+msgstr ""
+
+#: views/back/config.php:15
+#@ wysija-newsletters
+msgid "If you confirm this, all your current Wysija data will be erased (newsletters, themes, statistics, lists, subscribers, etc.)"
+msgstr ""
+
+#: views/back/config.php:17
+#@ wysija-newsletters
+msgid "Confirm Reinstallation"
+msgstr ""
+
+#: views/back/config.php:35
+#@ wysija-newsletters
+msgid "This feature cannot work because the \"Comments\" feature of the plugin JetPack is enabled."
+msgstr ""
+
+#: views/back/config.php:53
+#@ wysija-newsletters
+msgid "Registration is disabled on this site."
+msgstr ""
+
+#: views/back/config.php:123
+#@ wysija-newsletters
+msgid "Subscribers can choose from these lists :"
+msgstr ""
+
+#: views/back/config.php:163
+#: views/back/config.php:468
+#: views/back/config.php:731
+#: views/back/config.php:1039
+#: views/back/config.php:1151
+#: views/back/config.php:1158
+#: views/back/config.php:1193
+#: views/back/config.php:1728
+#: views/back/config.php:2151
+#: views/back/config.php:2163
+#: views/back/subscribers.php:1034
+#@ wysija-newsletters
+msgid "Yes"
+msgstr ""
+
+#: views/back/config.php:163
+#: views/back/config.php:460
+#: views/back/config.php:731
+#: views/back/config.php:1006
+#: views/back/config.php:1031
+#: views/back/config.php:1151
+#: views/back/config.php:1158
+#: views/back/config.php:1193
+#: views/back/config.php:1697
+#: views/back/config.php:1720
+#: views/back/config.php:2152
+#: views/back/config.php:2164
+#: views/back/subscribers.php:1035
+#@ wysija-newsletters
+#@ default
+msgid "No"
+msgstr ""
+
+#: views/back/config.php:177
+#, php-format
+#@ wysija-newsletters
+msgid "You appear to still be using a beta version on your site. Do you want to switch back to the stable version %1$s?"
+msgstr ""
+
+#: views/back/config.php:179
+#@ wysija-newsletters
+msgid "Yes please!"
+msgstr ""
+
+#: views/back/config.php:202
+#@ wysija-newsletters
+msgid "I'll setup a cron job on my server to execute at the frequency I want. Read about [link]setting up a cron job yourself[/link]."
+msgstr ""
+
+#: views/back/config.php:202
+#: views/back/config.php:230
+#: views/back/config.php:241
+#@ default
+msgid "Use this URL in your cron job: [cron_url]"
+msgstr ""
+
+#: views/back/config.php:205
+#@ wysija-newsletters
+msgid "No thanks! I have enough visitors on my site. Their visits will trigger Wysija's cron automatically."
+msgstr ""
+
+#: views/back/config.php:229
+#@ wysija-newsletters
+msgid "I'm a premium user, MailPoet.com will make sure my emails get sent on time."
+msgstr ""
+
+#: views/back/config.php:230
+#@ wysija-newsletters
+msgid "If I want I can [link]create an additional cron job[/link] on my end to increase the sending frequency."
+msgstr ""
+
+#: views/back/config.php:241
+#@ wysija-newsletters
+msgid "If I want I can [link]create an additional cron job[/link] on my end to increase the frequency."
+msgstr ""
+
+#: views/back/config.php:316
+#@ wysija-newsletters
+msgid "Configure your DNS by adding a key/value record in TXT as shown below."
+msgstr ""
+
+#: views/back/config.php:316
+#: views/back/config.php:842
+#@ wysija-newsletters
+msgid "Read more"
+msgstr ""
+
+#: views/back/config.php:319
+#@ wysija-newsletters
+msgid "Key"
+msgstr ""
+
+#: views/back/config.php:319
+#@ wysija-newsletters
+msgid "Value"
+msgstr ""
+
+#: views/back/config.php:323
+#@ wysija-newsletters
+msgid "You're using an older DKIM key which is unsupported by Gmail."
+msgstr ""
+
+#: views/back/config.php:323
+#@ wysija-newsletters
+msgid "You'll need to update your DNS if you upgrade."
+msgstr ""
+
+#: views/back/config.php:325
+#@ wysija-newsletters
+msgid "Upgrade DKIM key"
+msgstr ""
+
+#: views/back/config.php:330
+#@ wysija-newsletters
+msgid "Domain"
+msgstr ""
+
+#: views/back/config.php:359
+#@ wysija-newsletters
+msgid "Roles and permissions"
+msgstr ""
+
+#: views/back/config.php:412
+#@ wysija-newsletters
+msgid "View all"
+msgstr ""
+
+#: views/back/config.php:430
+#@ wysija-newsletters
+msgid "When someone subscribes"
+msgstr ""
+
+#: views/back/config.php:431
+#@ wysija-newsletters
+msgid "When someone unsubscribes"
+msgstr ""
+
+#: views/back/config.php:432
+#@ wysija-newsletters
+msgid "Daily summary of emails sent"
+msgstr ""
+
+#: views/back/config.php:475
+#@ wysija-newsletters
+msgctxt "settings tab title"
+msgid "Basics"
+msgstr ""
+
+#: views/back/config.php:476
+#@ wysija-newsletters
+msgctxt "settings tab title"
+msgid "Forms"
+msgstr ""
+
+#: views/back/config.php:477
+#@ wysija-newsletters
+msgctxt "settings tab title"
+msgid "Signup Confirmation"
+msgstr ""
+
+#: views/back/config.php:478
+#@ wysija-newsletters
+msgctxt "settings tab title"
+msgid "Send With..."
+msgstr ""
+
+#: views/back/config.php:479
+#@ wysija-newsletters
+msgctxt "settings tab title"
+msgid "Advanced"
+msgstr ""
+
+#: views/back/config.php:480
+#@ wysija-newsletters
+msgctxt "settings tab title"
+msgid "Premium Upgrade"
+msgstr ""
+
+#: views/back/config.php:580
+#: views/back/config.php:590
+#: views/back/config.php:600
+#: views/back/config.php:611
+#: views/back/config.php:1487
+#@ wysija-newsletters
+msgid "Save settings"
+msgstr ""
+
+#: views/back/config.php:635
+#@ wysija-newsletters
+msgid "Your company's address"
+msgstr ""
+
+#: views/back/config.php:636
+#@ wysija-newsletters
+msgid "The address will be added to your newsletter's footer. This helps avoid spam filters."
+msgstr ""
+
+#: views/back/config.php:642
+#@ wysija-newsletters
+msgid "Email notifications"
+msgstr ""
+
+#: views/back/config.php:643
+#@ wysija-newsletters
+msgid "Enter the email addresses that should receive notifications (separate by comma)."
+msgstr ""
+
+#: views/back/config.php:648
+#@ wysija-newsletters
+msgid "Sender of notifications"
+msgstr ""
+
+#: views/back/config.php:649
+#@ wysija-newsletters
+msgid "Choose a FROM name and email address for notifications emails."
+msgstr ""
+
+#: views/back/config.php:653
+#@ wysija-newsletters
+msgid "Subscribe in comments"
+msgstr ""
+
+#: views/back/config.php:654
+#@ wysija-newsletters
+msgid "Visitors who submit a comment on a post can click on a checkbox to subscribe."
+msgstr ""
+
+#: views/back/config.php:663
+#@ wysija-newsletters
+msgid "Subscribe in registration form"
+msgstr ""
+
+#: views/back/config.php:664
+#@ wysija-newsletters
+msgid "Allow users who register to your site to subscribe on a list of your choice."
+msgstr ""
+
+#: views/back/config.php:672
+#@ wysija-newsletters
+msgid "Link to browser version"
+msgstr ""
+
+#: views/back/config.php:673
+#@ wysija-newsletters
+msgid "Displays at the top of your newsletters. Don't forget to include the link tag, ie: [link]The link[/link]"
+msgstr ""
+
+#: views/back/config.php:678
+#@ wysija-newsletters
+msgid "Text of \"Unsubscribe\" link"
+msgstr ""
+
+#: views/back/config.php:679
+#@ wysija-newsletters
+msgid "This changes the label for the unsubscribe link in the footer of your newsletters."
+msgstr ""
+
+#: views/back/config.php:683
+#@ wysija-newsletters
+msgid "Unsubscribe page title"
+msgstr ""
+
+#: views/back/config.php:684
+#@ wysija-newsletters
+msgid "This is the [link]confirmation page[/link] a user is directed to after clicking on the unsubscribe link at the bottom of a newsletter."
+msgstr ""
+
+#: views/back/config.php:685
+#: views/back/config.php:757
+#: views/back/config.php:1146
+#@ wysija-newsletters
+msgid "Preview page"
+msgstr ""
+
+#: views/back/config.php:690
+#@ wysija-newsletters
+msgid "Unsubscribe page content"
+msgstr ""
+
+#: views/back/config.php:709
+#@ wysija-newsletters
+msgid "Soon available in [link]Premium[/link]:"
+msgstr ""
+
+#: views/back/config.php:711
+#@ wysija-newsletters
+msgid "Text or number"
+msgstr ""
+
+#: views/back/config.php:712
+#@ wysija-newsletters
+msgid "Paragraph text"
+msgstr ""
+
+#: views/back/config.php:713
+#@ wysija-newsletters
+msgid "Date or birthday"
+msgstr ""
+
+#: views/back/config.php:714
+#@ wysija-newsletters
+msgid "Radio buttons"
+msgstr ""
+
+#: views/back/config.php:715
+#@ wysija-newsletters
+msgid "Checkboxes"
+msgstr ""
+
+#: views/back/config.php:716
+#@ wysija-newsletters
+msgid "Dropdown list"
+msgstr ""
+
+#: views/back/config.php:718
+#@ wysija-newsletters
+msgid "File"
+msgstr ""
+
+#: views/back/config.php:719
+#@ wysija-newsletters
+msgid "Country, State or Province"
+msgstr ""
+
+#: views/back/config.php:732
+#@ wysija-newsletters
+msgid "Enable activation email"
+msgstr ""
+
+#: views/back/config.php:733
+#@ wysija-newsletters
+msgid "Prevent fake signups by sending activation emails to your subscribers."
+msgstr ""
+
+#: views/back/config.php:733
+#@ wysija-newsletters
+msgid "Learn more."
+msgstr ""
+
+#: views/back/config.php:741
+#@ wysija-newsletters
+msgid "Email subject"
+msgstr ""
+
+#: views/back/config.php:746
+#@ wysija-newsletters
+msgid "Email content"
+msgstr ""
+
+#: views/back/config.php:747
+#@ wysija-newsletters
+msgid "Don't forget to include: <br><br>[activation_link]Confirm your subscription.[/activation_link]. <br><br>Optional: [lists_to_confirm]"
+msgstr ""
+
+#: views/back/config.php:755
+#@ wysija-newsletters
+msgid "Confirmation page title"
+msgstr ""
+
+#: views/back/config.php:756
+#@ wysija-newsletters
+msgid "When subscribers click on the activation link, they are redirected to this [link]confirmation page[/link]"
+msgstr ""
+
+#: views/back/config.php:761
+#@ wysija-newsletters
+msgid "Confirmation page content"
+msgstr ""
+
+#: views/back/config.php:797
+#@ wysija-newsletters
+msgid "Network's Method"
+msgstr ""
+
+#: views/back/config.php:798
+#@ wysija-newsletters
+msgid "Method set by the network admin."
+msgstr ""
+
+#: views/back/config.php:799
+#@ wysija-newsletters
+msgid "Not Configured!"
+msgstr ""
+
+#: views/back/config.php:814
+#: views/back/config.php:1514
+#@ wysija-newsletters
+msgid "Your own website"
+msgstr ""
+
+#: views/back/config.php:815
+#@ wysija-newsletters
+msgid "The simplest solution for small lists. Your web host sets a daily email limit."
+msgstr ""
+
+#: views/back/config.php:828
+#@ wysija-newsletters
+msgid "Easy to setup. Limited to 500 emails a day. We recommend that you open a dedicated Gmail account for this purpose."
+msgstr ""
+
+#: views/back/config.php:841
+#: views/back/config.php:1526
+#@ wysija-newsletters
+msgid "Third party"
+msgstr ""
+
+#: views/back/config.php:842
+#@ wysija-newsletters
+msgid "Send with a professional SMTP provider, a great choice for big and small lists. We've negotiated promotional offers with a few providers for you."
+msgstr ""
+
+#: views/back/config.php:854
+#: views/back/config.php:1551
+#@ wysija-newsletters
+msgid "Delivery method"
+msgstr ""
+
+#: views/back/config.php:855
+#: views/back/config.php:1552
+#@ wysija-newsletters
+msgid "Send yourself some test emails to confirm which method works with your server."
+msgstr ""
+
+#: views/back/config.php:870
+#: views/back/config.php:882
+#: views/back/config.php:1049
+#: views/back/config.php:1567
+#: views/back/config.php:1579
+#: views/back/config.php:1737
+#@ wysija-newsletters
+msgid "Send a test mail"
+msgstr ""
+
+#: views/back/config.php:871
+#: views/back/config.php:1568
+#@ wysija-newsletters
+msgid "This email engine works on 95&#37; of servers"
+msgstr ""
+
+#: views/back/config.php:883
+#: views/back/config.php:1580
+#@ wysija-newsletters
+msgid "This method works on 5&#37; of servers"
+msgstr ""
+
+#: views/back/config.php:887
+#: views/back/config.php:1584
+#@ wysija-newsletters
+msgid "Sendmail path"
+msgstr ""
+
+#: views/back/config.php:899
+#: views/back/config.php:1595
+#@ wysija-newsletters
+msgid "SMTP Hostname"
+msgstr ""
+
+#: views/back/config.php:900
+#: views/back/config.php:1596
+#@ wysija-newsletters
+msgid "e.g.:smtp.mydomain.com"
+msgstr ""
+
+#: views/back/config.php:918
+#: views/back/config.php:1613
+#@ wysija-newsletters
+msgid "Login"
+msgstr ""
+
+#: views/back/config.php:937
+#: views/back/config.php:1631
+#@ wysija-newsletters
+msgid "Password"
+msgstr ""
+
+#: views/back/config.php:956
+#: views/back/config.php:1650
+#@ wysija-newsletters
+msgid "Activate if your SMTP ports are blocked."
+msgstr ""
+
+#: views/back/config.php:977
+#: views/back/config.php:1671
+#@ wysija-newsletters
+msgid "SMTP port"
+msgstr ""
+
+#: views/back/config.php:997
+#: views/back/config.php:1690
+#@ wysija-newsletters
+msgid "Secure connection"
+msgstr ""
+
+#: views/back/config.php:1015
+#: views/back/config.php:1706
+#@ wysija-newsletters
+msgid "Authentication"
+msgstr ""
+
+#: views/back/config.php:1016
+#: views/back/config.php:1707
+#@ wysija-newsletters
+msgid "Leave this option to Yes. Only a tiny portion of SMTP services ask Authentication to be turned off."
+msgstr ""
+
+#: views/back/config.php:1061
+#: views/back/config.php:1746
+#@ wysija-newsletters
+msgid "Send..."
+msgstr ""
+
+#: views/back/config.php:1063
+#: views/back/config.php:1748
+#@ wysija-newsletters
+msgid "Your web host has limits. We suggest 70 emails per hour to be safe. [link]Find out more[/link]."
+msgstr ""
+
+#: views/back/config.php:1075
+#: views/back/config.php:1757
+#@ wysija-newsletters
+msgid "emails"
+msgstr ""
+
+#: views/back/config.php:1087
+#: views/back/config.php:1764
+#@ wysija-newsletters
+msgid "This is fast!"
+msgstr ""
+
+#: views/back/config.php:1087
+#: views/back/config.php:1764
+#@ wysija-newsletters
+msgid "We suggest you setup a cron job. [link]Read more[/link] on support.mailpoet.com"
+msgstr ""
+
+#: views/back/config.php:1128
+#@ wysija-newsletters
+msgid "You can change the default reply-to name and email for your newsletters. This option is also used for the activation emails and Admin notifications (in Basics)."
+msgstr ""
+
+#: views/back/config.php:1134
+#@ wysija-newsletters
+msgid "Bounce Email"
+msgstr ""
+
+#: views/back/config.php:1135
+#@ wysija-newsletters
+msgid "To which address should all the bounced emails go? Get the [link]Premium version[/link] to automatically handle these."
+msgstr ""
+
+#: views/back/config.php:1136
+#@ wysija-newsletters
+msgid "Purchase the premium version."
+msgstr ""
+
+#: views/back/config.php:1144
+#@ wysija-newsletters
+msgid "Subscribers can edit their profile"
+msgstr ""
+
+#: views/back/config.php:1145
+#@ wysija-newsletters
+msgid "Add a link in the footer of all your newsletters so subscribers can edit their profile and lists. [link]See your own subscriber profile page.[/link]"
+msgstr ""
+
+#: views/back/config.php:1149
+#@ wysija-newsletters
+msgid "Allow HTML edits"
+msgstr ""
+
+#: views/back/config.php:1152
+#@ wysija-newsletters
+msgid "This allows you to modify the HTML of text blocks in the visual editor."
+msgstr ""
+
+#: views/back/config.php:1159
+#@ wysija-newsletters
+msgid "Share anonymous data"
+msgstr ""
+
+#: views/back/config.php:1160
+#@ wysija-newsletters
+msgid "Share anonymous data and help us improve the plugin. [link]Read more[/link]."
+msgstr ""
+
+#: views/back/config.php:1168
+#@ wysija-newsletters
+msgid "other"
+msgstr ""
+
+#: views/back/config.php:1169
+#@ wysija-newsletters
+msgid "art"
+msgstr ""
+
+#: views/back/config.php:1170
+#@ wysija-newsletters
+msgid "business"
+msgstr ""
+
+#: views/back/config.php:1171
+#@ wysija-newsletters
+msgid "education"
+msgstr ""
+
+#: views/back/config.php:1172
+#@ wysija-newsletters
+msgid "e-commerce"
+msgstr ""
+
+#: views/back/config.php:1173
+#@ wysija-newsletters
+msgid "food"
+msgstr ""
+
+#: views/back/config.php:1174
+#@ wysija-newsletters
+msgid "insurance"
+msgstr ""
+
+#: views/back/config.php:1175
+#@ wysija-newsletters
+msgid "government"
+msgstr ""
+
+#: views/back/config.php:1176
+#@ wysija-newsletters
+msgid "health and sports"
+msgstr ""
+
+#: views/back/config.php:1177
+#@ wysija-newsletters
+msgid "manufacturing"
+msgstr ""
+
+#: views/back/config.php:1178
+#@ wysija-newsletters
+msgid "marketing and media"
+msgstr ""
+
+#: views/back/config.php:1179
+#@ wysija-newsletters
+msgid "non profit"
+msgstr ""
+
+#: views/back/config.php:1180
+#@ wysija-newsletters
+msgid "photography"
+msgstr ""
+
+#: views/back/config.php:1181
+#@ wysija-newsletters
+msgid "travel"
+msgstr ""
+
+#: views/back/config.php:1182
+#@ wysija-newsletters
+msgid "real estate"
+msgstr ""
+
+#: views/back/config.php:1183
+#@ wysija-newsletters
+msgid "religious"
+msgstr ""
+
+#: views/back/config.php:1184
+#@ wysija-newsletters
+msgid "technology"
+msgstr ""
+
+#: views/back/config.php:1186
+#@ wysija-newsletters
+msgid "Industry"
+msgstr ""
+
+#: views/back/config.php:1187
+#@ wysija-newsletters
+msgid "Select your industry."
+msgstr ""
+
+#: views/back/config.php:1194
+#@ wysija-newsletters
+msgid "Become a beta tester"
+msgstr ""
+
+#: views/back/config.php:1195
+#@ wysija-newsletters
+msgid "Update your Wysija plugin to the latest beta version. Enjoy the upcoming features. [link]Get in touch[/link] with us for bugs and feedback. Only for experienced users!"
+msgstr ""
+
+#: views/back/config.php:1207
+#@ wysija-newsletters
+msgid "Shortcode to display total number of subscribers"
+msgstr ""
+
+#: views/back/config.php:1208
+#@ wysija-newsletters
+msgid "Paste this shortcode to display the number of confirmed subscribers in post or page"
+msgstr ""
+
+#: views/back/config.php:1219
+#@ wysija-newsletters
+msgid "Charset"
+msgstr ""
+
+#: views/back/config.php:1220
+#@ wysija-newsletters
+msgid "Squares or weird characters are displayed in your emails? Select the encoding for your language."
+msgstr ""
+
+#: views/back/config.php:1227
+#@ wysija-newsletters
+msgid "Enable Wysija's Cron"
+msgstr ""
+
+#: views/back/config.php:1228
+#@ wysija-newsletters
+msgid "None of your queued emails have been sent? Then activate this option."
+msgstr ""
+
+#: views/back/config.php:1233
+#@ wysija-newsletters
+msgid "Debug mode"
+msgstr ""
+
+#: views/back/config.php:1234
+#@ wysija-newsletters
+msgid "Enable this to show Wysija's errors. Our support might ask you to enable this if you seek their help."
+msgstr ""
+
+#: views/back/config.php:1259
+#@ wysija-newsletters
+msgid "Show me more geeky options"
+msgstr ""
+
+#: views/back/config.php:1265
+#@ wysija-newsletters
+msgid "Hide the geeky options"
+msgstr ""
+
+#: views/back/config.php:1275
+#@ wysija-newsletters
+msgid "Reinstall from scratch"
+msgstr ""
+
+#: views/back/config.php:1276
+#@ wysija-newsletters
+msgid "Want to start all over again? This will wipe out Wysija and reinstall anew."
+msgstr ""
+
+#: views/back/config.php:1281
+#@ wysija-newsletters
+msgid "Reinstall now..."
+msgstr ""
+
+#: views/back/config.php:1299
+#@ wysija-newsletters
+msgid "Send to more than 2000 subscribers."
+msgstr ""
+
+#: views/back/config.php:1300
+#@ wysija-newsletters
+msgid "You have no more limits. Send to 100 000 if you want."
+msgstr ""
+
+#: views/back/config.php:1307
+#@ wysija-newsletters
+msgid "Find out which links are clicked."
+msgstr ""
+
+#: views/back/config.php:1308
+#@ wysija-newsletters
+msgid "Which links in your newsletter are getting clicked on? Find out for each newsletter."
+msgstr ""
+
+#: views/back/config.php:1311
+#@ wysija-newsletters
+msgid "Track with Google Analytics."
+msgstr ""
+
+#: views/back/config.php:1312
+#@ wysija-newsletters
+msgid "Find out what your subscribers do once on your site."
+msgstr ""
+
+#: views/back/config.php:1319
+#@ wysija-newsletters
+msgid "We activate a cron job for you."
+msgstr ""
+
+#: views/back/config.php:1320
+#@ wysija-newsletters
+msgid "We make sure you're sending every 15 minutes to avoid irregular delivery."
+msgstr ""
+
+#: views/back/config.php:1323
+#@ wysija-newsletters
+msgid "Let us handle your bounces."
+msgstr ""
+
+#: views/back/config.php:1324
+#@ wysija-newsletters
+msgid "Spam filters will notice if you send to invalid addresses. Wysija removes them for you automatically. Your reputation stays clean."
+msgstr ""
+
+#: views/back/config.php:1327
+#@ wysija-newsletters
+msgid "Download more beautiful themes."
+msgstr ""
+
+#: views/back/config.php:1328
+#@ wysija-newsletters
+msgid "We work with top notch designers. The latest and prettiest are exclusive. [link]View them on our site.[/link]"
+msgstr ""
+
+#: views/back/config.php:1332
+#@ wysija-newsletters
+msgid "Fast and efficient support."
+msgstr ""
+
+#: views/back/config.php:1333
+#@ wysija-newsletters
+msgid "It's like a valet service from the engineers themselves."
+msgstr ""
+
+#: views/back/config.php:1336
+#@ wysija-newsletters
+msgid "Increase your deliverability with DKIM."
+msgstr ""
+
+#: views/back/config.php:1337
+#@ wysija-newsletters
+msgid "Add this signature to your emails with Wysija. Spam filters can then authenticate your emails and your domain."
+msgstr ""
+
+#: views/back/config.php:1340
+#@ wysija-newsletters
+msgid "Upgrade in a few clicks."
+msgstr ""
+
+#: views/back/config.php:1341
+#@ wysija-newsletters
+msgid "You don't need to reinstall. We'll simply activate your site and you'll download a small plugin."
+msgstr ""
+
+#: views/back/config.php:1344
+#@ wysija-newsletters
+msgid "Join our happy users."
+msgstr ""
+
+#: views/back/config.php:1345
+#@ wysija-newsletters
+msgid "Wysija is getting better every day thanks to users like you. <br />Read [link]what they are saying[/link]."
+msgstr ""
+
+#: views/back/config.php:1349
+#@ wysija-newsletters
+msgid "Try it now. Not happy? Get your money back."
+msgstr ""
+
+#: views/back/config.php:1350
+#@ wysija-newsletters
+msgid "30-Day money back guarantee. Good reason to try us out."
+msgstr ""
+
+#: views/back/config.php:1353
+#@ wysija-newsletters
+msgid "Your licence to thrill."
+msgstr ""
+
+#: views/back/config.php:1354
+#@ wysija-newsletters
+msgid "Blogger: 1 site for $99 / year."
+msgstr ""
+
+#: views/back/config.php:1354
+#@ wysija-newsletters
+msgid "Freelance: 4 sites for $249 / year."
+msgstr ""
+
+#: views/back/config.php:1354
+#@ wysija-newsletters
+msgid "Agency: unlimited sites for $399 / year."
+msgstr ""
+
+#: views/back/config.php:1363
+#@ wysija-newsletters
+msgid "12 Cool Reasons to Upgrade to Premium"
+msgstr ""
+
+#: views/back/config.php:1379
+#@ wysija-newsletters
+msgid "Upgrade now"
+msgstr ""
+
+#: views/back/config.php:1381
+#@ wysija-newsletters
+msgid "Got a sales question? [link]Get in touch[/link] with Kim, Jo, Adrien and Ben."
+msgstr ""
+
+#: views/back/config.php:1382
+#@ wysija-newsletters
+msgid "Read our simple and easy [link]terms and conditions.[/link]"
+msgstr ""
+
+#: views/back/config.php:1414
+#@ wysija-newsletters
+msgid "Pick your prefered configuration?"
+msgstr ""
+
+#: views/back/config.php:1429
+#@ wysija-newsletters
+msgid "One configuration for all sites"
+msgstr ""
+
+#: views/back/config.php:1430
+#@ wysija-newsletters
+msgid "Enforce all sites to send with a unique FROM email address. You only need to configure the Automated Bounce Handling (Premium), SPF & DKIM only once."
+msgstr ""
+
+#: views/back/config.php:1431
+#@ wysija-newsletters
+msgid "Users can still change their reply-to address for their newsletter. Network admins can still edit sending method for each site."
+msgstr ""
+
+#: views/back/config.php:1442
+#@ wysija-newsletters
+msgid "Configure each site manually"
+msgstr ""
+
+#: views/back/config.php:1443
+#@ wysija-newsletters
+msgid "Configure Bounce Handling, SPF & DKIM independently for each site."
+msgstr ""
+
+#: views/back/config.php:1452
+#@ wysija-newsletters
+msgid "Configuration and Permissions"
+msgstr ""
+
+#: views/back/config.php:1459
+#@ wysija-newsletters
+msgid "Allow site admins to change the sending method"
+msgstr ""
+
+#: views/back/config.php:1462
+#@ wysija-newsletters
+msgid "Allow site admins to deactivate Signup Confirmation"
+msgstr ""
+
+#: views/back/config.php:1468
+#@ wysija-newsletters
+msgid "Network's Default Sending Method"
+msgstr ""
+
+#: views/back/config.php:1471
+#@ wysija-newsletters
+msgid "SPF and DKIM"
+msgstr ""
+
+#: views/back/config.php:1478
+#@ wysija-newsletters
+msgid "Your SPF record"
+msgstr ""
+
+#: views/back/config.php:1540
+#@ wysija-newsletters
+msgid "FROM email address for sites using this method"
+msgstr ""
+
+#: views/back/config.php:1791
+#@ wysija-newsletters
+msgid "Subscribed with..."
+msgstr ""
+
+#: views/back/config.php:1797
+#@ wysija-newsletters
+msgid "Create a new form"
+msgstr ""
+
+#: views/back/config.php:1834
+#@ wysija-newsletters
+msgid "No list specified"
+msgstr ""
+
+#: views/back/config.php:1838
+#, php-format
+#@ wysija-newsletters
+msgid "User choice: %s"
+msgstr ""
+
+#: views/back/config.php:1888
+#@ wysija-newsletters
+msgid "Edit name"
+msgstr ""
+
+#: views/back/config.php:1889
+#@ wysija-newsletters
+msgid "List of forms"
+msgstr ""
+
+#: views/back/config.php:1911
+#@ wysija-newsletters
+msgid "This form adds subscribers to these lists:"
+msgstr ""
+
+#: views/back/config.php:1931
+#@ wysija-newsletters
+msgid "After submit..."
+msgstr ""
+
+#: views/back/config.php:1933
+#@ wysija-newsletters
+msgid "show message"
+msgstr ""
+
+#: views/back/config.php:1934
+#@ wysija-newsletters
+msgid "go to page"
+msgstr ""
+
+#: views/back/config.php:1949
+#@ wysija-newsletters
+msgid "You can easily add this form to your theme's [link]Widgets areas[/link]."
+msgstr ""
+
+#: views/back/config.php:1951
+#@ wysija-newsletters
+msgid "If you are an advanced user you can add it with [link_html]HTML[/link_html], [link_php]PHP[/link_php], [link_iframe]iframe[/link_iframe] or a [link_shortcode]shortcode[/link_shortcode]"
+msgstr ""
+
+#: views/back/config.php:2107
+#@ wysija-newsletters
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: views/back/config.php:2119
+#: views/back/config.php:2145
+#@ wysija-newsletters
+msgid "Label:"
+msgstr ""
+
+#: views/back/config.php:2150
+#@ wysija-newsletters
+msgid "Display label within input:"
+msgstr ""
+
+#: views/back/config.php:2162
+#@ wysija-newsletters
+msgid "Is this field mandatory?"
+msgstr ""
+
+#: views/back/config.php:2208
+#@ wysija-newsletters
+msgid "Select the list you want to add:"
+msgstr ""
+
+#: views/back/subscribers.php:10
+#@ wysija-newsletters
+msgid "Lists and Subscribers"
+msgstr ""
+
+#: views/back/subscribers.php:13
+#@ wysija-newsletters
+msgid "Search subscribers"
+msgstr ""
+
+#: views/back/subscribers.php:28
+#@ wysija-newsletters
+msgid "Back to lists"
+msgstr ""
+
+#: views/back/subscribers.php:28
+#: views/back/subscribers.php:732
+#@ wysija-newsletters
+msgid "Add List"
+msgstr ""
+
+#: views/back/subscribers.php:28
+#@ wysija-newsletters
+msgid "Edit Lists"
+msgstr ""
+
+#: views/back/subscribers.php:28
+#: views/back/subscribers.php:1010
+#: views/back/subscribers.php:1045
+#@ wysija-newsletters
+msgid "Import"
+msgstr ""
+
+#: views/back/subscribers.php:28
+#: views/back/subscribers.php:135
+#: views/back/subscribers.php:405
+#@ wysija-newsletters
+msgid "Export"
+msgstr ""
+
+#: views/back/subscribers.php:70
+#@ wysija-newsletters
+msgid "Unlisted"
+msgstr ""
+
+#: views/back/subscribers.php:97
+#: views/back.php:203
+#@ wysija-newsletters
+msgid "Bulk Actions"
+msgstr ""
+
+#: views/back/subscribers.php:98
+#@ wysija-newsletters
+msgid "Move to list"
+msgstr ""
+
+#: views/back/subscribers.php:110
+#@ wysija-newsletters
+msgid "Add to list"
+msgstr ""
+
+#: views/back/subscribers.php:122
+#@ wysija-newsletters
+msgid "Remove from list"
+msgstr ""
+
+#: views/back/subscribers.php:134
+#@ wysija-newsletters
+msgid "Remove from all lists"
+msgstr ""
+
+#: views/back/subscribers.php:136
+#@ wysija-newsletters
+msgid "Delete subscribers"
+msgstr ""
+
+#: views/back/subscribers.php:141
+#@ wysija-newsletters
+msgid "Confirm unconfirmed subscribers"
+msgstr ""
+
+#: views/back/subscribers.php:150
+#@ wysija-newsletters
+msgid "View all lists"
+msgstr ""
+
+#: views/back/subscribers.php:165
+#@ wysija-newsletters
+msgid "Subscribers in no list"
+msgstr ""
+
+#: views/back/subscribers.php:240
+#@ wysija-newsletters
+msgid "All subscribers on this page are selected."
+msgstr ""
+
+#: views/back/subscribers.php:241
+#, php-format
+#@ wysija-newsletters
+msgid "Select all %1$s subscribers."
+msgstr ""
+
+#: views/back/subscribers.php:244
+#, php-format
+#@ wysija-newsletters
+msgid "All %1$s subscribers are selected."
+msgstr ""
+
+#: views/back/subscribers.php:245
+#@ wysija-newsletters
+msgid "Clear selection"
+msgstr ""
+
+#: views/back/subscribers.php:295
+#@ wysija-newsletters
+msgid "Lists to which the subscriber was subscribed."
+msgstr ""
+
+#: views/back/subscribers.php:340
+#@ wysija-newsletters
+msgid "Pick a list"
+msgstr ""
+
+#: views/back/subscribers.php:357
+#@ wysija-newsletters
+msgid "Format"
+msgstr ""
+
+#: views/back/subscribers.php:360
+#@ wysija-newsletters
+msgid "CSV file"
+msgstr ""
+
+#: views/back/subscribers.php:361
+#@ wysija-newsletters
+msgid "Excel for Windows"
+msgstr ""
+
+#: views/back/subscribers.php:369
+#@ wysija-newsletters
+msgid "Export confirmed subscribers only"
+msgstr ""
+
+#: views/back/subscribers.php:387
+#@ wysija-newsletters
+msgid "List of fields to export"
+msgstr ""
+
+#: views/back/subscribers.php:394
+#@ wysija-newsletters
+msgid "Subscribed/unconfirmed"
+msgstr ""
+
+#: views/back/subscribers.php:514
+#: views/front/confirm.php:118
+#, php-format
+#@ wysija-newsletters
+msgid "Unsubscribed on %1$s"
+msgstr ""
+
+#: views/back/subscribers.php:556
+#@ wysija-newsletters
+msgid "Note: Find out what this subscribers opens and clicks with our [link]Premium version.[/link]"
+msgstr ""
+
+#: views/back/subscribers.php:618
+#@ wysija-newsletters
+msgid "Date created"
+msgstr ""
+
+#: views/back/subscribers.php:652
+#@ wysija-newsletters
+msgid "Update"
+msgstr ""
+
+#: views/back/subscribers.php:660
+#@ wysija-newsletters
+msgid "Get all MS users"
+msgstr ""
+
+#: views/back/subscribers.php:667
+#@ wysija-newsletters
+msgid "View Subscribers"
+msgstr ""
+
+#: views/back/subscribers.php:720
+#@ wysija-newsletters
+msgid "For your own use and never shown to your subscribers."
+msgstr ""
+
+#: views/back/subscribers.php:730
+#@ wysija-newsletters
+msgid "Update List"
+msgstr ""
+
+#: views/back/subscribers.php:760
+#@ wysija-newsletters
+msgid "How do you want to import?"
+msgstr ""
+
+#: views/back/subscribers.php:765
+#@ wysija-newsletters
+msgid "Copy paste in a text box"
+msgstr ""
+
+#: views/back/subscribers.php:768
+#: views/back/subscribers.php:806
+#@ wysija-newsletters
+msgid "Upload a file"
+msgstr ""
+
+#: views/back/subscribers.php:781
+#, php-format
+#@ wysija-newsletters
+msgid "Import from %1$s"
+msgstr ""
+
+#: views/back/subscribers.php:795
+#@ wysija-newsletters
+msgid "Then paste your list here"
+msgstr ""
+
+#: views/back/subscribers.php:796
+#@ wysija-newsletters
+msgid "This needs to be in CSV style or a simple paste from Gmail, Hotmail or Yahoo. See [link]examples in our support site[/link]."
+msgstr ""
+
+#: views/back/subscribers.php:807
+#@ wysija-newsletters
+msgid "This needs to be in CSV style. See [link]examples in our support site[/link]."
+msgstr ""
+
+#: views/back/subscribers.php:819
+#@ wysija-newsletters
+msgid "Did these subscribers ask to be in your list?"
+msgstr ""
+
+#: views/back/subscribers.php:821
+#@ wysija-newsletters
+msgid "If the answer is \"no\", consider yourself a spammer."
+msgstr ""
+
+#: views/back/subscribers.php:822
+#@ wysija-newsletters
+msgid "[link]Read more on support.mailpoet.com[/link]."
+msgstr ""
+
+#: views/back/subscribers.php:849
+#@ wysija-newsletters
+msgid "Match the data"
+msgstr ""
+
+#: views/back/subscribers.php:851
+#@ wysija-newsletters
+msgid "Ignore column..."
+msgstr ""
+
+#: views/back/subscribers.php:953
+#@ wysija-newsletters
+msgid "Pick one or many lists"
+msgstr ""
+
+#: views/back/subscribers.php:954
+#@ wysija-newsletters
+msgid "Pick the lists you want to import those subscribers to."
+msgstr ""
+
+#: views/back/subscribers.php:963
+#@ wysija-newsletters
+msgid "New list"
+msgstr ""
+
+#: views/back/subscribers.php:987
+#@ wysija-newsletters
+msgid "Type name of your new list"
+msgstr ""
+
+#: views/back/subscribers.php:992
+#@ wysija-newsletters
+msgid "Note:"
+msgstr ""
+
+#: views/back/subscribers.php:992
+#, php-format
+#@ wysija-newsletters
+msgid "subscribers will receive \"%1$s\" after import."
+msgstr ""
+
+#: views/back/subscribers.php:1033
+#, php-format
+#@ wysija-newsletters
+msgid "Import the %1$s subscribers from the plugin: %2$s "
+msgstr ""
+
+#: views/back/tmce.php:66
+#@ wysija-newsletters
+msgid "Confirmed subscribers only"
+msgstr ""
+
+#: views/back/tmce.php:69
+#@ wysija-newsletters
+msgid "Insert"
+msgstr ""
+
+#: views/back/tmce.php:90
+#@ wysija-newsletters
+msgid "Insert form"
+msgstr ""
+
+#: views/back.php:250
+#: views/back.php:252
+#: views/back.php:263
+#: views/back.php:265
+#, php-format
+#@ wysija-newsletters
+msgid "Page %1$s"
+msgstr ""
+
+#: views/back.php:258
+#, php-format
+#@ wysija-newsletters
+msgid "of %1$s"
+msgstr ""
+
+#: views/back.php:296
+#, php-format
+#@ wysija-newsletters
+msgid "Split subscribers into %1$s pages."
+msgstr ""
+
+#: views/back.php:316
+#@ wysija-newsletters
+msgid "Subscribers to show per page:"
+msgstr ""
+
+#: views/back.php:704
+#@ wysija-newsletters
+msgid "Modify"
+msgstr ""
+
+#: views/back.php:706
+#@ wysija-newsletters
+msgid "Add"
+msgstr ""
+
+#: views/front/confirm.php:82
+#@ wysija-newsletters
+msgid "Your lists"
+msgstr ""
+
+#: views/front/confirm.php:151
+#@ wysija-newsletters
+msgid "We cannot safely say that you clicked that linked."
+msgstr ""
+
+#: views/front/confirm.php:153
+#@ wysija-newsletters
+msgid "Resend the email with safe links!"
+msgstr ""
+
+#: views/front/widget_nl.php:15
+#: widgets/wysija_nl.php:76
+#: widgets/wysija_nl.php:95
+#@ wysija-newsletters
+msgid "Wysija Subscription"
+msgstr ""
+
+#: widgets/wysija_nl.php:77
+#: widgets/wysija_nl.php:96
+#@ wysija-newsletters
+msgid "Subscription form for your newsletters."
+msgstr ""
+
+#: widgets/wysija_nl.php:106
+#@ wysija-newsletters
+msgid "You've successfully subscribed."
+msgstr ""
+
+#: widgets/wysija_nl.php:113
+#: widgets/wysija_nl.php:142
+#@ wysija-newsletters
+msgid "Title:"
+msgstr ""
+
+#: widgets/wysija_nl.php:114
+#@ wysija-newsletters
+msgid "To subscribe to our dandy newsletter simply add your email below. A confirmation email will be sent to you!"
+msgstr ""
+
+#: widgets/wysija_nl.php:116
+#@ wysija-newsletters
+msgid "Let subscribers select their lists:"
+msgstr ""
+
+#: widgets/wysija_nl.php:117
+#@ wysija-newsletters
+msgid "Ask for:"
+msgstr ""
+
+#: widgets/wysija_nl.php:118
+#@ wysija-newsletters
+msgid "Display labels in inputs"
+msgstr ""
+
+#: widgets/wysija_nl.php:119
+#@ wysija-newsletters
+msgid "Button label:"
+msgstr ""
+
+#: widgets/wysija_nl.php:120
+#@ wysija-newsletters
+msgid "Success message:"
+msgstr ""
+
+#: widgets/wysija_nl.php:121
+#@ wysija-newsletters
+msgid "iframe version"
+msgstr ""
+
+#: widgets/wysija_nl.php:147
+#@ wysija-newsletters
+msgid "Select a form:"
+msgstr ""
+
+#: widgets/wysija_nl.php:151
+#@ wysija-newsletters
+msgid "Edit or create new"
+msgstr ""
+

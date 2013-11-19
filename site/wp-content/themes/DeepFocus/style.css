@@ -45,7 +45,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 /*-----------------[BASIC STYLES]-----------------*/
 /*------------------------------------------------*/
 
-body { text-align: center; line-height: 21px; font-family: berlin sans fb; font-size: 13px; color: #000; min-height: 25px; background: url(images/bg.jpg); }
+body { text-align: center; line-height: 21px; font-family: berlin sans fb; font-size: 13px; color: #5A5A5A; min-height: 25px; background: url(images/bg.jpg); }
 
 a { text-decoration: none; color: #00b7f3; }
 a:hover { text-decoration: underline; }
