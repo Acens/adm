@@ -22,7 +22,7 @@ del, dfn, em, font, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+fieldset, form, label, legend {background: none repeat scroll 0 0 rgba(0, 0, 0, 0); border: 0 none; font-size: 100%; margin: 0; outline: 0 none; padding: 0;vertical-align: baseline; }
 
 body { line-height: 1; }
 ol, ul { list-style: none; }
@@ -45,7 +45,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 /*-----------------[BASIC STYLES]-----------------*/
 /*------------------------------------------------*/
 
-body { text-align: center; line-height: 21px; font-family: berlin sans fb; font-size: 13px; color: #5A5A5A; min-height: 25px; background: url(images/bg.jpg); }
+body { text-align: center; line-height: 21px; font-family: 'Open Sans',Arial,sans-serif; font-size: 16px; color: #5A5A5A; min-height: 25px; background: url(images/bg.jpg); }
 
 a { text-decoration: none; color: #00b7f3; }
 a:hover { text-decoration: underline; }
@@ -53,7 +53,7 @@ a:hover { text-decoration: underline; }
 .ui-tabs-hide { display: none; }
 br.clear { margin: 0px; padding: 0px; }
 
-h1, h2, h3, h4, h5, h6 { padding-bottom: 5px; color: #808080; letter-spacing: -1px; line-height: 1em; font-weight: normal; }
+h1, h2, h3, h4, h5, h6 {  color: #333333; font-weight: normal; line-height: 1em; padding-bottom: 5px; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #808080; }
 h1 { font-size: 30px; }
 h2 { font-size: 24px; }
@@ -150,7 +150,7 @@ body#home-featured #hr { min-height: 479px; }
 						#controllers2 a#left-arrow { background: url(images/fromblog-controllers-down.png) no-repeat; margin: 11px 0px 0px 12px; }
 						#controllers2 a#right-arrow { background: url(images/fromblog-controllers-top.png) no-repeat; margin: 11px 0px 0px 7px; }
 						
-	#breadcrumbs { color: #ffffff; padding: 27px 0px; }
+	#breadcrumbs { color: #485E88; padding: 27px 0px; }
 		#breadcrumbs .raquo , #breadcrumbs a { color: #485E88; }
 		#breadcrumbs a:hover { color: #ffffff; text-decoration: none; }
 		
@@ -322,10 +322,10 @@ padding:9px 5px 4px 12px; color:#323232 !important; }
 /*---------------------[FOOTER]-------------------*/
 /*------------------------------------------------*/
 	
-#footer { background: url(images/footer-overlay-bg.png); padding-bottom: 15px; }	
+#footer { background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.25) 100%) repeat scroll 0 0 #333333; padding-bottom: 15px; }	
 	#footer-wrapper { background: url(images/footer-top-bg.png) repeat-x; }
-		#footer-center { background: url(images/footer-top-centerbg.png) no-repeat; /*min-height: 147px;*/ padding-top: 35px; color: #485E8A; }
-			#footer p#copyright a { color: #ffffff; font: italic 12px Arial, sans-serif;  }
+		#footer-center { background: url(images/footer-top-centerbg.png) no-repeat; /*min-height: 147px;*/ padding-top: 35px;  color: #BEBEBE; text-shadow: 1px 1px 0 #000000; }
+			#footer p#copyright a { float: right; color: #ffffff; font: italic 12px Arial, sans-serif; } 
 		#footer .widget { float: left; width: 500px; margin: 0px 60px 0px 80px; }
 			#footer .widget a { color: #ffffff; }
 			#footer .last { margin-right: 0px; }
@@ -335,7 +335,7 @@ padding:9px 5px 4px 12px; color:#323232 !important; }
 /*------------------------------------------------*/
 
 #sidebar { float: left; width: 269px; }
-	.widget h4.widgettitle { font-size: 30px; text-shadow: 1px 1px 0px #fff; color: #485E8A; }
+	.widget h4.widgettitle {  color: #FFFFFF; font-weight: 800; padding-bottom: 5px; }
 	#sidebar  a { color: #ffffff; }
 	#sidebar .widget { padding: 0px 0px 50px 22px; }
 	
