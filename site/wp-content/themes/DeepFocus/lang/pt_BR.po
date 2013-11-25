@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: DeepFocus v3.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-11-19 20:07:42+0000\n"
+"PO-Revision-Date: 2013-11-25 17:41:36+0000\n"
 "Last-Translator: adm <leonardo@acens.com.br>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -99,7 +99,7 @@ msgstr ""
 #: page-search.php:71
 #@ DeepFocus
 msgid "search this site..."
-msgstr "procurando o site..."
+msgstr "procurando no site..."
 
 #: home.php:38
 #: includes/entry.php:41
@@ -110,7 +110,7 @@ msgstr "Aprenda mais"
 #: home.php:48
 #@ DeepFocus
 msgid "From The Blog"
-msgstr "Do Blog"
+msgstr "Blog"
 
 #: home.php:55
 #: includes/postinfo.php:2
