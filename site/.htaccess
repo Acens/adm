@@ -7,3 +7,6 @@
 	RewriteRule .* - [E=no-gzip:1]
 </IfModule>
 # END s2Member GZIP exclusions
+# BEGIN WordPress
+
+# END WordPress

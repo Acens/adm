@@ -52,7 +52,7 @@
 										if (have_posts()) : while (have_posts()) : the_post(); ?>
 											<li class="clearfix">
 												<a href="<?php the_permalink(); ?>" class="title"><span><?php truncate_title(30); ?></span></a>
-												<span class="postinfo"><?php esc_html_e('Posted','DeepFocus'); ?> <?php esc_html_e('by','DeepFocus'); ?> <?php the_author_posts_link(); ?> <?php esc_html_e('on','DeepFocus'); ?> <?php the_time(get_option('deepfocus_date_format')) ?></span>
+												<span class="postinfo"><?php esc_html_e('Posted','DeepFocus'); ?> <?php esc_html_e('by','DeepFocus'); ?> <?php the_author_posts_link(); ?> <?php esc_html_e('on','DeepFocus'); ?> <?php //the_time(get_option('deepfocus_date_format')) ?></span>
 											</li>
 										<?php endwhile; endif; wp_reset_query(); ?>
 									</ul> <!-- end ul.nav -->

@@ -330,10 +330,23 @@ padding:9px 5px 4px 12px; color:#323232 !important; }
 			#footer .last { margin-right: 0px; }
 	
 /*------------------------------------------------*/
+/*------------------[SOCIAL MEDIA]----------------*/
+/*------------------------------------------------*/
+
+#social-media { float: right; width: 269px; margin-top: -25px; margin-right: 67px; }
+	.widget h4.widgettitle {  color: #FFFFFF; font-weight: 800; padding-bottom: 5px; }
+	#social-media  a { color: #ffffff; }
+	#social-media .widget { padding: 0px 0px 50px 22px; }
+	
+	.widget ul ul { margin: 0px 0px 0px 15px; }
+		.widget ul li { background: url(images/widget-bullet.png) no-repeat 0px 12px; padding: 4px 0px 4px 16px; }
+			.widget ul li ul { padding:5px 0px 0px 7px; margin: 0px 0px -4px; }
+
+/*------------------------------------------------*/
 /*--------------------[SIDEBAR]-------------------*/
 /*------------------------------------------------*/
 
-#sidebar { float: left; width: 269px; }
+#sidebar { float: right; width: 269px; margin-top: -25px; margin-right: 67px; }
 	.widget h4.widgettitle {  color: #FFFFFF; font-weight: 800; padding-bottom: 5px; }
 	#sidebar  a { color: #ffffff; }
 	#sidebar .widget { padding: 0px 0px 50px 22px; }
@@ -443,3 +456,8 @@ h3#reply-title small { display: block; }
 .commentlist #respond input[type=text] { width: 40%; display: block; padding: 5px; }
 
 p.logged-in-as a { color: #fff; }
+
+.post-meta {
+		display: none;
+
+}
