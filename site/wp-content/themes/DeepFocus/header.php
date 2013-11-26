@@ -39,12 +39,6 @@
 <?php $et_body_class = get_option('deepfocus_cufon') == 'false' ? 'cufon-disabled' : ''; ?>
 <body<?php if (is_home()) { if (get_option('deepfocus_featured') == 'on') echo(' id="home-featured"'); else echo(' id="home"'); } ?> <?php body_class( $et_body_class ); ?>>
 	<div id="top">
-		<div id="sidebar">
-	
-	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Sidebar') ) : ?> 
-	<?php endif; ?>
-	
-</div>
 		<div class="container">
 			<div id="header">
 				<a href="<?php bloginfo('url'); ?>">
