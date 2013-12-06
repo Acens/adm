@@ -37,8 +37,8 @@
 	</div> <!-- #footer-area -->
 
 	<div id="footer-bottom-area" class="container">
-		<p id="copyright"><?php printf( __( 'Desenvolvido por <img src="http://localhost/adm/blog/wp-content/themes/Foxy/images/Logo-Footer-Azul.png" alt="Acens Empresa Júnior"/> ' )  ); ?></p>
-=======
+		<p id="copyright"><?php printf( __( 'Desenvolvido por <img src="http://localhost/adm/blog/wp-content/themes/Foxy/images/Logo-Footer-Azul.png" <a href="http://www.acens.com.br"></a>  alt="Acens Empresa Júnior"/> ' )  ); ?></p>
+
 		
 	</div>
 
