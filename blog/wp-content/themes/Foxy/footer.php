@@ -30,14 +30,16 @@
 								printf( '<a href="%s" target="_blank"><img src="%s" alt="%s" /></a>', esc_url( $icon['url'] ), esc_attr( $icon['image'] ), esc_attr( $icon['alt'] ) );
 						}
 					}
-				?>
+				?> 
 				</div> <!-- #social-icons -->
 			</div> <!-- #footer-bottom -->
 		</div> <!-- .container -->
 	</div> <!-- #footer-area -->
 
 	<div id="footer-bottom-area" class="container">
-		<p id="copyright"><?php printf( __( 'Desenvolvido por <img src="http://localhost/adm/blog/wp-content/themes/Foxy/images/Logo-Footer-Azul.png" alt="Acens Empresa Júnior"/> ' )  ); ?></p>
+		<p id="copyright"> <span> Desenvolvido por </span> 
+									<a href="http://www.acens.com.br" title="Desenvolvido por Acens">
+									<img src="http://localhost/adm/blog/wp-content/themes/Foxy/images/Logo-Footer-Azul.png" alt="Acens Empresa Júnior"/></p>
 
 		
 	</div>
