@@ -14,7 +14,6 @@
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-<link rel="shortcut icon" href="images/favicon.ico">
 
 <!--[if lt IE 7]>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/ie6style.css" />
@@ -38,13 +37,25 @@
 </head>
 <?php $et_body_class = get_option('deepfocus_cufon') == 'false' ? 'cufon-disabled' : ''; ?>
 <body<?php if (is_home()) { if (get_option('deepfocus_featured') == 'on') echo(' id="home-featured"'); else echo(' id="home"'); } ?> <?php body_class( $et_body_class ); ?>>
-	<div id="top">
+	<div id="top">	
+		
 		<div class="container">
 			<div id="header">
+
+				<div id="redes-sociais">
+					<div style="overflow: hidden; width:100px; height: 60px;">
+						<div style="overflow: hidden;">
+							<a href="https://twitter.com/admsolucoes" target="_blank"> <img alt="twitter" src="http://localhost/adm/site/wp-content/plugins/social-media-widget/images/default/32/twitter.png" title="Twitter" /></a>
+							<a href="http://www.facebook.com/ADM-Solucoes" target="_blank"> <img alt="facebook" src="http://localhost/adm/site/wp-content/plugins/social-media-widget/images/default/32/facebook.png" title="Facebook" /></a>		
+						</div>
+					</div>
+				</div>
+
 				<a href="<?php bloginfo('url'); ?>">
 					<?php $logo = (get_option('deepfocus_logo') <> '') ? get_option('deepfocus_logo') : get_bloginfo('template_directory').'/images/logo.png'; ?>
 					<img src="<?php echo esc_url($logo); ?>" alt="DeepFocus Logo" id="logo"/>
 				</a>
+				
 				<div id="menu" class="clearfix">
 					<?php $menuClass = 'nav';
 					$menuID = 'primary';
@@ -70,9 +81,10 @@
 							<input type="text" value="<?php esc_attr_e('search this site...','DeepFocus'); ?>" name="s" id="searchinput" />
 
 							<input type="image" src="<?php bloginfo('template_directory'); ?>/images/search-btn.png" id="searchsubmit" />
-						</form>
-					</div> <!-- end #search-form -->
-				</div> <!-- end #menu -->		
-			</div> <!-- end #header -->
-		</div> <!-- end .container -->		
+							</form>
+						</div> <!-- end #search-form -->
+					</div> <!-- end #menu -->		
+				</div> <!-- end #header -->
+				</div> <!-- end .container -->		
+					
 	</div> <!-- end #top -->

@@ -45,7 +45,7 @@ article, aside, footer, header, hgroup, nav, section { display: block; }
 /*-----------------[BASIC STYLES]-----------------*/
 /*------------------------------------------------*/
 
-body { font-family: 'Open Sans', Arial, sans-serif; font-size: 16px; color: #878787; background-color: #eaeaea; font-weight: 300; }
+body { font-family: 'Open Sans', Arial, sans-serif; font-size: 16px; color: #878787; background-color: #eaeaea; font-weight: 300; line-height: 1.5; }
 
 a { text-decoration: none; color: #4bb6f5; }
 a:hover { text-decoration: underline; }
@@ -664,7 +664,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', end
 			#footer-bottom li.current-menu-item a { color: #fff; }
 				#footer-bottom li a { color: #4d4d4d; display: inline-block; position: relative; overflow: hidden; height: 62px; margin-bottom: -2px; }
 				#footer-bottom li a:hover { text-decoration: none; background-color: #ff8a1d; -moz-box-shadow: inset 0 0 30px #d9531f; -webkit-box-shadow: inset 0 0 30px #d9531f; box-shadow: inset 0 0 30px #d9531f; color: #fff; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); }
-			#et-social-icons { padding-top: 17px; }
+			#et-social-icons { padding-top: 7px; }
 				#et-social-icons a { margin-right: 10px; }
 					#et-social-icons img { opacity: 0.7; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 					#et-social-icons img:hover { opacity: 1; }
