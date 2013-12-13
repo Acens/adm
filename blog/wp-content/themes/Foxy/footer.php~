@@ -30,17 +30,17 @@
 								printf( '<a href="%s" target="_blank"><img src="%s" alt="%s" /></a>', esc_url( $icon['url'] ), esc_attr( $icon['image'] ), esc_attr( $icon['alt'] ) );
 						}
 					}
-				?>
+				?> 
 				</div> <!-- #social-icons -->
 			</div> <!-- #footer-bottom -->
 		</div> <!-- .container -->
 	</div> <!-- #footer-area -->
 
-	<div id="footer-bottom-area" class="container">
-		<p id="copyright"><?php printf( __( 'Desenvolvido por <img src="http://localhost/adm/blog/wp-content/themes/Foxy/images/Logo-Footer-Azul.png" <a href="http://www.acens.com.br"></a>  alt="Acens Empresa Júnior"/> ' )  ); ?></p>
-
-		
-	</div>
+	<div id="imagem-rodape">
+<a tittle="Desenvolvido por Acens" href="www.acens.com.br"> 
+<img alt="Acens Empresa Júnior" src="http://localhost/admsite/wp-content/uploads/2013/11/acens-logo.png">
+</a>
+</div>
 
 	<?php wp_footer(); ?>
 </body>
