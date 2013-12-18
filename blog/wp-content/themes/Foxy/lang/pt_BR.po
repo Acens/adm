@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Foxy v1.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-12-17 18:15:07+0000\n"
+"PO-Revision-Date: 2013-12-18 18:33:41+0000\n"
 "Last-Translator: adm <andreza@acens.com.br>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1910,7 +1910,7 @@ msgstr ""
 #: includes/top_info.php:14
 #@ Foxy
 msgid "Search results for"
-msgstr ""
+msgstr "Resultados da pesquisa por"
 
 #: includes/breadcrumbs.php:68
 #: includes/top_info.php:21
