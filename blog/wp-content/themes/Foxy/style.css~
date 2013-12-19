@@ -489,7 +489,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', end
 	#featured .slide img { margin-bottom: -2px; }
 
 	.slide .description { text-shadow: 0 0 10px rgba(0,0,0,0.4); padding-bottom: 50px; }
-		.slide .description h2, .post-heading h1, h1#comments, #reply-title, h1.category-title, .post-description h2, .related.products h2 { font-family: 'Raleway', Arial, sans-serif; font-weight: 100; letter-spacing: -4px; }
+		.slide .description h2, .post-heading h1, h1#comments, #reply-title, h1.category-title, .post-description h2, .related.products h2 { font-family: 'Raleway', Arial, sans-serif; font-weight: bolder; letter-spacing: -4px; }
 			.slide a:hover { text-decoration: none; color: rgba(255,255,255,0.9); }
 		.slide .description h2, .post-heading h1, h1#comments, #reply-title, h1.category-title, .related.products h2 { font-size: 60px; color: #333; }
 		.slide .description h2, .post-description h2 { color: #fff; }
