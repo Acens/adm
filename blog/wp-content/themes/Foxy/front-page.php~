@@ -8,6 +8,8 @@
 
 <div id="section-area">
 
+
+
 <?php if ( 'on' == et_get_option( 'foxy_display_services', 'on' ) ) { ?>
 	<div id="services" class="clearfix">
 <?php
