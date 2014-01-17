@@ -103,7 +103,7 @@ img { max-width: 100%; height: auto; }
 						#top-navigation li  { display: inline-block; }
 							#top-navigation a { color: #333; text-decoration: none; /*padding: 14px 18px;*/ display: block; position: relative; }
 							#top-navigation > ul > li.sfHover > a, #top-navigation > ul > li > a:hover, .mobile_nav { color: #fff; background-color: #ff8a1d; -webkit-box-shadow: inset 0 0 30px #d9531f; -moz-box-shadow: inset 0 0 30px #d9531f; box-shadow: inset 0 0 30px #d9531f; }
-							#top-navigation li.current-menu-item > a, .et_mobile_menu li.current-menu-item > a { font-weight: 800; color: #FC010A; }
+							#top-navigation li.current-menu-item > a, .et_mobile_menu li.current-menu-item > a { font-weight: 800; color: #485E85; }
 							#top-navigation li.current-menu-item > a:hover { color: #fff; }
 
 							#top-navigation > ul > li > a, #footer-bottom li a { overflow: hidden; height: 44px; -moz-transition: all .5s; -webkit-transition: all .5s; -o-transition: all .5s; transition: all .5s; }
