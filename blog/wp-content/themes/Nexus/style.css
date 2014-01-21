@@ -95,9 +95,9 @@ img { max-width: 100%; height: auto; }
 
 embed, iframe, object, video { max-width: 100%; }
 
-#main-header { padding-top: 39px; }
+#main-header { padding-top: 0px; }
 	.container { text-align: left; margin: 0 auto; width: 1280px; position: relative; }
-		#logo { float: left; padding-top: 70px; margin-bottom: -1px; }
+		#logo { float: left; padding-top: 10px; margin-bottom: -1px; }
 		.header-banner { float: right; }
 		#top-navigation { padding-left: 20px; background-color: #fafafa; border-top: 1px solid #e0e0e0; border-left: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0; -webkit-box-shadow: inset 0 1px 0 #fff, inset 0 -1px 0 #dadada, 0 0 15px rgba(0, 0, 0, 0.07); -moz-box-shadow: inset 0 1px 0 #fff, inset 0 -1px 0 #dadada, 0 0 15px rgba(0, 0, 0, 0.07); box-shadow: inset 0 1px 0 #fff, inset 0 -1px 0 #dadada, 0 0 15px rgba(0, 0, 0, 0.07); }
 		body.home #top-navigation {padding-left: 0px;}
