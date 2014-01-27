@@ -131,6 +131,7 @@ embed, iframe, object, video { max-width: 100%; }
 					#et-social-icons a { overflow: hidden; -moz-transition: all .5s; -webkit-transition: all .5s; -o-transition: all .5s; transition: all .5s; }
 #featured { margin-top: -1px; -webkit-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.1); box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.1); }
 #featured, .post-thumbnail { background-position: top center; background-repeat: no-repeat; -moz-background-size: cover; -webkit-background-size: cover; background-size: cover; }
+	.maisposts { cursor: pointer; padding: 5px; float: right; background-color: #BB2222; box-shadow: 0 0 70px #BB2222 inset; /*box-shadow: inset 0 0 30px #2d4dbf*/; color: #FFF; border-radius: 4px;}
 	#et-featured-posts { padding: 59px 60px; background-color: #333; -webkit-box-shadow: inset 0 5px 81px rgba(0, 0, 0, 0.75); -moz-box-shadow: inset 0 5px 81px rgba(0, 0, 0, 0.75); box-shadow: inset 0 5px 81px rgba(0, 0, 0, 0.75); }
 		.et-featured-post { float: left; -webkit-box-shadow: inset 0 0 79px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.4); -moz-box-shadow: inset 0 0 79px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.4); box-shadow: inset 0 0 79px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.4); position: relative; overflow: hidden; }
 			.et-featured-post img { display: block; }
@@ -381,7 +382,9 @@ embed, iframe, object, video { max-width: 100%; }
 			#footer-bottom .current-menu-item a { color: #a9d300; font-weight: 900; }
 #copyright { text-align: right; color: #333; margin-bottom: 30px; }
 	#copyright a { font-weight: 900; text-decoration: none; color: #333; }
-
+	#rodape {width: 400px; height: 48px; margin-left: 914px; margin-top: -30px;}
+	#imagem-rodape {float: right; width: 104px; height: 36px; margin-top: -4px;}
+	#desenvolvido {float: right;}
 /*------------------------------------------------*/
 /*--------------------[SIDEBAR]-------------------*/
 /*------------------------------------------------*/

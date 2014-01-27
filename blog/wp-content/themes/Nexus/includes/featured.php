@@ -92,6 +92,10 @@
 		endwhile;
 		wp_reset_postdata();
 ?>
+	<div class="postagens">
+	<a href="http://localhost/adm/blog/category/adm-solucoes/" target="_blank"><input class="maisposts" type="submit" value="Outras Postagens"></a>
+	</div>
 		</div> <!-- #et-featured-posts -->
 	</div> <!-- .container -->
+
 </div> <!-- #featured -->

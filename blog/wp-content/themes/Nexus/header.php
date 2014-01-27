@@ -86,7 +86,6 @@
 					endif;
 				?>
 				</nav>
-
 				<ul id="et-social-icons">
 					<?php if ( 'on' === et_get_option( 'nexus_show_twitter_icon', 'on' ) ) : ?>
 					<li class="twitter">

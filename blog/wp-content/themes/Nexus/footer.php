@@ -14,13 +14,18 @@
 		?>
 		</div> <!-- #footer-bottom -->
 	</div> <!-- .page-wrap -->
-
-	<div id="footer-info" class="container">
-				<p id="copyright"> <span> Desenvolvido por </span> 
-									<a href="http://www.acens.com.br" title="Desenvolvido por Acens">
-									<img src="http://localhost/adm/blog/wp-content/themes/Foxy/images/Logo-Footer-Azul.png" alt="Acens Empresa Júnior"/></p>
-	</div>
-
+	<div id="rodape">
+		<div id="imagem-rodape">
+			 	<a tittle="Desenvolvido por Acens" href="www.acens.com.br"> 
+				<img alt="Acens Empresa Júnior" src="http://localhost/adm/blog/wp-content/themes/Foxy/images/Logo-Footer-Azul.png">
+				</a>
+		</div>
+		<div id="desenvolvido">
+			<p class='ende filial'> 
+				Desenvolvido por
+			</p>	
+		</div>
+	</div>	
 	<?php wp_footer(); ?>
 </body>
 </html>
