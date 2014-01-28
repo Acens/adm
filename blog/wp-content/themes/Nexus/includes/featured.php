@@ -21,7 +21,7 @@
 <div id="featured">
 	<div class="container">
 		<div id="et-featured-posts" class="clearfix">
-<?php
+ <?php
 		while ( $featured_query->have_posts() ) : $featured_query->the_post();
 			$post_id = get_the_ID();
 
@@ -85,15 +85,15 @@
 						<p><?php truncate_post( $truncate_length ); ?></p>
 					</div>
 					<a href="<?php echo esc_url( $more_link ); ?>" class="excerpt-more"><?php esc_html_e( 'Read more', 'Nexus' ); ?></a>
-				</div>
-			</div> <!-- .et-featured-post -->
+				</div> 
+			</div> <!-- .et-featured-post --> 
 <?php
 			$i++;
 		endwhile;
 		wp_reset_postdata();
 ?>
 	<div class="postagens">
-	<a href="http://localhost/adm/blog/category/adm-solucoes/" target="_blank"><input class="maisposts" type="submit" value="Outras Postagens"></a>
+	<a href="http://localhost/adm/blog/category/adm-solucoes/" ><input class="maisposts" type="submit" value="Outras Postagens"></a>
 	</div>
 		</div> <!-- #et-featured-posts -->
 	</div> <!-- .container -->

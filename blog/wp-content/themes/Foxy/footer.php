@@ -37,6 +37,8 @@
 	</div> <!-- #footer-area -->
 
 	<div id="footer-bottom-area" class="container">
+		<div class="hidden">
+		</div>
 		<p id="copyright"> <span> Desenvolvido por </span> 
 									<a href="http://www.acens.com.br" title="Desenvolvido por Acens">
 									<img src="http://localhost/adm/blog/wp-content/themes/Foxy/images/Logo-Footer-Azul.png" alt="Acens Empresa Júnior"/></p>

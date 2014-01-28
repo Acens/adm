@@ -131,13 +131,13 @@ embed, iframe, object, video { max-width: 100%; }
 					#et-social-icons a { overflow: hidden; -moz-transition: all .5s; -webkit-transition: all .5s; -o-transition: all .5s; transition: all .5s; }
 #featured { margin-top: -1px; -webkit-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.1); box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.1); }
 #featured, .post-thumbnail { background-position: top center; background-repeat: no-repeat; -moz-background-size: cover; -webkit-background-size: cover; background-size: cover; }
-	.maisposts { cursor: pointer; padding: 5px; float: right; background-color: #BB2222; box-shadow: 0 0 70px #BB2222 inset; /*box-shadow: inset 0 0 30px #2d4dbf*/; color: #FFF; border-radius: 4px;}
+	.maisposts { cursor: pointer; padding: 5px; float: right; background-color: #8E0101; box-shadow: 0 0 70px #BB2222 inset; /*box-shadow: inset 0 0 30px #2d4dbf*/; color: #FFF; border-radius: 4px;}
 	#et-featured-posts { padding: 59px 60px; background-color: #333; -webkit-box-shadow: inset 0 5px 81px rgba(0, 0, 0, 0.75); -moz-box-shadow: inset 0 5px 81px rgba(0, 0, 0, 0.75); box-shadow: inset 0 5px 81px rgba(0, 0, 0, 0.75); }
 		.et-featured-post { float: left; -webkit-box-shadow: inset 0 0 79px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.4); -moz-box-shadow: inset 0 0 79px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.4); box-shadow: inset 0 0 79px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.4); position: relative; overflow: hidden; }
 			.et-featured-post img { display: block; }
 		.et-featured-post:before { -webkit-box-shadow: inset 0 0 79px rgba(0, 0, 0, 0.2); -moz-box-shadow: inset 0 0 79px rgba(0, 0, 0, 0.2); box-shadow: inset 0 0 79px rgba(0, 0, 0, 0.2); top: 0; content: ""; height: 100%; left: 0; position: absolute; width: 100%; }
 		.et-first, .et-second { width: 578px; }
-		.et-third, .et-fourth { width: 287px; }
+		.et-third, .et-fourth { width: 287px; padding-top: 180px; }
 		.et-first, .et-third { padding-right: 4px; }
 		.home .et-second { margin-bottom: 4px; }
 			.meta-info { position: absolute; top: 0; left: 0; background-color: #a9d300; color: #fff; text-align: center; font-size: 28px; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2); line-height: 20px; width: 60px; height: 60px; z-index: 3; }
@@ -409,7 +409,7 @@ embed, iframe, object, video { max-width: 100%; }
 
 	#sidebar h4.widgettitle:before { display: none; }
 
-	.widget { padding: 0 40px 30px; position: relative; }
+	.widget { padding: 0 40px 30px; position: relative; margin-top: 23px }
 		.widget li, .footer-widget li { padding: 10px 0 10px 19px; position: relative; line-height: 26px; }
 		.widget li:before, .footer-widget li:before { border-color: transparent transparent transparent #9bc100; border-image: none; border-style: solid; border-width: 5px; content: ""; left: 0; position: absolute; top: 17px; }
 			.widget li a { color: #000; text-decoration: none; }
@@ -565,6 +565,7 @@ div.post .new-post .aligncenter, .aligncenter { display: block; margin-left: aut
 .wp-caption p.wp-caption-text { font-size: 11px; line-height: 17px; padding: 0 4px 5px; margin: 0; }
 .alignright { float: right; }
 .alignleft { float: left }
+.alignleft a {color: #000;}
 img.alignleft { display:inline; float:left; margin-right:15px; }
 img.alignright { display:inline; float:right; margin-left:15px; }
 
