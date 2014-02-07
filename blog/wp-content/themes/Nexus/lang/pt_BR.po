@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Nexus v1.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-01-27 17:05:46+0000\n"
+"PO-Revision-Date: 2014-01-29 13:06:47+0000\n"
 "Last-Translator: adm <lucas@acens.com.br>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -885,7 +885,7 @@ msgstr ""
 #: epanel/options_nexus.php:833
 #@ Nexus
 msgid "Documentation"
-msgstr ""
+msgstr "Documentação"
 
 #: epanel/options_nexus.php:859
 #@ Nexus
@@ -1020,17 +1020,17 @@ msgstr ""
 #: epanel/page_templates/page_templates.php:22
 #@ Nexus
 msgid "Fill"
-msgstr ""
+msgstr "Preencha"
 
 #: epanel/page_templates/page_templates.php:22
 #@ Nexus
 msgid "field"
-msgstr ""
+msgstr "campo"
 
 #: epanel/page_templates/page_templates.php:22
 #@ Nexus
 msgid "Invalid email"
-msgstr ""
+msgstr "Email Inválido"
 
 #: epanel/page_templates/page_templates.php:37
 #@ Nexus
@@ -1055,7 +1055,7 @@ msgstr ""
 #: epanel/page_templates/page_templates.php:78
 #@ Nexus
 msgid "Email To:"
-msgstr ""
+msgstr "Email para:"
 
 #: epanel/page_templates/page_templates.php:84
 #@ Nexus
@@ -1386,18 +1386,18 @@ msgstr ""
 #: functions.php:728
 #@ Nexus
 msgid "All Time"
-msgstr ""
+msgstr "Todos os tempos"
 
 #: front-page.php:178
 #: functions.php:726
 #@ Nexus
 msgid "This Week"
-msgstr ""
+msgstr "Essa Semana"
 
 #: front-page.php:180
 #@ Nexus
 msgid "This Month"
-msgstr ""
+msgstr "Esse mês"
 
 #: front-page.php:182
 #, php-format
@@ -1619,7 +1619,7 @@ msgstr ""
 #: functions.php:761
 #@ Nexus
 msgid "Number of posts"
-msgstr ""
+msgstr "Número de posts"
 
 #: functions.php:723
 #@ Nexus
@@ -1699,12 +1699,12 @@ msgstr "Nos siga no Twitter"
 #: header.php:102
 #@ Nexus
 msgid "Follow us on Facebook"
-msgstr ""
+msgstr "Curta no Facebook"
 
 #: header.php:112
 #@ Nexus
 msgid "Subscribe To Rss Feed"
-msgstr ""
+msgstr "Assine o Rss Feed"
 
 #: header.php:121
 #@ Nexus
@@ -2023,12 +2023,12 @@ msgstr ""
 #: page-search.php:48
 #@ Nexus
 msgid "search this website"
-msgstr ""
+msgstr "procure nesse website"
 
 #: page-search.php:51
 #@ Nexus
 msgid "search this site..."
-msgstr ""
+msgstr "procure nesse site..."
 
 #: page-search.php:53
 #@ Nexus
@@ -2038,7 +2038,7 @@ msgstr ""
 #: page-search.php:57
 #@ Nexus
 msgid "Select a month"
-msgstr ""
+msgstr "Selecione um mês"
 
 #: page-sitemap.php:59
 #@ Nexus
