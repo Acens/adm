@@ -125,7 +125,7 @@ embed, iframe, object, video { max-width: 100%; }
 
 				#et-social-icons .google .et-social-normal { background: url(images/google.png) no-repeat 19px 22px; }
 				#et-social-icons .google .et-social-hover { background: url(images/google-hover.png) no-repeat 19px 22px; }
-				#et-social-icons .google a:hover { background: #e84e18; }
+				#et-social-icons .google a:hover { background: #A37154; }
 
 					#et-social-icons a, #et-social-icons span { display: block; text-indent: -9999px; width: 60px; height: 64px; position: relative; }
 					#et-social-icons a { overflow: hidden; -moz-transition: all .5s; -webkit-transition: all .5s; -o-transition: all .5s; transition: all .5s; }
